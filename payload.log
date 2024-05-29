@@ -1,0 +1,33 @@
+Array
+(
+    [event_type] => call.hangup
+    [id] => d6886be7-5a0c-4cc1-89c7-7eeba67a326e
+    [occurred_at] => 2023-11-01T07:54:38.116102Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:n4uRGhrng4SqMJrmcQ-yoWXd306plexo7y1A3LBRC93HW-KSUN-37A
+            [call_leg_id] => d2523b60-788b-11ee-8e79-02420a1f0d69
+            [call_session_id] => d23bca42-788b-11ee-9126-02420a1f0d69
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [end_time] => 2023-11-01T07:54:38.116102Z
+            [from] => +923310268336
+            [hangup_cause] => normal_clearing
+            [hangup_source] => caller
+            [sip_hangup_cause] => 200
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+14056531020@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2023-11-01T07:54:02.116103Z
+            [to] => +14056531020
+        )
+
+    [record_type] => event
+)

@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<module>
+	<name>VTEWEBHOOKS</name>
+	<label>Webhooks</label>
+	<parent></parent>
+	<version>1.0.0</version>
+	<type>extension</type>
+	<dependencies>
+		<vtiger_version>7.0.0</vtiger_version>
+		<vtiger_max_version>7.*</vtiger_max_version>
+	</dependencies>
+	<license>
+		<file>License.txt</file>
+	</license>
+	<tables>
+		<table>
+			<name>webhooks_settings</name>
+			<sql><![CDATA[CREATE TABLE `webhooks_settings` (
+				`enable`  int(3) NULL DEFAULT NULL 
+				)]]></sql>
+		</table>
+        <table>
+            <name>vte_modules</name>
+            <sql><![CDATA[CREATE TABLE `vte_modules` (
+                `module`  varchar(50) NOT NULL ,
+                `valid`  int(1) NULL ,
+                PRIMARY KEY (`module`));]]></sql>
+        </table>
+		<table>
+            <name>vtewebhookrequest_tasks</name>
+            <sql><![CDATA[CREATE TABLE `vtewebhookrequest_tasks` (
+			`task_id`  integer(19) NULL ,
+			`vtewebhookrequest_id`  integer(19) NULL 
+			)
+			;]]></sql>
+        </table>
+		<table>
+            <name>vtewebhookrequest_tasks</name>
+            <sql><![CDATA[ALTER TABLE `vtewebhookrequest_tasks`
+			ADD INDEX `task_id_index` (`task_id`) USING BTREE ,
+			ADD INDEX `request_id_index` (`vtewebhookrequest_id`) USING BTREE ;]]></sql>
+        </table>
+	</tables>	
+	<sharingaccess>
+		<default>public</default>
+	</sharingaccess>
+</module>

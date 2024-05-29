@@ -1,0 +1,167 @@
+<?php
+/* ********************************************************************************
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * You may not use this file except in compliance with the License
+ * The Initial Developer of the Original Code is VTExperts.com
+ * Portions created by VTExperts.com. are Copyright(C) VTExperts.com.
+ * All Rights Reserved.
+ * ****************************************************************************** */
+require_once("includes/runtime/BaseModel.php");
+require_once("modules/Vtiger/models/Record.php");
+require_once("modules/Vtiger/models/Field.php");
+require_once("modules/Users/models/Record.php");
+require_once("includes/runtime/Globals.php");
+require_once("include/utils/utils.php");
+require_once("includes/runtime/LanguageHandler.php");
+require_once("includes/Loader.php");
+require_once("modules/VTEWEBHOOKS/models/VTELicense.php");
+require_once('modules/com_vtiger_workflow/VTEntityCache.inc');
+require_once('modules/com_vtiger_workflow/VTWorkflowUtils.php');
+
+$adb=PearDatabase::getInstance();
+$vTELicense = new VTEWEBHOOKS_VTELicense_Model('VTEWEBHOOKS');
+if ($vTELicense->validate()) {
+    $sql ="SELECT
+	w_h_r.*,
+	com_vtiger_workflowtasks.task_id
+FROM
+	`vtiger_vtewebhookrequests` w_h_r
+INNER JOIN vtiger_crmentity crm ON w_h_r.vtewebhookrequestsid = crm.crmid
+INNER JOIN vtewebhookrequest_tasks ON w_h_r.vtewebhookrequestsid = vtewebhookrequest_tasks.vtewebhookrequest_id
+INNER JOIN com_vtiger_workflowtasks ON vtewebhookrequest_tasks.task_id = com_vtiger_workflowtasks.task_id
+WHERE
+	crm.deleted = 0
+AND w_h_r.request_status = 'Pending';";
+    $results= $adb->pquery($sql,array());
+    if($adb->num_rows($results)>0) {
+        while($row = $adb->fetchByAssoc($results)){
+            // send request and get response data
+            $params = json_decode(html_entity_decode($row['request']),true);
+            $url = $row['url'];
+            $username = $row['authorization_username'];
+            $password = $row['authorization_password'];
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+            if($row['authorization_type'] == 'on' && !empty($username) && !empty($password)){
+                curl_setopt($ch, CURLOPT_USERPWD, "$username:$password");
+            }
+            curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($params));
+            $data = curl_exec($ch);
+            curl_close($ch);
+            $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            $requests_id = $row['vtewebhookrequestsid'];
+            $requests_record_model = Vtiger_Record_Model::getInstanceById($requests_id,'VTEWebhookRequests');
+            $request_time = date("Y-m-d h:i:s");
+            $requests_record_model->set('mode','edit');
+            $requests_record_model->set('request_date_time',$request_time);
+            echo 'request_status: '.$httpCode;
+            $response_arr = json_str_to_array($data);
+            if(!empty($response_arr)){
+                // set webhookrequest fields values
+                $request_response = $data;
+                $requests_record_model->set('request_response',$request_response);
+                // parse response data and update orginal module base on  task response setting
+                // get task field mapping
+                $taskId = $row['task_id'];
+                $source_record = $row['source_record'];
+                $source_record_model = Vtiger_Record_Model::getInstanceById($source_record);
+                $taskModel = Settings_Workflows_TaskRecord_Model::getInstance($taskId);
+                $taskObject = $taskModel->getTaskObject();
+                $field_value_mapping = $taskObject->field_value_mapping;
+                $field_value_mapping = Zend_Json::decode($field_value_mapping);
+                $mapped_response = array();
+                $update_to_vtiger = array();
+                $checked = false;
+                foreach($field_value_mapping as $item){
+                    if(!empty($item['vt_map_field']) && !empty($item['api_map_field'])){
+                        foreach($response_arr as $api_field_name => $value){
+                            if(!empty($api_field_name) && !empty($value)){
+                                if($item['api_map_field'] == $api_field_name){
+                                    preg_match('/\((\w+) : \((\w+)\) (\w+)\)/', $item['vt_map_field'], $matches1);
+                                    if (count($matches1) > 0) {
+                                        $referenceField = $matches1[1];
+                                        $referencedModule = $matches1[2];
+                                        $referencedFieldName = $matches1[3];
+                                        $referenceRecordId = $source_record_model->get($referenceField);
+                                        if(!empty($referenceRecordId) && $referenceRecordId > 0){
+                                            $module_model = Vtiger_Module_Model::getInstance($referencedModule);
+                                            $Vtiger_field_model = Vtiger_Field_Model::getInstance($referencedFieldName,$module_model);
+                                            $Vtiger_field_label = $Vtiger_field_model->get('label');
+                                            $referenced_record_model = Vtiger_Record_Model::getInstanceById($referenceRecordId,$referencedModule);
+                                            $referenced_record_model->set('mode','edit');
+                                            $fieldDataType = $Vtiger_field_model->getFieldDataType();
+                                            if($fieldDataType === 'date') {
+                                                $value = $Vtiger_field_model->getUITypeModel()->getDBInsertValue($value);
+                                            }else{
+                                                $value = $Vtiger_field_model->getDBInsertValue($value);
+                                            }
+                                            $referenced_record_model->set($referencedFieldName,$value);
+                                            $referenced_record_model->save();
+                                        }
+                                    }
+                                    else{
+                                        $source_record_module_name = $source_record_model->getModuleName();
+                                        $module_model = Vtiger_Module_Model::getInstance($source_record_module_name);
+                                        $Vtiger_field_model = Vtiger_Field_Model::getInstance($item['vt_map_field'],$module_model);
+                                        $Vtiger_field_label = $Vtiger_field_model->get('label');
+                                        $fieldDataType = $Vtiger_field_model->getFieldDataType();
+                                        if($fieldDataType === 'date') {
+                                            $value = date('m-d-Y',strtotime($value));
+                                            $value = $Vtiger_field_model->getUITypeModel()->getDBInsertValue($value);
+                                        }else{
+                                            $value = $Vtiger_field_model->getDBInsertValue($value);
+                                        }
+                                        $checked = true;
+                                        $source_record_model->set('mode','edit');
+                                        $source_record_model->set($item['vt_map_field'],$value);
+                                    }
+                                    $mapped_response[$item['api_map_field']] = (string)$value;
+                                    $update_to_vtiger[$Vtiger_field_label.' ('.$item['vt_map_field'].')'] = (string)$value.' ('.$api_field_name.')';
+                                }
+                            }
+                        }
+                    }
+                }
+                if($checked){
+                    $source_record_model->save();
+                }
+                $mapped_response = json_encode($mapped_response);
+                $mapped_response = (string)$mapped_response;
+                $update_to_vtiger = json_encode($update_to_vtiger);
+                $update_to_vtiger = (string)$update_to_vtiger;
+                $requests_record_model->set('request_status','Success');
+                $requests_record_model->set('mapped_response',$mapped_response);
+                $requests_record_model->set('update_to_vtiger',$update_to_vtiger);
+
+            }
+            else{
+                $requests_record_model->set('request_status','Failed');
+            }
+            if($httpCode != 200) {
+
+            }else{
+
+            }
+            $requests_record_model->save();
+        }
+    }
+}else{
+    echo 'You are required to validate the extension before it can be use.';
+}
+function json_str_to_array($str){
+    if(!empty($str)){
+        if(is_array($str)){
+            return $str;
+        }else{
+            $str = json_decode(html_entity_decode($str),true);
+            return json_str_to_array($str);
+        }
+    }else{
+        return $str;
+    }
+}

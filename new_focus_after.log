@@ -1,0 +1,1581 @@
+PBXManager Object
+(
+    [incominglinkLabel:protected] => Incoming Calls
+    [tabId:protected] => 0
+    [headerScriptLinkType:protected] => HEADERSCRIPT
+    [dependentModules:protected] => Array
+        (
+            [0] => Contacts
+            [1] => Leads
+            [2] => Accounts
+        )
+
+    [db] => PearDatabase Object
+        (
+            [database] => ADODB_mysqli Object
+                (
+                    [databaseType] => mysqli
+                    [dataProvider] => mysql
+                    [hasInsertID] => 1
+                    [hasAffectedRows] => 1
+                    [metaTablesSQL] => SELECT
+			TABLE_NAME,
+			CASE WHEN TABLE_TYPE = 'VIEW' THEN 'V' ELSE 'T' END
+		FROM INFORMATION_SCHEMA.TABLES
+		WHERE TABLE_SCHEMA=
+                    [metaColumnsSQL] => SHOW COLUMNS FROM `%s`
+                    [fmtTimeStamp] => 'Y-m-d H:i:s'
+                    [hasLimit] => 1
+                    [hasMoveFirst] => 1
+                    [hasGenID] => 1
+                    [isoDates] => 1
+                    [sysDate] => CURDATE()
+                    [sysTimeStamp] => NOW()
+                    [hasTransactions] => 1
+                    [forceNewConnect] => 
+                    [poorAffectedRows] => 1
+                    [clientFlags] => 0
+                    [substr] => substring
+                    [port] => 3306
+                    [socket] => 
+                    [_bindInputArray] => 
+                    [nameQuote] => `
+                    [optionFlags] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 5
+                                    [1] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 8
+                                    [1] => 1
+                                )
+
+                        )
+
+                    [arrayClass] => ADORecordSet_array_mysqli
+                    [multiQuery] => 
+                    [_genIDSQL] => update %s set id=LAST_INSERT_ID(id+1);
+                    [_genSeqSQL] => create table if not exists %s (id int not null)
+                    [_genSeqCountSQL] => select count(*) from %s
+                    [_genSeq2SQL] => insert into %s values (%s)
+                    [_dropSeqSQL] => drop table if exists %s
+                    [database] => dbnmzu4logsyxp
+                    [host] => localhost
+                    [user] => uofdstgo3gha6
+                    [password] => not stored
+                    [debug] => 
+                    [maxblobsize] => 262144
+                    [concat_operator] => +
+                    [length] => length
+                    [random] => rand()
+                    [upperCase] => upper
+                    [fmtDate] => 'Y-m-d'
+                    [true] => 1
+                    [false] => 0
+                    [replaceQuote] => \'
+                    [charSet] => 
+                    [metaDatabasesSQL] => 
+                    [uniqueOrderBy] => 
+                    [emptyDate] => &nbsp;
+                    [emptyTimeStamp] => &nbsp;
+                    [lastInsID] => 0
+                    [hasTop] => 
+                    [readOnly] => 
+                    [genID] => 74665
+                    [raiseErrorFn] => 
+                    [cacheSecs] => 3600
+                    [memCache] => 
+                    [memCacheHost] => 
+                    [memCachePort] => 11211
+                    [memCacheCompress] => 
+                    [sysUTimeStamp] => 
+                    [noNullStrings] => 
+                    [numCacheHits] => 0
+                    [numCacheMisses] => 0
+                    [pageExecuteCountRows] => 1
+                    [uniqueSort] => 
+                    [leftOuter] => 
+                    [rightOuter] => 
+                    [ansiOuter] => 
+                    [autoRollback] => 
+                    [fnExecute] => 
+                    [fnCacheExecute] => 
+                    [blobEncodeType] => 
+                    [rsPrefix] => ADORecordSet_
+                    [autoCommit] => 1
+                    [transOff] => 0
+                    [transCnt] => 0
+                    [fetchMode] => 
+                    [null2null] => null
+                    [bulkBind] => 
+                    [_oldRaiseFn] => 
+                    [_transOK] => 1
+                    [_connectionID] => mysqli Object
+                        (
+                            [affected_rows] => 0
+                            [client_info] => mysqlnd 7.4.33
+                            [client_version] => 70433
+                            [connect_errno] => 0
+                            [connect_error] => 
+                            [errno] => 0
+                            [error] => 
+                            [error_list] => Array
+                                (
+                                )
+
+                            [field_count] => 0
+                            [host_info] => Localhost via UNIX socket
+                            [info] => 
+                            [insert_id] => 0
+                            [server_info] => 5.7.44-48-log
+                            [server_version] => 50744
+                            [sqlstate] => 00000
+                            [protocol_version] => 10
+                            [thread_id] => 3299953
+                            [warning_count] => 0
+                        )
+
+                    [_errorMsg] => 
+                    [_errorCode] => 
+                    [_queryID] => 1
+                    [_isPersistentConnection] => 1
+                    [_evalAll] => 
+                    [_affected] => 
+                    [_logsql] => 
+                    [_transmode] => 
+                    [connectionParameters:protected] => Array
+                        (
+                        )
+
+                    [databaseName] => dbnmzu4logsyxp
+                )
+
+            [dieOnError] => 
+            [dbType] => mysqli
+            [dbHostName] => localhost:3306
+            [dbName] => dbnmzu4logsyxp
+            [dbOptions] => Array
+                (
+                    [persistent] => 1
+                    [autofree] => 
+                    [debug] => 0
+                    [seqname_format] => %s_seq
+                    [portability] => 0
+                    [ssl] => 
+                )
+
+            [userName] => uofdstgo3gha6
+            [userPassword] => gtjg9vmvqagy
+            [query_time] => 0
+            [log] => Logger Object
+                (
+                    [additive:Logger:private] => 1
+                    [fqcn:Logger:private] => Logger
+                    [level:Logger:private] => 
+                    [name:Logger:private] => PearDatabase_
+                    [parent:Logger:private] => LoggerRoot Object
+                        (
+                            [additive:Logger:private] => 1
+                            [fqcn:Logger:private] => Logger
+                            [level:Logger:private] => LoggerLevel Object
+                                (
+                                    [level:LoggerLevel:private] => 50000
+                                    [levelStr:LoggerLevel:private] => FATAL
+                                    [syslogEquivalent:LoggerLevel:private] => 1
+                                )
+
+                            [name:Logger:private] => root
+                            [parent:Logger:private] => 
+                            [appenders:Logger:private] => Array
+                                (
+                                    [A1] => LoggerAppenderRollingFile Object
+                                        (
+                                            [maxFileSize:protected] => 10485760
+                                            [maxBackupIndex:protected] => 10
+                                            [compress:protected] => 
+                                            [clearConditional:LoggerAppenderRollingFile:private] => 1
+                                            [locking:protected] => 1
+                                            [append:protected] => 1
+                                            [file:protected] => logs/vtigercrm.log
+                                            [fp:protected] => 
+                                            [closed:protected] => 
+                                            [filter:protected] => 
+                                            [layout:protected] => LoggerLayoutPattern Object
+                                                (
+                                                    [pattern:protected] => %date %-5level %logger %message%newline
+                                                    [converterMap:protected] => Array
+                                                        (
+                                                            [c] => LoggerPatternConverterLogger
+                                                            [lo] => LoggerPatternConverterLogger
+                                                            [logger] => LoggerPatternConverterLogger
+                                                            [C] => LoggerPatternConverterClass
+                                                            [class] => LoggerPatternConverterClass
+                                                            [cookie] => LoggerPatternConverterCookie
+                                                            [d] => LoggerPatternConverterDate
+                                                            [date] => LoggerPatternConverterDate
+                                                            [e] => LoggerPatternConverterEnvironment
+                                                            [env] => LoggerPatternConverterEnvironment
+                                                            [ex] => LoggerPatternConverterThrowable
+                                                            [exception] => LoggerPatternConverterThrowable
+                                                            [throwable] => LoggerPatternConverterThrowable
+                                                            [F] => LoggerPatternConverterFile
+                                                            [file] => LoggerPatternConverterFile
+                                                            [l] => LoggerPatternConverterLocation
+                                                            [location] => LoggerPatternConverterLocation
+                                                            [L] => LoggerPatternConverterLine
+                                                            [line] => LoggerPatternConverterLine
+                                                            [m] => LoggerPatternConverterMessage
+                                                            [msg] => LoggerPatternConverterMessage
+                                                            [message] => LoggerPatternConverterMessage
+                                                            [M] => LoggerPatternConverterMethod
+                                                            [method] => LoggerPatternConverterMethod
+                                                            [n] => LoggerPatternConverterNewLine
+                                                            [newline] => LoggerPatternConverterNewLine
+                                                            [p] => LoggerPatternConverterLevel
+                                                            [le] => LoggerPatternConverterLevel
+                                                            [level] => LoggerPatternConverterLevel
+                                                            [r] => LoggerPatternConverterRelative
+                                                            [relative] => LoggerPatternConverterRelative
+                                                            [req] => LoggerPatternConverterRequest
+                                                            [request] => LoggerPatternConverterRequest
+                                                            [s] => LoggerPatternConverterServer
+                                                            [server] => LoggerPatternConverterServer
+                                                            [ses] => LoggerPatternConverterSession
+                                                            [session] => LoggerPatternConverterSession
+                                                            [sid] => LoggerPatternConverterSessionID
+                                                            [sessionid] => LoggerPatternConverterSessionID
+                                                            [t] => LoggerPatternConverterProcess
+                                                            [pid] => LoggerPatternConverterProcess
+                                                            [process] => LoggerPatternConverterProcess
+                                                            [x] => LoggerPatternConverterNDC
+                                                            [ndc] => LoggerPatternConverterNDC
+                                                            [X] => LoggerPatternConverterMDC
+                                                            [mdc] => LoggerPatternConverterMDC
+                                                        )
+
+                                                    [head:LoggerLayoutPattern:private] => LoggerPatternConverterDate Object
+                                                        (
+                                                            [format:LoggerPatternConverterDate:private] => c
+                                                            [specials:LoggerPatternConverterDate:private] => Array
+                                                                (
+                                                                    [ISO8601] => c
+                                                                    [ABSOLUTE] => H:i:s
+                                                                    [DATE] => d M Y H:i:s.u
+                                                                )
+
+                                                            [useLocalDate:LoggerPatternConverterDate:private] => 
+                                                            [next] => LoggerPatternConverterLiteral Object
+                                                                (
+                                                                    [literalValue:LoggerPatternConverterLiteral:private] =>  
+                                                                    [next] => LoggerPatternConverterLevel Object
+                                                                        (
+                                                                            [next] => LoggerPatternConverterLiteral Object
+                                                                                (
+                                                                                    [literalValue:LoggerPatternConverterLiteral:private] =>  
+                                                                                    [next] => LoggerPatternConverterLogger Object
+                                                                                        (
+                                                                                            [length:LoggerPatternConverterLogger:private] => 
+                                                                                            [cache:LoggerPatternConverterLogger:private] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [next] => LoggerPatternConverterLiteral Object
+                                                                                                (
+                                                                                                    [literalValue:LoggerPatternConverterLiteral:private] =>  
+                                                                                                    [next] => LoggerPatternConverterMessage Object
+                                                                                                        (
+                                                                                                            [next] => LoggerPatternConverterNewLine Object
+                                                                                                                (
+                                                                                                                    [next] => 
+                                                                                                                    [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                                                        (
+                                                                                                                            [min] => 0
+                                                                                                                            [max] => 9223372036854775807
+                                                                                                                            [padLeft] => 1
+                                                                                                                            [trimLeft] => 
+                                                                                                                        )
+
+                                                                                                                    [option:protected] => 
+                                                                                                                )
+
+                                                                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                                                (
+                                                                                                                    [min] => 0
+                                                                                                                    [max] => 9223372036854775807
+                                                                                                                    [padLeft] => 1
+                                                                                                                    [trimLeft] => 
+                                                                                                                )
+
+                                                                                                            [option:protected] => 
+                                                                                                        )
+
+                                                                                                    [formattingInfo:protected] => 
+                                                                                                    [option:protected] => 
+                                                                                                )
+
+                                                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                                (
+                                                                                                    [min] => 0
+                                                                                                    [max] => 9223372036854775807
+                                                                                                    [padLeft] => 1
+                                                                                                    [trimLeft] => 
+                                                                                                )
+
+                                                                                            [option:protected] => 
+                                                                                        )
+
+                                                                                    [formattingInfo:protected] => 
+                                                                                    [option:protected] => 
+                                                                                )
+
+                                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                (
+                                                                                    [min] => 5
+                                                                                    [max] => 9223372036854775807
+                                                                                    [padLeft] => 
+                                                                                    [trimLeft] => 
+                                                                                )
+
+                                                                            [option:protected] => 
+                                                                        )
+
+                                                                    [formattingInfo:protected] => 
+                                                                    [option:protected] => 
+                                                                )
+
+                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                (
+                                                                    [min] => 0
+                                                                    [max] => 9223372036854775807
+                                                                    [padLeft] => 1
+                                                                    [trimLeft] => 
+                                                                )
+
+                                                            [option:protected] => 
+                                                        )
+
+                                                )
+
+                                            [name:protected] => A1
+                                            [threshold:protected] => 
+                                            [requiresLayout:protected] => 1
+                                        )
+
+                                )
+
+                        )
+
+                    [appenders:Logger:private] => Array
+                        (
+                        )
+
+                )
+
+            [lastmysqlrow] => -1
+            [enableSQLlog] => 
+            [continueInstallOnError] => 1
+            [avoidPreparedSql] => 
+            [isdb_default_utf8_charset] => 1
+            [req_flist] => 
+            [logSqlTimingID:protected] => 
+        )
+
+    [table_name] => vtiger_pbxmanager
+    [table_index] => pbxmanagerid
+    [customFieldTable] => Array
+        (
+            [0] => vtiger_pbxmanagercf
+            [1] => pbxmanagerid
+        )
+
+    [tab_name] => Array
+        (
+            [0] => vtiger_crmentity
+            [1] => vtiger_pbxmanager
+            [2] => vtiger_pbxmanagercf
+        )
+
+    [tab_name_index] => Array
+        (
+            [vtiger_crmentity] => crmid
+            [vtiger_pbxmanager] => pbxmanagerid
+            [vtiger_pbxmanagercf] => pbxmanagerid
+        )
+
+    [list_fields] => Array
+        (
+            [Call Status] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => callstatus
+                )
+
+            [Customer] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => customer
+                )
+
+            [User] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => user
+                )
+
+            [Recording] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => recordingurl
+                )
+
+            [Start Time] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => starttime
+                )
+
+        )
+
+    [list_fields_name] => Array
+        (
+            [Call Status] => callstatus
+            [Customer] => customer
+            [User] => user
+            [Recording] => recordingurl
+            [Start Time] => starttime
+        )
+
+    [list_link_field] => customernumber
+    [search_fields] => Array
+        (
+            [Customer] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => customer
+                )
+
+        )
+
+    [search_fields_name] => Array
+        (
+            [Customer] => customer
+        )
+
+    [popup_fields] => Array
+        (
+            [0] => customernumber
+        )
+
+    [def_basicsearch_col] => customer
+    [def_detailview_recname] => customernumber
+    [column_fields] => TrackableObject Object
+        (
+            [storage:TrackableObject:private] => Array
+                (
+                    [direction] => inbound
+                    [callstatus] => NO ANSWER
+                    [starttime] => 2024-05-08 10:39:23
+                    [endtime] => 2024-05-08 10:39:27
+                    [totalduration] => 4
+                    [billduration] => 0
+                    [recordingurl] => 
+                    [sourceuuid] => 
+                    [gateway] => PBXManager
+                    [customer] => 
+                    [user] => 30
+                    [customernumber] => +923361800007
+                    [customertype] => Contacts
+                    [assigned_user_id] => 30
+                    [CreatedTime] => 
+                    [ModifiedTime] => 
+                    [source] => 
+                    [cf_901] => 
+                    [cf_903] => 
+                    [cf_905] => 
+                    [cf_907] => Not Booked
+                    [cf_909] => 
+                    [cf_923] => 
+                    [cf_925] => All Leads
+                    [vtdevkb_color] => 
+                    [callid] => vR4LucEJhNE_a9vsjVvSusyCecGoBKhUqPlaShgFclZy2cePjYfn7g
+                    [callsessionid] => 3bf808ee-0d27-11ef-bc1b-02420aef03a1
+                    [to_number] => +19713390413
+                    [cf_981] => Facebook
+                    [smcreatorid] => 30
+                    [modifiedby] => 0
+                    [createdtime] => 2024-05-08 10:39:28
+                    [label] => +923361800007 
+                    [modifiedtime] => 2024-05-08 10:39:28
+                )
+
+            [trackingEnabled:TrackableObject:private] => 1
+            [tracking:TrackableObject:private] => 1
+        )
+
+    [default_order_by] => customernumber
+    [default_sort_order] => ASC
+    [ownedby] => 
+    [recordSource] => CRM
+    [__inactive_fields_filtered:protected] => 
+    [moduleName] => PBXManager
+    [id] => 74665
+)
+
+PBXManager Object
+(
+    [incominglinkLabel:protected] => Incoming Calls
+    [tabId:protected] => 0
+    [headerScriptLinkType:protected] => HEADERSCRIPT
+    [dependentModules:protected] => Array
+        (
+            [0] => Contacts
+            [1] => Leads
+            [2] => Accounts
+        )
+
+    [db] => PearDatabase Object
+        (
+            [database] => ADODB_mysqli Object
+                (
+                    [databaseType] => mysqli
+                    [dataProvider] => mysql
+                    [hasInsertID] => 1
+                    [hasAffectedRows] => 1
+                    [metaTablesSQL] => SELECT
+			TABLE_NAME,
+			CASE WHEN TABLE_TYPE = 'VIEW' THEN 'V' ELSE 'T' END
+		FROM INFORMATION_SCHEMA.TABLES
+		WHERE TABLE_SCHEMA=
+                    [metaColumnsSQL] => SHOW COLUMNS FROM `%s`
+                    [fmtTimeStamp] => 'Y-m-d H:i:s'
+                    [hasLimit] => 1
+                    [hasMoveFirst] => 1
+                    [hasGenID] => 1
+                    [isoDates] => 1
+                    [sysDate] => CURDATE()
+                    [sysTimeStamp] => NOW()
+                    [hasTransactions] => 1
+                    [forceNewConnect] => 
+                    [poorAffectedRows] => 1
+                    [clientFlags] => 0
+                    [substr] => substring
+                    [port] => 3306
+                    [socket] => 
+                    [_bindInputArray] => 
+                    [nameQuote] => `
+                    [optionFlags] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 5
+                                    [1] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 8
+                                    [1] => 1
+                                )
+
+                        )
+
+                    [arrayClass] => ADORecordSet_array_mysqli
+                    [multiQuery] => 
+                    [_genIDSQL] => update %s set id=LAST_INSERT_ID(id+1);
+                    [_genSeqSQL] => create table if not exists %s (id int not null)
+                    [_genSeqCountSQL] => select count(*) from %s
+                    [_genSeq2SQL] => insert into %s values (%s)
+                    [_dropSeqSQL] => drop table if exists %s
+                    [database] => dbnmzu4logsyxp
+                    [host] => localhost
+                    [user] => uofdstgo3gha6
+                    [password] => not stored
+                    [debug] => 
+                    [maxblobsize] => 262144
+                    [concat_operator] => +
+                    [length] => length
+                    [random] => rand()
+                    [upperCase] => upper
+                    [fmtDate] => 'Y-m-d'
+                    [true] => 1
+                    [false] => 0
+                    [replaceQuote] => \'
+                    [charSet] => 
+                    [metaDatabasesSQL] => 
+                    [uniqueOrderBy] => 
+                    [emptyDate] => &nbsp;
+                    [emptyTimeStamp] => &nbsp;
+                    [lastInsID] => 0
+                    [hasTop] => 
+                    [readOnly] => 
+                    [genID] => 74666
+                    [raiseErrorFn] => 
+                    [cacheSecs] => 3600
+                    [memCache] => 
+                    [memCacheHost] => 
+                    [memCachePort] => 11211
+                    [memCacheCompress] => 
+                    [sysUTimeStamp] => 
+                    [noNullStrings] => 
+                    [numCacheHits] => 0
+                    [numCacheMisses] => 0
+                    [pageExecuteCountRows] => 1
+                    [uniqueSort] => 
+                    [leftOuter] => 
+                    [rightOuter] => 
+                    [ansiOuter] => 
+                    [autoRollback] => 
+                    [fnExecute] => 
+                    [fnCacheExecute] => 
+                    [blobEncodeType] => 
+                    [rsPrefix] => ADORecordSet_
+                    [autoCommit] => 1
+                    [transOff] => 0
+                    [transCnt] => 0
+                    [fetchMode] => 
+                    [null2null] => null
+                    [bulkBind] => 
+                    [_oldRaiseFn] => 
+                    [_transOK] => 1
+                    [_connectionID] => mysqli Object
+                        (
+                            [affected_rows] => 0
+                            [client_info] => mysqlnd 7.4.33
+                            [client_version] => 70433
+                            [connect_errno] => 0
+                            [connect_error] => 
+                            [errno] => 0
+                            [error] => 
+                            [error_list] => Array
+                                (
+                                )
+
+                            [field_count] => 0
+                            [host_info] => Localhost via UNIX socket
+                            [info] => 
+                            [insert_id] => 0
+                            [server_info] => 5.7.44-48-log
+                            [server_version] => 50744
+                            [sqlstate] => 00000
+                            [protocol_version] => 10
+                            [thread_id] => 3299953
+                            [warning_count] => 0
+                        )
+
+                    [_errorMsg] => 
+                    [_errorCode] => 
+                    [_queryID] => 1
+                    [_isPersistentConnection] => 1
+                    [_evalAll] => 
+                    [_affected] => 
+                    [_logsql] => 
+                    [_transmode] => 
+                    [connectionParameters:protected] => Array
+                        (
+                        )
+
+                    [databaseName] => dbnmzu4logsyxp
+                )
+
+            [dieOnError] => 
+            [dbType] => mysqli
+            [dbHostName] => localhost:3306
+            [dbName] => dbnmzu4logsyxp
+            [dbOptions] => Array
+                (
+                    [persistent] => 1
+                    [autofree] => 
+                    [debug] => 0
+                    [seqname_format] => %s_seq
+                    [portability] => 0
+                    [ssl] => 
+                )
+
+            [userName] => uofdstgo3gha6
+            [userPassword] => gtjg9vmvqagy
+            [query_time] => 0
+            [log] => Logger Object
+                (
+                    [additive:Logger:private] => 1
+                    [fqcn:Logger:private] => Logger
+                    [level:Logger:private] => 
+                    [name:Logger:private] => PearDatabase_
+                    [parent:Logger:private] => LoggerRoot Object
+                        (
+                            [additive:Logger:private] => 1
+                            [fqcn:Logger:private] => Logger
+                            [level:Logger:private] => LoggerLevel Object
+                                (
+                                    [level:LoggerLevel:private] => 50000
+                                    [levelStr:LoggerLevel:private] => FATAL
+                                    [syslogEquivalent:LoggerLevel:private] => 1
+                                )
+
+                            [name:Logger:private] => root
+                            [parent:Logger:private] => 
+                            [appenders:Logger:private] => Array
+                                (
+                                    [A1] => LoggerAppenderRollingFile Object
+                                        (
+                                            [maxFileSize:protected] => 10485760
+                                            [maxBackupIndex:protected] => 10
+                                            [compress:protected] => 
+                                            [clearConditional:LoggerAppenderRollingFile:private] => 1
+                                            [locking:protected] => 1
+                                            [append:protected] => 1
+                                            [file:protected] => logs/vtigercrm.log
+                                            [fp:protected] => 
+                                            [closed:protected] => 
+                                            [filter:protected] => 
+                                            [layout:protected] => LoggerLayoutPattern Object
+                                                (
+                                                    [pattern:protected] => %date %-5level %logger %message%newline
+                                                    [converterMap:protected] => Array
+                                                        (
+                                                            [c] => LoggerPatternConverterLogger
+                                                            [lo] => LoggerPatternConverterLogger
+                                                            [logger] => LoggerPatternConverterLogger
+                                                            [C] => LoggerPatternConverterClass
+                                                            [class] => LoggerPatternConverterClass
+                                                            [cookie] => LoggerPatternConverterCookie
+                                                            [d] => LoggerPatternConverterDate
+                                                            [date] => LoggerPatternConverterDate
+                                                            [e] => LoggerPatternConverterEnvironment
+                                                            [env] => LoggerPatternConverterEnvironment
+                                                            [ex] => LoggerPatternConverterThrowable
+                                                            [exception] => LoggerPatternConverterThrowable
+                                                            [throwable] => LoggerPatternConverterThrowable
+                                                            [F] => LoggerPatternConverterFile
+                                                            [file] => LoggerPatternConverterFile
+                                                            [l] => LoggerPatternConverterLocation
+                                                            [location] => LoggerPatternConverterLocation
+                                                            [L] => LoggerPatternConverterLine
+                                                            [line] => LoggerPatternConverterLine
+                                                            [m] => LoggerPatternConverterMessage
+                                                            [msg] => LoggerPatternConverterMessage
+                                                            [message] => LoggerPatternConverterMessage
+                                                            [M] => LoggerPatternConverterMethod
+                                                            [method] => LoggerPatternConverterMethod
+                                                            [n] => LoggerPatternConverterNewLine
+                                                            [newline] => LoggerPatternConverterNewLine
+                                                            [p] => LoggerPatternConverterLevel
+                                                            [le] => LoggerPatternConverterLevel
+                                                            [level] => LoggerPatternConverterLevel
+                                                            [r] => LoggerPatternConverterRelative
+                                                            [relative] => LoggerPatternConverterRelative
+                                                            [req] => LoggerPatternConverterRequest
+                                                            [request] => LoggerPatternConverterRequest
+                                                            [s] => LoggerPatternConverterServer
+                                                            [server] => LoggerPatternConverterServer
+                                                            [ses] => LoggerPatternConverterSession
+                                                            [session] => LoggerPatternConverterSession
+                                                            [sid] => LoggerPatternConverterSessionID
+                                                            [sessionid] => LoggerPatternConverterSessionID
+                                                            [t] => LoggerPatternConverterProcess
+                                                            [pid] => LoggerPatternConverterProcess
+                                                            [process] => LoggerPatternConverterProcess
+                                                            [x] => LoggerPatternConverterNDC
+                                                            [ndc] => LoggerPatternConverterNDC
+                                                            [X] => LoggerPatternConverterMDC
+                                                            [mdc] => LoggerPatternConverterMDC
+                                                        )
+
+                                                    [head:LoggerLayoutPattern:private] => LoggerPatternConverterDate Object
+                                                        (
+                                                            [format:LoggerPatternConverterDate:private] => c
+                                                            [specials:LoggerPatternConverterDate:private] => Array
+                                                                (
+                                                                    [ISO8601] => c
+                                                                    [ABSOLUTE] => H:i:s
+                                                                    [DATE] => d M Y H:i:s.u
+                                                                )
+
+                                                            [useLocalDate:LoggerPatternConverterDate:private] => 
+                                                            [next] => LoggerPatternConverterLiteral Object
+                                                                (
+                                                                    [literalValue:LoggerPatternConverterLiteral:private] =>  
+                                                                    [next] => LoggerPatternConverterLevel Object
+                                                                        (
+                                                                            [next] => LoggerPatternConverterLiteral Object
+                                                                                (
+                                                                                    [literalValue:LoggerPatternConverterLiteral:private] =>  
+                                                                                    [next] => LoggerPatternConverterLogger Object
+                                                                                        (
+                                                                                            [length:LoggerPatternConverterLogger:private] => 
+                                                                                            [cache:LoggerPatternConverterLogger:private] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [next] => LoggerPatternConverterLiteral Object
+                                                                                                (
+                                                                                                    [literalValue:LoggerPatternConverterLiteral:private] =>  
+                                                                                                    [next] => LoggerPatternConverterMessage Object
+                                                                                                        (
+                                                                                                            [next] => LoggerPatternConverterNewLine Object
+                                                                                                                (
+                                                                                                                    [next] => 
+                                                                                                                    [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                                                        (
+                                                                                                                            [min] => 0
+                                                                                                                            [max] => 9223372036854775807
+                                                                                                                            [padLeft] => 1
+                                                                                                                            [trimLeft] => 
+                                                                                                                        )
+
+                                                                                                                    [option:protected] => 
+                                                                                                                )
+
+                                                                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                                                (
+                                                                                                                    [min] => 0
+                                                                                                                    [max] => 9223372036854775807
+                                                                                                                    [padLeft] => 1
+                                                                                                                    [trimLeft] => 
+                                                                                                                )
+
+                                                                                                            [option:protected] => 
+                                                                                                        )
+
+                                                                                                    [formattingInfo:protected] => 
+                                                                                                    [option:protected] => 
+                                                                                                )
+
+                                                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                                (
+                                                                                                    [min] => 0
+                                                                                                    [max] => 9223372036854775807
+                                                                                                    [padLeft] => 1
+                                                                                                    [trimLeft] => 
+                                                                                                )
+
+                                                                                            [option:protected] => 
+                                                                                        )
+
+                                                                                    [formattingInfo:protected] => 
+                                                                                    [option:protected] => 
+                                                                                )
+
+                                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                (
+                                                                                    [min] => 5
+                                                                                    [max] => 9223372036854775807
+                                                                                    [padLeft] => 
+                                                                                    [trimLeft] => 
+                                                                                )
+
+                                                                            [option:protected] => 
+                                                                        )
+
+                                                                    [formattingInfo:protected] => 
+                                                                    [option:protected] => 
+                                                                )
+
+                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                (
+                                                                    [min] => 0
+                                                                    [max] => 9223372036854775807
+                                                                    [padLeft] => 1
+                                                                    [trimLeft] => 
+                                                                )
+
+                                                            [option:protected] => 
+                                                        )
+
+                                                )
+
+                                            [name:protected] => A1
+                                            [threshold:protected] => 
+                                            [requiresLayout:protected] => 1
+                                        )
+
+                                )
+
+                        )
+
+                    [appenders:Logger:private] => Array
+                        (
+                        )
+
+                )
+
+            [lastmysqlrow] => -1
+            [enableSQLlog] => 
+            [continueInstallOnError] => 1
+            [avoidPreparedSql] => 
+            [isdb_default_utf8_charset] => 1
+            [req_flist] => 
+            [logSqlTimingID:protected] => 
+        )
+
+    [table_name] => vtiger_pbxmanager
+    [table_index] => pbxmanagerid
+    [customFieldTable] => Array
+        (
+            [0] => vtiger_pbxmanagercf
+            [1] => pbxmanagerid
+        )
+
+    [tab_name] => Array
+        (
+            [0] => vtiger_crmentity
+            [1] => vtiger_pbxmanager
+            [2] => vtiger_pbxmanagercf
+        )
+
+    [tab_name_index] => Array
+        (
+            [vtiger_crmentity] => crmid
+            [vtiger_pbxmanager] => pbxmanagerid
+            [vtiger_pbxmanagercf] => pbxmanagerid
+        )
+
+    [list_fields] => Array
+        (
+            [Call Status] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => callstatus
+                )
+
+            [Customer] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => customer
+                )
+
+            [User] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => user
+                )
+
+            [Recording] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => recordingurl
+                )
+
+            [Start Time] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => starttime
+                )
+
+        )
+
+    [list_fields_name] => Array
+        (
+            [Call Status] => callstatus
+            [Customer] => customer
+            [User] => user
+            [Recording] => recordingurl
+            [Start Time] => starttime
+        )
+
+    [list_link_field] => customernumber
+    [search_fields] => Array
+        (
+            [Customer] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => customer
+                )
+
+        )
+
+    [search_fields_name] => Array
+        (
+            [Customer] => customer
+        )
+
+    [popup_fields] => Array
+        (
+            [0] => customernumber
+        )
+
+    [def_basicsearch_col] => customer
+    [def_detailview_recname] => customernumber
+    [column_fields] => TrackableObject Object
+        (
+            [storage:TrackableObject:private] => Array
+                (
+                    [direction] => inbound
+                    [callstatus] => ANSWERED
+                    [starttime] => 2024-05-08 10:39:40
+                    [endtime] => 2024-05-08 10:39:57
+                    [totalduration] => 17
+                    [billduration] => 17
+                    [recordingurl] => 
+                    [sourceuuid] => 
+                    [gateway] => PBXManager
+                    [customer] => 
+                    [user] => 30
+                    [customernumber] => +923361800007
+                    [customertype] => Contacts
+                    [assigned_user_id] => 30
+                    [CreatedTime] => 
+                    [ModifiedTime] => 
+                    [source] => 
+                    [cf_901] => 
+                    [cf_903] => 
+                    [cf_905] => 
+                    [cf_907] => Not Booked
+                    [cf_909] => 
+                    [cf_923] => 
+                    [cf_925] => All Leads
+                    [vtdevkb_color] => 
+                    [callid] => xjSJv4J5MzjQepr3M59VY9rMejr1A2vmGX96JNNpvEZ5MbD0WUqO6g
+                    [callsessionid] => 45f98282-0d27-11ef-9e43-02420a0d8870
+                    [to_number] => +19713390413
+                    [cf_981] => Facebook
+                    [smcreatorid] => 30
+                    [modifiedby] => 0
+                    [createdtime] => 2024-05-08 10:39:57
+                    [label] => +923361800007 
+                    [modifiedtime] => 2024-05-08 10:39:57
+                )
+
+            [trackingEnabled:TrackableObject:private] => 1
+            [tracking:TrackableObject:private] => 1
+        )
+
+    [default_order_by] => customernumber
+    [default_sort_order] => ASC
+    [ownedby] => 
+    [recordSource] => CRM
+    [__inactive_fields_filtered:protected] => 
+    [moduleName] => PBXManager
+    [id] => 74666
+)
+
+PBXManager Object
+(
+    [incominglinkLabel:protected] => Incoming Calls
+    [tabId:protected] => 0
+    [headerScriptLinkType:protected] => HEADERSCRIPT
+    [dependentModules:protected] => Array
+        (
+            [0] => Contacts
+            [1] => Leads
+            [2] => Accounts
+        )
+
+    [db] => PearDatabase Object
+        (
+            [database] => ADODB_mysqli Object
+                (
+                    [databaseType] => mysqli
+                    [dataProvider] => mysql
+                    [hasInsertID] => 1
+                    [hasAffectedRows] => 1
+                    [metaTablesSQL] => SELECT
+			TABLE_NAME,
+			CASE WHEN TABLE_TYPE = 'VIEW' THEN 'V' ELSE 'T' END
+		FROM INFORMATION_SCHEMA.TABLES
+		WHERE TABLE_SCHEMA=
+                    [metaColumnsSQL] => SHOW COLUMNS FROM `%s`
+                    [fmtTimeStamp] => 'Y-m-d H:i:s'
+                    [hasLimit] => 1
+                    [hasMoveFirst] => 1
+                    [hasGenID] => 1
+                    [isoDates] => 1
+                    [sysDate] => CURDATE()
+                    [sysTimeStamp] => NOW()
+                    [hasTransactions] => 1
+                    [forceNewConnect] => 
+                    [poorAffectedRows] => 1
+                    [clientFlags] => 0
+                    [substr] => substring
+                    [port] => 3306
+                    [socket] => 
+                    [_bindInputArray] => 
+                    [nameQuote] => `
+                    [optionFlags] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => 5
+                                    [1] => 0
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => 8
+                                    [1] => 1
+                                )
+
+                        )
+
+                    [arrayClass] => ADORecordSet_array_mysqli
+                    [multiQuery] => 
+                    [_genIDSQL] => update %s set id=LAST_INSERT_ID(id+1);
+                    [_genSeqSQL] => create table if not exists %s (id int not null)
+                    [_genSeqCountSQL] => select count(*) from %s
+                    [_genSeq2SQL] => insert into %s values (%s)
+                    [_dropSeqSQL] => drop table if exists %s
+                    [database] => dbnmzu4logsyxp
+                    [host] => localhost
+                    [user] => uofdstgo3gha6
+                    [password] => not stored
+                    [debug] => 
+                    [maxblobsize] => 262144
+                    [concat_operator] => +
+                    [length] => length
+                    [random] => rand()
+                    [upperCase] => upper
+                    [fmtDate] => 'Y-m-d'
+                    [true] => 1
+                    [false] => 0
+                    [replaceQuote] => \'
+                    [charSet] => 
+                    [metaDatabasesSQL] => 
+                    [uniqueOrderBy] => 
+                    [emptyDate] => &nbsp;
+                    [emptyTimeStamp] => &nbsp;
+                    [lastInsID] => 0
+                    [hasTop] => 
+                    [readOnly] => 
+                    [genID] => 74667
+                    [raiseErrorFn] => 
+                    [cacheSecs] => 3600
+                    [memCache] => 
+                    [memCacheHost] => 
+                    [memCachePort] => 11211
+                    [memCacheCompress] => 
+                    [sysUTimeStamp] => 
+                    [noNullStrings] => 
+                    [numCacheHits] => 0
+                    [numCacheMisses] => 0
+                    [pageExecuteCountRows] => 1
+                    [uniqueSort] => 
+                    [leftOuter] => 
+                    [rightOuter] => 
+                    [ansiOuter] => 
+                    [autoRollback] => 
+                    [fnExecute] => 
+                    [fnCacheExecute] => 
+                    [blobEncodeType] => 
+                    [rsPrefix] => ADORecordSet_
+                    [autoCommit] => 1
+                    [transOff] => 0
+                    [transCnt] => 0
+                    [fetchMode] => 
+                    [null2null] => null
+                    [bulkBind] => 
+                    [_oldRaiseFn] => 
+                    [_transOK] => 1
+                    [_connectionID] => mysqli Object
+                        (
+                            [affected_rows] => 0
+                            [client_info] => mysqlnd 7.4.33
+                            [client_version] => 70433
+                            [connect_errno] => 0
+                            [connect_error] => 
+                            [errno] => 0
+                            [error] => 
+                            [error_list] => Array
+                                (
+                                )
+
+                            [field_count] => 0
+                            [host_info] => Localhost via UNIX socket
+                            [info] => 
+                            [insert_id] => 0
+                            [server_info] => 5.7.44-48-log
+                            [server_version] => 50744
+                            [sqlstate] => 00000
+                            [protocol_version] => 10
+                            [thread_id] => 3300345
+                            [warning_count] => 0
+                        )
+
+                    [_errorMsg] => 
+                    [_errorCode] => 
+                    [_queryID] => 1
+                    [_isPersistentConnection] => 1
+                    [_evalAll] => 
+                    [_affected] => 
+                    [_logsql] => 
+                    [_transmode] => 
+                    [connectionParameters:protected] => Array
+                        (
+                        )
+
+                    [databaseName] => dbnmzu4logsyxp
+                )
+
+            [dieOnError] => 
+            [dbType] => mysqli
+            [dbHostName] => localhost:3306
+            [dbName] => dbnmzu4logsyxp
+            [dbOptions] => Array
+                (
+                    [persistent] => 1
+                    [autofree] => 
+                    [debug] => 0
+                    [seqname_format] => %s_seq
+                    [portability] => 0
+                    [ssl] => 
+                )
+
+            [userName] => uofdstgo3gha6
+            [userPassword] => gtjg9vmvqagy
+            [query_time] => 0
+            [log] => Logger Object
+                (
+                    [additive:Logger:private] => 1
+                    [fqcn:Logger:private] => Logger
+                    [level:Logger:private] => 
+                    [name:Logger:private] => PearDatabase_
+                    [parent:Logger:private] => LoggerRoot Object
+                        (
+                            [additive:Logger:private] => 1
+                            [fqcn:Logger:private] => Logger
+                            [level:Logger:private] => LoggerLevel Object
+                                (
+                                    [level:LoggerLevel:private] => 50000
+                                    [levelStr:LoggerLevel:private] => FATAL
+                                    [syslogEquivalent:LoggerLevel:private] => 1
+                                )
+
+                            [name:Logger:private] => root
+                            [parent:Logger:private] => 
+                            [appenders:Logger:private] => Array
+                                (
+                                    [A1] => LoggerAppenderRollingFile Object
+                                        (
+                                            [maxFileSize:protected] => 10485760
+                                            [maxBackupIndex:protected] => 10
+                                            [compress:protected] => 
+                                            [clearConditional:LoggerAppenderRollingFile:private] => 1
+                                            [locking:protected] => 1
+                                            [append:protected] => 1
+                                            [file:protected] => logs/vtigercrm.log
+                                            [fp:protected] => 
+                                            [closed:protected] => 
+                                            [filter:protected] => 
+                                            [layout:protected] => LoggerLayoutPattern Object
+                                                (
+                                                    [pattern:protected] => %date %-5level %logger %message%newline
+                                                    [converterMap:protected] => Array
+                                                        (
+                                                            [c] => LoggerPatternConverterLogger
+                                                            [lo] => LoggerPatternConverterLogger
+                                                            [logger] => LoggerPatternConverterLogger
+                                                            [C] => LoggerPatternConverterClass
+                                                            [class] => LoggerPatternConverterClass
+                                                            [cookie] => LoggerPatternConverterCookie
+                                                            [d] => LoggerPatternConverterDate
+                                                            [date] => LoggerPatternConverterDate
+                                                            [e] => LoggerPatternConverterEnvironment
+                                                            [env] => LoggerPatternConverterEnvironment
+                                                            [ex] => LoggerPatternConverterThrowable
+                                                            [exception] => LoggerPatternConverterThrowable
+                                                            [throwable] => LoggerPatternConverterThrowable
+                                                            [F] => LoggerPatternConverterFile
+                                                            [file] => LoggerPatternConverterFile
+                                                            [l] => LoggerPatternConverterLocation
+                                                            [location] => LoggerPatternConverterLocation
+                                                            [L] => LoggerPatternConverterLine
+                                                            [line] => LoggerPatternConverterLine
+                                                            [m] => LoggerPatternConverterMessage
+                                                            [msg] => LoggerPatternConverterMessage
+                                                            [message] => LoggerPatternConverterMessage
+                                                            [M] => LoggerPatternConverterMethod
+                                                            [method] => LoggerPatternConverterMethod
+                                                            [n] => LoggerPatternConverterNewLine
+                                                            [newline] => LoggerPatternConverterNewLine
+                                                            [p] => LoggerPatternConverterLevel
+                                                            [le] => LoggerPatternConverterLevel
+                                                            [level] => LoggerPatternConverterLevel
+                                                            [r] => LoggerPatternConverterRelative
+                                                            [relative] => LoggerPatternConverterRelative
+                                                            [req] => LoggerPatternConverterRequest
+                                                            [request] => LoggerPatternConverterRequest
+                                                            [s] => LoggerPatternConverterServer
+                                                            [server] => LoggerPatternConverterServer
+                                                            [ses] => LoggerPatternConverterSession
+                                                            [session] => LoggerPatternConverterSession
+                                                            [sid] => LoggerPatternConverterSessionID
+                                                            [sessionid] => LoggerPatternConverterSessionID
+                                                            [t] => LoggerPatternConverterProcess
+                                                            [pid] => LoggerPatternConverterProcess
+                                                            [process] => LoggerPatternConverterProcess
+                                                            [x] => LoggerPatternConverterNDC
+                                                            [ndc] => LoggerPatternConverterNDC
+                                                            [X] => LoggerPatternConverterMDC
+                                                            [mdc] => LoggerPatternConverterMDC
+                                                        )
+
+                                                    [head:LoggerLayoutPattern:private] => LoggerPatternConverterDate Object
+                                                        (
+                                                            [format:LoggerPatternConverterDate:private] => c
+                                                            [specials:LoggerPatternConverterDate:private] => Array
+                                                                (
+                                                                    [ISO8601] => c
+                                                                    [ABSOLUTE] => H:i:s
+                                                                    [DATE] => d M Y H:i:s.u
+                                                                )
+
+                                                            [useLocalDate:LoggerPatternConverterDate:private] => 
+                                                            [next] => LoggerPatternConverterLiteral Object
+                                                                (
+                                                                    [literalValue:LoggerPatternConverterLiteral:private] =>  
+                                                                    [next] => LoggerPatternConverterLevel Object
+                                                                        (
+                                                                            [next] => LoggerPatternConverterLiteral Object
+                                                                                (
+                                                                                    [literalValue:LoggerPatternConverterLiteral:private] =>  
+                                                                                    [next] => LoggerPatternConverterLogger Object
+                                                                                        (
+                                                                                            [length:LoggerPatternConverterLogger:private] => 
+                                                                                            [cache:LoggerPatternConverterLogger:private] => Array
+                                                                                                (
+                                                                                                )
+
+                                                                                            [next] => LoggerPatternConverterLiteral Object
+                                                                                                (
+                                                                                                    [literalValue:LoggerPatternConverterLiteral:private] =>  
+                                                                                                    [next] => LoggerPatternConverterMessage Object
+                                                                                                        (
+                                                                                                            [next] => LoggerPatternConverterNewLine Object
+                                                                                                                (
+                                                                                                                    [next] => 
+                                                                                                                    [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                                                        (
+                                                                                                                            [min] => 0
+                                                                                                                            [max] => 9223372036854775807
+                                                                                                                            [padLeft] => 1
+                                                                                                                            [trimLeft] => 
+                                                                                                                        )
+
+                                                                                                                    [option:protected] => 
+                                                                                                                )
+
+                                                                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                                                (
+                                                                                                                    [min] => 0
+                                                                                                                    [max] => 9223372036854775807
+                                                                                                                    [padLeft] => 1
+                                                                                                                    [trimLeft] => 
+                                                                                                                )
+
+                                                                                                            [option:protected] => 
+                                                                                                        )
+
+                                                                                                    [formattingInfo:protected] => 
+                                                                                                    [option:protected] => 
+                                                                                                )
+
+                                                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                                (
+                                                                                                    [min] => 0
+                                                                                                    [max] => 9223372036854775807
+                                                                                                    [padLeft] => 1
+                                                                                                    [trimLeft] => 
+                                                                                                )
+
+                                                                                            [option:protected] => 
+                                                                                        )
+
+                                                                                    [formattingInfo:protected] => 
+                                                                                    [option:protected] => 
+                                                                                )
+
+                                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                                (
+                                                                                    [min] => 5
+                                                                                    [max] => 9223372036854775807
+                                                                                    [padLeft] => 
+                                                                                    [trimLeft] => 
+                                                                                )
+
+                                                                            [option:protected] => 
+                                                                        )
+
+                                                                    [formattingInfo:protected] => 
+                                                                    [option:protected] => 
+                                                                )
+
+                                                            [formattingInfo:protected] => LoggerFormattingInfo Object
+                                                                (
+                                                                    [min] => 0
+                                                                    [max] => 9223372036854775807
+                                                                    [padLeft] => 1
+                                                                    [trimLeft] => 
+                                                                )
+
+                                                            [option:protected] => 
+                                                        )
+
+                                                )
+
+                                            [name:protected] => A1
+                                            [threshold:protected] => 
+                                            [requiresLayout:protected] => 1
+                                        )
+
+                                )
+
+                        )
+
+                    [appenders:Logger:private] => Array
+                        (
+                        )
+
+                )
+
+            [lastmysqlrow] => -1
+            [enableSQLlog] => 
+            [continueInstallOnError] => 1
+            [avoidPreparedSql] => 
+            [isdb_default_utf8_charset] => 1
+            [req_flist] => 
+            [logSqlTimingID:protected] => 
+        )
+
+    [table_name] => vtiger_pbxmanager
+    [table_index] => pbxmanagerid
+    [customFieldTable] => Array
+        (
+            [0] => vtiger_pbxmanagercf
+            [1] => pbxmanagerid
+        )
+
+    [tab_name] => Array
+        (
+            [0] => vtiger_crmentity
+            [1] => vtiger_pbxmanager
+            [2] => vtiger_pbxmanagercf
+        )
+
+    [tab_name_index] => Array
+        (
+            [vtiger_crmentity] => crmid
+            [vtiger_pbxmanager] => pbxmanagerid
+            [vtiger_pbxmanagercf] => pbxmanagerid
+        )
+
+    [list_fields] => Array
+        (
+            [Call Status] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => callstatus
+                )
+
+            [Customer] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => customer
+                )
+
+            [User] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => user
+                )
+
+            [Recording] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => recordingurl
+                )
+
+            [Start Time] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => starttime
+                )
+
+        )
+
+    [list_fields_name] => Array
+        (
+            [Call Status] => callstatus
+            [Customer] => customer
+            [User] => user
+            [Recording] => recordingurl
+            [Start Time] => starttime
+        )
+
+    [list_link_field] => customernumber
+    [search_fields] => Array
+        (
+            [Customer] => Array
+                (
+                    [0] => vtiger_pbxmanager
+                    [1] => customer
+                )
+
+        )
+
+    [search_fields_name] => Array
+        (
+            [Customer] => customer
+        )
+
+    [popup_fields] => Array
+        (
+            [0] => customernumber
+        )
+
+    [def_basicsearch_col] => customer
+    [def_detailview_recname] => customernumber
+    [column_fields] => TrackableObject Object
+        (
+            [storage:TrackableObject:private] => Array
+                (
+                    [direction] => inbound
+                    [callstatus] => ANSWERED
+                    [starttime] => 2024-05-08 10:46:24
+                    [endtime] => 2024-05-08 10:46:37
+                    [totalduration] => 13
+                    [billduration] => 13
+                    [recordingurl] => 
+                    [sourceuuid] => 
+                    [gateway] => PBXManager
+                    [customer] => 
+                    [user] => 44
+                    [customernumber] => +15028027490
+                    [customertype] => Contacts
+                    [assigned_user_id] => 44
+                    [CreatedTime] => 
+                    [ModifiedTime] => 
+                    [source] => 
+                    [cf_901] => 
+                    [cf_903] => 
+                    [cf_905] => 
+                    [cf_907] => Not Booked
+                    [cf_909] => 
+                    [cf_923] => 
+                    [cf_925] => All Leads
+                    [vtdevkb_color] => 
+                    [callid] => D9dU-2zCEQgguIzf6WMa-Ae8g6eXvHEMJIN2wRbDelW1Zj6CGGBgDg
+                    [callsessionid] => 36cc92da-0d28-11ef-8944-02420aef01a1
+                    [to_number] => +15026638830
+                    [cf_981] => 
+                    [smcreatorid] => 44
+                    [modifiedby] => 0
+                    [createdtime] => 2024-05-08 10:46:37
+                    [label] => +15028027490 
+                    [modifiedtime] => 2024-05-08 10:46:37
+                )
+
+            [trackingEnabled:TrackableObject:private] => 1
+            [tracking:TrackableObject:private] => 1
+        )
+
+    [default_order_by] => customernumber
+    [default_sort_order] => ASC
+    [ownedby] => 
+    [recordSource] => CRM
+    [__inactive_fields_filtered:protected] => 
+    [moduleName] => PBXManager
+    [id] => 74667
+)
+

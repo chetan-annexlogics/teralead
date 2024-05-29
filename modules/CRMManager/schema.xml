@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_crmmanager</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_crmmanager` (
+  `crmmanagerid` int(19) NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `crmmanagerno` varchar(100) DEFAULT NULL,
+  `tags` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`crmmanagerid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_crmmanagercf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_crmmanagercf` (
+  `crmmanagerid` int(19) NOT NULL,
+  `cmmanager_cf_945` varchar(100) DEFAULT '',
+  `cmmanager_cf_947` varchar(30) DEFAULT '',
+  `cmmanager_cf_949` varchar(50) DEFAULT '',
+  `cmmanager_cf_951` varchar(100) DEFAULT '',
+  `cmmanager_cf_953` varchar(100) DEFAULT '',
+  `cmmanager_cf_955` varchar(100) DEFAULT '',
+  `cmmanager_cf_957` varchar(50) DEFAULT '',
+  `cmmanager_cf_959` varchar(3) DEFAULT '0',
+  PRIMARY KEY (`crmmanagerid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

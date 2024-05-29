@@ -1,0 +1,45 @@
+<?php
+
+$json = file_get_contents('php://input');
+$action = json_decode($json, true)['data'];
+$number = $action['payload']['from'];
+$numberWithoutPlus = str_replace('+','',$action['payload']['from']);
+$event_type = $action['event_type'];//call.hangup
+$sip_hangup_cause = $action['payload']['sip_hangup_cause'];
+$disposition = '';// $action['event_type'];
+$firstTime=strtotime($action['payload']['start_time']);
+$lastTime=strtotime($action['payload']['end_time']);
+$totalduration = $lastTime-$firstTime;
+$billduration = $lastTime-$firstTime;
+
+$crm_db_host = 'localhost';
+$crm_db_username = 'uofdstgo3gha6';
+$crm_db_pass = 'gtjg9vmvqagy';
+$crm_db_name = 'dbnmzu4logsyxp';
+
+if($event_type == 'call.hangup'){
+  $crm_db = new mysqli($crm_db_host,$crm_db_username,$crm_db_pass,$crm_db_name);
+  $res_crm =$crm_db->query("SELECT contactid,smownerid FROM `vtiger_contactdetails` INNER JOIN vtiger_crmentity ON vtiger_crmentity.crmid = vtiger_contactdetails.contactid WHERE deleted = 0 AND (mobile = '$number' OR mobile = '$numberWithoutPlus')");
+  $contactId = '';
+  $userid = '1';
+  while($rowCrm = $res_crm->fetch_assoc()){
+    $contactId = $rowCrm['contactid'];
+    $userid = $rowCrm['smownerid'];
+  }
+  $crm_db->query("update vtiger_crmentity_seq set id=LAST_INSERT_ID(id+1)");
+  $crmentity_id = $crm_db->query("SELECT id from vtiger_crmentity_seq");
+  
+  $crm_id = $crmentity_id->fetch_assoc();
+  $latest_id = $crm_id['id'];
+  $startTime = date("Y-m-d H:i:s", $firstTime);
+  $endTime = date("Y-m-d H:i:s", $lastTime);
+  $recordurl = '';//'http://64.227.10.156/monitor/'.$filename;
+  if($sip_hangup_cause == '200'){
+    $disposition = 'ANSWERED';
+  } else if($sip_hangup_cause == '487') {
+    $disposition = 'NO ANSWER';
+    $billduration = 0;
+  }  
+  $crm_db->query("INSERT INTO vtiger_crmentity VALUES('$latest_id','$userid','$userid','$userid','PBXManager',NULL,'$startTime','$startTime',NULL,NULL,'0','1','0',NULL,NULL,'$number')");
+  $crm_db->query("INSERT INTO vtiger_pbxmanager VALUES('$latest_id','inbound','$disposition','$startTime','$endTime','$totalduration','$billduration','$recordurl','','PBXManager','$contactId','$userid','$number','Contacts',NULL)");
+}

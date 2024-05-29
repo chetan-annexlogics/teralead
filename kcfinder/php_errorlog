@@ -1,0 +1,2 @@
+[18-Aug-2023 20:44:06 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/customer/www/crm.teraleads.com/public_html/kcfinder/core/autoload.php on line 15
+[18-Aug-2023 20:44:06 UTC] PHP Deprecated:  Function get_magic_quotes_gpc() is deprecated in /home/customer/www/crm.teraleads.com/public_html/kcfinder/lib/class_input.php on line 38

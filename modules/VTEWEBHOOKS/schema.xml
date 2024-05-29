@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>webhooks_settings</name>
+			<sql><![CDATA[CREATE TABLE `webhooks_settings` (
+				`enable`  int(3) NULL DEFAULT NULL 
+				)]]></sql>
+		</table>
+		<table>
+			<name>vte_modules</name>
+			<sql><![CDATA[CREATE TABLE `vte_modules` (
+                `module`  varchar(50) NOT NULL ,
+                `valid`  int(1) NULL ,
+                PRIMARY KEY (`module`));]]></sql>
+		</table>
+		<table>
+			<name>vtewebhookrequest_tasks</name>
+			<sql><![CDATA[CREATE TABLE `vtewebhookrequest_tasks` (
+			`task_id`  integer(19) NULL ,
+			`vtewebhookrequest_id`  integer(19) NULL 
+			)
+			;]]></sql>
+		</table>
+		<table>
+			<name>vtewebhookrequest_tasks</name>
+			<sql><![CDATA[ALTER TABLE `vtewebhookrequest_tasks`
+			ADD INDEX `task_id_index` (`task_id`) USING BTREE ,
+			ADD INDEX `request_id_index` (`vtewebhookrequest_id`) USING BTREE ;]]></sql>
+		</table>
+	</tables>
+</schema>

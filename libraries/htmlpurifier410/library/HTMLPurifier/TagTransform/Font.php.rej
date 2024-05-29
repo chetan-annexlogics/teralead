@@ -1,0 +1,11 @@
+--- libraries/htmlpurifier410/library/HTMLPurifier/TagTransform/Font.php	2021-07-23 07:59:10.000000000 +0000
++++ libraries/htmlpurifier410/library/HTMLPurifier/TagTransform/Font.php	2021-10-17 20:08:57.974102063 +0000
+@@ -75,7 +75,7 @@ class HTMLPurifier_TagTransform_Font ext
+         if (isset($attr['size'])) {
+             // normalize large numbers
+             if ($attr['size'] !== '') {
+-                if ($attr['size']{0} == '+' || $attr['size']{0} == '-') {
++                if ($attr['size'][0] == '+' || $attr['size'][0] == '-') {
+                     $size = (int)$attr['size'];
+                     if ($size < -2) {
+                         $attr['size'] = '-2';

@@ -1,0 +1,615 @@
+Array
+(
+    [event_type] => call.initiated
+    [id] => f7b8618b-2c6e-430b-8a9a-35c749be20ae
+    [occurred_at] => 2024-05-08T10:39:23.461185Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:vR4LucEJhNE_a9vsjVvSusyCecGoBKhUqPlaShgFclZy2cePjYfn7g
+            [call_leg_id] => 3c0d736e-0d27-11ef-97c5-02420aef03a1
+            [call_session_id] => 3bf808ee-0d27-11ef-bc1b-02420aef03a1
+            [caller_id_name] => +923361800007
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [direction] => incoming
+            [from] => +923361800007
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:39:23.461185Z
+            [state] => bridging
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.initiated
+    [id] => fe7823d8-cd7b-4c6c-a443-d9586f137a79
+    [occurred_at] => 2024-05-08T10:39:28.108057Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:BrheKzYezz4Z4nJwDIxHIABALk4iBF626aAkx5_KaUgHu95OlKhlEQ
+            [call_leg_id] => 3ed3d19c-0d27-11ef-8057-02420aef8120
+            [call_session_id] => 3ec56b3e-0d27-11ef-a973-02420aef8120
+            [caller_id_name] => +923361800007
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [direction] => incoming
+            [from] => +923361800007
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:39:28.108057Z
+            [state] => bridging
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.hangup
+    [id] => 5b2d9b05-1477-440d-b638-f67f11fb2983
+    [occurred_at] => 2024-05-08T10:39:27.861399Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:vR4LucEJhNE_a9vsjVvSusyCecGoBKhUqPlaShgFclZy2cePjYfn7g
+            [call_leg_id] => 3c0d736e-0d27-11ef-97c5-02420aef03a1
+            [call_session_id] => 3bf808ee-0d27-11ef-bc1b-02420aef03a1
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [end_time] => 2024-05-08T10:39:27.861399Z
+            [from] => +923361800007
+            [hangup_cause] => originator_cancel
+            [hangup_source] => unknown
+            [sip_hangup_cause] => 487
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:39:23.461185Z
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.initiated
+    [id] => 58149b99-a592-42a7-abed-92b0729ad27e
+    [occurred_at] => 2024-05-08T10:39:37.028058Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:NFQ4gt4Yd3NMf2QFj98eib_D-qX8a4WJHLckaYt_2nytux7QixcxUA
+            [call_leg_id] => 3ed3d52a-0d27-11ef-b986-02420aef8120
+            [call_session_id] => 3ec56b3e-0d27-11ef-a973-02420aef8120
+            [caller_id_name] => +923361800007
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [direction] => incoming
+            [from] => +923361800007
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:39:37.028058Z
+            [state] => bridging
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.initiated
+    [id] => 45750738-0c7d-401f-abf2-e71b982d9bc0
+    [occurred_at] => 2024-05-08T10:39:40.260172Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:xjSJv4J5MzjQepr3M59VY9rMejr1A2vmGX96JNNpvEZ5MbD0WUqO6g
+            [call_leg_id] => 4610a43a-0d27-11ef-9eb0-02420a0d8870
+            [call_session_id] => 45f98282-0d27-11ef-9e43-02420a0d8870
+            [caller_id_name] => +923361800007
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [direction] => incoming
+            [from] => +923361800007
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:39:40.260172Z
+            [state] => bridging
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.answered
+    [id] => e985aea7-fd62-4f8b-ab3c-c692bfb55088
+    [occurred_at] => 2024-05-08T10:39:48.480175Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:xjSJv4J5MzjQepr3M59VY9rMejr1A2vmGX96JNNpvEZ5MbD0WUqO6g
+            [call_leg_id] => 4610a43a-0d27-11ef-9eb0-02420a0d8870
+            [call_session_id] => 45f98282-0d27-11ef-9e43-02420a0d8870
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [custom_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => P-Charging-Vector
+                            [value] => icid-value="IBCF-2-171516477471877440511"
+                        )
+
+                )
+
+            [from] => +923361800007
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:39:40.260172Z
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.hangup
+    [id] => ce2d9267-a3ad-4323-963c-9f706891416e
+    [occurred_at] => 2024-05-08T10:39:57.580174Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:xjSJv4J5MzjQepr3M59VY9rMejr1A2vmGX96JNNpvEZ5MbD0WUqO6g
+            [call_leg_id] => 4610a43a-0d27-11ef-9eb0-02420a0d8870
+            [call_session_id] => 45f98282-0d27-11ef-9e43-02420a0d8870
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [custom_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => P-Charging-Vector
+                            [value] => icid-value="IBCF-2-171516477471877440511"
+                        )
+
+                )
+
+            [end_time] => 2024-05-08T10:39:57.580174Z
+            [from] => +923361800007
+            [hangup_cause] => normal_clearing
+            [hangup_source] => caller
+            [sip_hangup_cause] => 200
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:39:40.260172Z
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.initiated
+    [id] => 064ced48-dd97-4c37-976d-0c0ad83a25d0
+    [occurred_at] => 2024-05-08T10:46:24.254117Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:D9dU-2zCEQgguIzf6WMa-Ae8g6eXvHEMJIN2wRbDelW1Zj6CGGBgDg
+            [call_leg_id] => 36dff6ea-0d28-11ef-a3f7-02420aef01a1
+            [call_session_id] => 36cc92da-0d28-11ef-8944-02420aef01a1
+            [caller_id_name] => +15028027490
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [direction] => incoming
+            [from] => +15028027490
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+15026638830@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:46:24.254117Z
+            [state] => bridging
+            [to] => +15026638830
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.answered
+    [id] => 68cb4ae0-02db-45d2-8e6b-80fbfd7ae341
+    [occurred_at] => 2024-05-08T10:46:24.994125Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:D9dU-2zCEQgguIzf6WMa-Ae8g6eXvHEMJIN2wRbDelW1Zj6CGGBgDg
+            [call_leg_id] => 36dff6ea-0d28-11ef-a3f7-02420aef01a1
+            [call_session_id] => 36cc92da-0d28-11ef-8944-02420aef01a1
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [from] => +15028027490
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+15026638830@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:46:24.254117Z
+            [to] => +15026638830
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.hangup
+    [id] => 065c78d7-0755-4b4b-a6eb-ee18e8b234e1
+    [occurred_at] => 2024-05-08T10:46:37.434091Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:D9dU-2zCEQgguIzf6WMa-Ae8g6eXvHEMJIN2wRbDelW1Zj6CGGBgDg
+            [call_leg_id] => 36dff6ea-0d28-11ef-a3f7-02420aef01a1
+            [call_session_id] => 36cc92da-0d28-11ef-8944-02420aef01a1
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [end_time] => 2024-05-08T10:46:37.434091Z
+            [from] => +15028027490
+            [hangup_cause] => normal_clearing
+            [hangup_source] => caller
+            [sip_hangup_cause] => 200
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+15026638830@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:46:24.254117Z
+            [to] => +15026638830
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.initiated
+    [id] => e74be3c1-2eef-4108-bee9-c43915bb577f
+    [occurred_at] => 2024-05-08T10:57:08.101756Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:DcEMyD-RpCD3zhzEWLu7MjTS1IjIKUSlZC3k70CP1Tf1akt973askw
+            [call_leg_id] => b6a44ef2-0d29-11ef-9018-02420aef0120
+            [call_session_id] => b694c086-0d29-11ef-a339-02420aef0120
+            [caller_id_name] => +17605035500
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [direction] => incoming
+            [from] => +17605035500
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:57:08.101756Z
+            [state] => bridging
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.answered
+    [id] => 48cd1d0b-7aef-446f-8328-990fa1b7e712
+    [occurred_at] => 2024-05-08T10:57:30.481756Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:DcEMyD-RpCD3zhzEWLu7MjTS1IjIKUSlZC3k70CP1Tf1akt973askw
+            [call_leg_id] => b6a44ef2-0d29-11ef-9018-02420aef0120
+            [call_session_id] => b694c086-0d29-11ef-a339-02420aef0120
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [custom_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => P-Charging-Vector
+                            [value] => icid-value="IBCF-2-17151658218961847473564"
+                        )
+
+                )
+
+            [from] => +17605035500
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:57:08.101756Z
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.hangup
+    [id] => 3e6036e3-7d0e-4da7-a83d-58b55e07b833
+    [occurred_at] => 2024-05-08T10:57:36.361755Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:DcEMyD-RpCD3zhzEWLu7MjTS1IjIKUSlZC3k70CP1Tf1akt973askw
+            [call_leg_id] => b6a44ef2-0d29-11ef-9018-02420aef0120
+            [call_session_id] => b694c086-0d29-11ef-a339-02420aef0120
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [custom_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => P-Charging-Vector
+                            [value] => icid-value="IBCF-2-17151658218961847473564"
+                        )
+
+                )
+
+            [end_time] => 2024-05-08T10:57:36.361755Z
+            [from] => +17605035500
+            [hangup_cause] => normal_clearing
+            [hangup_source] => caller
+            [sip_hangup_cause] => 200
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:57:08.101756Z
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.hangup
+    [id] => 3e6036e3-7d0e-4da7-a83d-58b55e07b833
+    [occurred_at] => 2024-05-08T10:57:36.361755Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:DcEMyD-RpCD3zhzEWLu7MjTS1IjIKUSlZC3k70CP1Tf1akt973askw
+            [call_leg_id] => b6a44ef2-0d29-11ef-9018-02420aef0120
+            [call_session_id] => b694c086-0d29-11ef-a339-02420aef0120
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [custom_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => P-Charging-Vector
+                            [value] => icid-value="IBCF-2-17151658218961847473564"
+                        )
+
+                )
+
+            [end_time] => 2024-05-08T10:57:36.361755Z
+            [from] => +17605035500
+            [hangup_cause] => normal_clearing
+            [hangup_source] => caller
+            [sip_hangup_cause] => 200
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:57:08.101756Z
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.hangup
+    [id] => 3e6036e3-7d0e-4da7-a83d-58b55e07b833
+    [occurred_at] => 2024-05-08T10:57:36.361755Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:DcEMyD-RpCD3zhzEWLu7MjTS1IjIKUSlZC3k70CP1Tf1akt973askw
+            [call_leg_id] => b6a44ef2-0d29-11ef-9018-02420aef0120
+            [call_session_id] => b694c086-0d29-11ef-a339-02420aef0120
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [custom_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => P-Charging-Vector
+                            [value] => icid-value="IBCF-2-17151658218961847473564"
+                        )
+
+                )
+
+            [end_time] => 2024-05-08T10:57:36.361755Z
+            [from] => +17605035500
+            [hangup_cause] => normal_clearing
+            [hangup_source] => caller
+            [sip_hangup_cause] => 200
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+19713390413@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T10:57:08.101756Z
+            [to] => +19713390413
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.initiated
+    [id] => 05c7fa1b-fce8-4dcf-a0a6-2a17eee9a45b
+    [occurred_at] => 2024-05-08T11:06:39.330644Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:Dg0BzSS9-4XZ8_Lmvycbum_xzwOS-p_QQ212_OKn1rdRrg2J1Ah48Q
+            [call_leg_id] => 0b1d3a2e-0d2b-11ef-9228-02420aef0120
+            [call_session_id] => 0b0cc6d0-0d2b-11ef-8882-02420aef0120
+            [caller_id_name] => +17605035500
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [direction] => incoming
+            [from] => +17605035500
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+12099731288@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T11:06:39.330644Z
+            [state] => bridging
+            [to] => +12099731288
+        )
+
+    [record_type] => event
+)
+
+Array
+(
+    [event_type] => call.answered
+    [id] => 71a06024-e0ca-4353-b74e-31d5d6d5b7f5
+    [occurred_at] => 2024-05-08T11:06:39.850856Z
+    [payload] => Array
+        (
+            [call_control_id] => v3:Dg0BzSS9-4XZ8_Lmvycbum_xzwOS-p_QQ212_OKn1rdRrg2J1Ah48Q
+            [call_leg_id] => 0b1d3a2e-0d2b-11ef-9228-02420aef0120
+            [call_session_id] => 0b0cc6d0-0d2b-11ef-8882-02420aef0120
+            [client_state] => 
+            [connection_id] => 2122061384203110274
+            [from] => +17605035500
+            [sip_headers] => Array
+                (
+                    [0] => Array
+                        (
+                            [name] => Diversion
+                            [value] => <sip:+12099731288@sip.telnyx.com>;privacy=off;screen=no;reason=unconditional;counter=1
+                        )
+
+                )
+
+            [start_time] => 2024-05-08T11:06:39.330644Z
+            [to] => +12099731288
+        )
+
+    [record_type] => event
+)
+

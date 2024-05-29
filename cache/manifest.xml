@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<module>
+    <name>VTEWEBHOOKS</name>
+    <label>Webhooks</label>
+    <parent>Tools</parent>
+    <version>1.0</version>
+    <license>
+        <file>License.txt</file>
+    </license>
+    <dependencies>
+        <vtiger_version>7.0.0</vtiger_version>
+        <vtiger_max_version>7.*</vtiger_max_version>
+    </dependencies>
+    <modulebundle>true</modulebundle>
+    <modulelist>
+        <dependent_module>
+            <name>VTEWEBHOOKS</name>
+            <install_sequence>1</install_sequence>
+            <filepath>VTEWEBHOOKS.zip</filepath>
+        </dependent_module>
+        <dependent_module>
+            <name>VTEWebhookRequests</name>
+            <install_sequence>2</install_sequence>
+            <filepath>VTEWebhookRequests.zip</filepath>
+        </dependent_module>
+    </modulelist>
+</module>

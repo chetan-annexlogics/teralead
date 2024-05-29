@@ -1,0 +1,91 @@
+mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 1
+    [lengths] => Array
+        (
+            [0] => 5
+        )
+
+    [num_rows] => 1
+    [type] => 0
+)
+
+mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 1
+    [lengths] => Array
+        (
+            [0] => 5
+        )
+
+    [num_rows] => 1
+    [type] => 0
+)
+
+mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 1
+    [lengths] => Array
+        (
+            [0] => 5
+        )
+
+    [num_rows] => 1
+    [type] => 0
+)
+
+mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 1
+    [lengths] => Array
+        (
+            [0] => 5
+        )
+
+    [num_rows] => 1
+    [type] => 0
+)
+
+mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 1
+    [lengths] => Array
+        (
+            [0] => 5
+        )
+
+    [num_rows] => 1
+    [type] => 0
+)
+
+mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 1
+    [lengths] => Array
+        (
+            [0] => 5
+        )
+
+    [num_rows] => 1
+    [type] => 0
+)
+
+mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 1
+    [lengths] => Array
+        (
+            [0] => 5
+        )
+
+    [num_rows] => 1
+    [type] => 0
+)
+

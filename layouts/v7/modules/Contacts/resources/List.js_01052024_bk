@@ -1,0 +1,71 @@
+/*+***********************************************************************************
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is: vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+ *************************************************************************************/
+
+Vtiger_List_Js("Contacts_List_Js", {
+}, {
+	registerAddAppointmentInfoClickEvent :function() {
+		jQuery('#page').on('click', '.addAppointmentInfo', function(e){
+			var params = {};
+			var recordId = $(this).data('id');
+			params.module = app.getModuleName();
+			params.view = 'ShowCustomPopup';
+			params.record = recordId;
+			app.helper.showProgress();
+			app.request.get({ data: params }).then(
+				function (error, data) {
+					app.helper.hideProgress();
+					var callback = function (container) {
+						container.find("button[name='contactButtonsSave']").on('click', function(e) {
+							var form = jQuery(e.currentTarget).closest('form');
+							var params = {
+								submitHandler: function (frm) {
+									jQuery("button[name='contactButtonsSave']").attr("disabled", "disabled");
+									if (this.numberOfInvalids() > 0) {
+										return false;
+									}
+									var formData = jQuery(frm).serialize();
+									app.helper.showProgress();
+									app.request.post({data: formData}).then(function (err, data) {
+										app.helper.hideProgress();
+										if (!err) {
+											var appointmentDate = $('[name="cf_919"]').val();
+											var appointmentTime = $('[name="cf_921"]').val();
+
+											$('#Contacts_detailView_fieldValue_cf_919 span.value').html(appointmentDate);
+											$('[data-name="cf_919"]').attr('data-displayvalue', appointmentDate);
+											$('[data-name="cf_919"]').attr('data-value', appointmentDate);
+
+											$('#Contacts_detailView_fieldValue_cf_cf_921 span.value').html(appointmentTime);
+											$('[data-name="cf_921"]').attr('data-displayvalue', appointmentTime);
+											$('[data-name="cf_921"]').attr('data-value', appointmentTime);
+
+											app.helper.showSuccessNotification({"message": "Update fields " + data});
+											app.helper.hideModal();
+										} else {
+											app.helper.showErrorNotification({"message": err});
+										}
+									});
+								}
+							};
+							form.vtValidate(params);
+							form.submit();
+						});
+					};
+					app.helper.showModal(data, {
+						'cb': callback
+					});
+				}
+			);
+		});
+	},
+	registerEvents: function() {
+		this._super();
+		this.registerAddAppointmentInfoClickEvent();
+	}
+});

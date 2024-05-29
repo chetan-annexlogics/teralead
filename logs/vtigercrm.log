@@ -1,0 +1,134 @@
+2023-05-18T22:27:55+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  'hubspotutk' => '978ad7f8d2caa68b943e56567ff9a358',
+  '_fbp' => 'fb.1.1682942223198.388034993',
+  '__hstc' => '224453893.978ad7f8d2caa68b943e56567ff9a358.1676636897534.1677699322094.1682942225558.4',
+  'PHPSESSID' => '1438506a963cf120efcaba0c2ffd5cce',
+)
+2023-05-18T22:27:55+00:00 FATAL VT NULL
+2023-05-18T22:27:55+00:00 FATAL VT Documents_22
+2023-05-18T22:27:55+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  'hubspotutk' => '978ad7f8d2caa68b943e56567ff9a358',
+  '_fbp' => 'fb.1.1682942223198.388034993',
+  '__hstc' => '224453893.978ad7f8d2caa68b943e56567ff9a358.1676636897534.1677699322094.1682942225558.4',
+  'PHPSESSID' => '1438506a963cf120efcaba0c2ffd5cce',
+)
+2023-05-18T22:27:55+00:00 FATAL VT NULL
+2023-05-18T22:27:55+00:00 FATAL VT Documents_22
+2023-05-23T22:24:49+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  'PHPSESSID' => '1ca178534104db1af546b96cc86c4dd7',
+)
+2023-05-23T22:24:49+00:00 FATAL VT NULL
+2023-05-23T22:24:49+00:00 FATAL VT Documents_22
+2023-05-23T22:24:49+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  'PHPSESSID' => '1ca178534104db1af546b96cc86c4dd7',
+)
+2023-05-23T22:24:49+00:00 FATAL VT NULL
+2023-05-23T22:24:49+00:00 FATAL VT Documents_22
+2023-06-29T02:41:59+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  'PHPSESSID' => 'e4f0afc550265f183ad8437bc1037276',
+  '__hstc' => '224453893.8949acca7d50dbacf79ff174687ad6f5.1684765485646.1687675897907.1687688164560.20',
+  'hubspotutk' => '8949acca7d50dbacf79ff174687ad6f5',
+  '_fbp' => 'fb.1.1684765484260.1659338731',
+)
+2023-06-29T02:41:59+00:00 FATAL VT NULL
+2023-06-29T02:41:59+00:00 FATAL VT Documents_22
+2023-06-29T02:41:59+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  'PHPSESSID' => 'e4f0afc550265f183ad8437bc1037276',
+  '__hstc' => '224453893.8949acca7d50dbacf79ff174687ad6f5.1684765485646.1687675897907.1687688164560.20',
+  'hubspotutk' => '8949acca7d50dbacf79ff174687ad6f5',
+  '_fbp' => 'fb.1.1684765484260.1659338731',
+)
+2023-06-29T02:41:59+00:00 FATAL VT NULL
+2023-06-29T02:41:59+00:00 FATAL VT Documents_22
+2023-07-05T10:08:33+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  'hubspotutk' => '17d3ce9b5e2e6c611c98b161433e195c',
+  '__hssrc' => '1',
+  '_fbp' => 'fb.1.1678765480523.401196225',
+  '_ga' => 'GA1.2.1685339692.1680504541',
+  '__hstc' => '224453893.17d3ce9b5e2e6c611c98b161433e195c.1673959081380.1688371386168.1688535608478.69',
+  'PHPSESSID' => 'b2ef64da6961a627bfa44d81186dfa38',
+)
+2023-07-05T10:08:33+00:00 FATAL VT NULL
+2023-07-05T10:08:33+00:00 FATAL VT Documents_22
+2023-07-05T10:08:33+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  'hubspotutk' => '17d3ce9b5e2e6c611c98b161433e195c',
+  '__hssrc' => '1',
+  '_fbp' => 'fb.1.1678765480523.401196225',
+  '_ga' => 'GA1.2.1685339692.1680504541',
+  '__hstc' => '224453893.17d3ce9b5e2e6c611c98b161433e195c.1673959081380.1688371386168.1688535608478.69',
+  'PHPSESSID' => 'b2ef64da6961a627bfa44d81186dfa38',
+)
+2023-07-05T10:08:33+00:00 FATAL VT NULL
+2023-07-05T10:08:33+00:00 FATAL VT Documents_22
+2023-07-06T14:21:13+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  '_ga' => 'GA1.2.951714646.1673588490',
+  'sugar_user_theme' => 'SuiteP',
+  'hubspotutk' => '9d2a55ddcfc08b9caf4e637658e0e172',
+  '__hssrc' => '1',
+  '_hjSessionUser_2868906' => 'eyJpZCI6IjYyNGNjMDUxLWFiYjYtNTIwYi04MjJmLWRmNmJiNmIwOWY4NiIsImNyZWF0ZWQiOjE2NzY0NjkzOTMyMjIsImV4aXN0aW5nIjp0cnVlfQ==',
+  '_fbp' => 'fb.1.1678280842791.180085075',
+  '__hstc' => '224453893.9d2a55ddcfc08b9caf4e637658e0e172.1673958993081.1687248291629.1688379799954.13',
+  'PHPSESSID' => '7b8a6597bc7adcd54a5c8222d12c976a',
+)
+2023-07-06T14:21:13+00:00 FATAL VT NULL
+2023-07-06T14:21:13+00:00 FATAL VT Documents_22
+2023-07-06T14:21:13+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  '_ga' => 'GA1.2.951714646.1673588490',
+  'sugar_user_theme' => 'SuiteP',
+  'hubspotutk' => '9d2a55ddcfc08b9caf4e637658e0e172',
+  '__hssrc' => '1',
+  '_hjSessionUser_2868906' => 'eyJpZCI6IjYyNGNjMDUxLWFiYjYtNTIwYi04MjJmLWRmNmJiNmIwOWY4NiIsImNyZWF0ZWQiOjE2NzY0NjkzOTMyMjIsImV4aXN0aW5nIjp0cnVlfQ==',
+  '_fbp' => 'fb.1.1678280842791.180085075',
+  '__hstc' => '224453893.9d2a55ddcfc08b9caf4e637658e0e172.1673958993081.1687248291629.1688379799954.13',
+  'PHPSESSID' => '7b8a6597bc7adcd54a5c8222d12c976a',
+)
+2023-07-06T14:21:13+00:00 FATAL VT NULL
+2023-07-06T14:21:13+00:00 FATAL VT Documents_22
+2023-07-06T14:30:11+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  '_ga' => 'GA1.2.951714646.1673588490',
+  'sugar_user_theme' => 'SuiteP',
+  'hubspotutk' => '9d2a55ddcfc08b9caf4e637658e0e172',
+  '__hssrc' => '1',
+  '_hjSessionUser_2868906' => 'eyJpZCI6IjYyNGNjMDUxLWFiYjYtNTIwYi04MjJmLWRmNmJiNmIwOWY4NiIsImNyZWF0ZWQiOjE2NzY0NjkzOTMyMjIsImV4aXN0aW5nIjp0cnVlfQ==',
+  '_fbp' => 'fb.1.1678280842791.180085075',
+  '__hstc' => '224453893.9d2a55ddcfc08b9caf4e637658e0e172.1673958993081.1687248291629.1688379799954.13',
+  'PHPSESSID' => '7b8a6597bc7adcd54a5c8222d12c976a',
+)
+2023-07-06T14:30:11+00:00 FATAL VT NULL
+2023-07-06T14:30:11+00:00 FATAL VT Documents_22
+2023-07-06T14:30:11+00:00 FATAL VT array (
+  'module' => 'Documents',
+  'view' => 'List',
+  '_ga' => 'GA1.2.951714646.1673588490',
+  'sugar_user_theme' => 'SuiteP',
+  'hubspotutk' => '9d2a55ddcfc08b9caf4e637658e0e172',
+  '__hssrc' => '1',
+  '_hjSessionUser_2868906' => 'eyJpZCI6IjYyNGNjMDUxLWFiYjYtNTIwYi04MjJmLWRmNmJiNmIwOWY4NiIsImNyZWF0ZWQiOjE2NzY0NjkzOTMyMjIsImV4aXN0aW5nIjp0cnVlfQ==',
+  '_fbp' => 'fb.1.1678280842791.180085075',
+  '__hstc' => '224453893.9d2a55ddcfc08b9caf4e637658e0e172.1673958993081.1687248291629.1688379799954.13',
+  'PHPSESSID' => '7b8a6597bc7adcd54a5c8222d12c976a',
+)
+2023-07-06T14:30:11+00:00 FATAL VT NULL
+2023-07-06T14:30:11+00:00 FATAL VT Documents_22

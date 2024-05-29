@@ -1,0 +1,137 @@
+.addSMTPForm .muted, .SMTPLicense .muted {
+    color: #6f6f6f;
+    line-height: 30px;
+    font-size: 14px;
+}
+.SMTPLicense .muted {
+    margin-bottom: 0px !important;
+}
+.SMTPLicense .muted b {
+    font-size: 14px;
+}
+.SMTPLicense td{
+    width: 50%;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+.addSMTPForm select{
+    background: none !important;
+}
+.addSMTPForm .inputField, .SMTPLicense .inputField{
+    height: 30px;
+    box-shadow: none;
+    color: var(--input-text-color);
+    border: 1px solid var(--btn-border-color);
+    border-radius: 1px;
+    font-size: 14px;
+    padding: 3px 8px;
+    width: 90%;
+}
+.addSMTPForm .selectUserName{
+    height: 30px;
+    border-color: var(--btn-border-color) !important;
+    border: 1px solid var(--btn-border-color) !important;
+    border-radius: 1px;
+    width: 90%;
+}
+.addSMTPForm .selectUserName:hover{
+    background: var(--btn-border-hover-color);
+}
+.addSMTPForm .selectUserName a{
+    border: none;
+    background: transparent !important;
+}
+.SMTPLicense .inputField{
+    width: auto;
+}
+.addSMTPForm label{
+    margin-bottom: 0px;
+}
+.addSMTPForm .inputCheckbox{
+    height: 15px;
+    width: 15px;
+    margin: 0px;
+    vertical-align: middle;
+}
+.addSMTPForm .checkboxField{
+    padding: 12px 5px !important;
+}
+.addSMTPForm .btn-success, .accountsSMTP .btn-success, .SMTPLicense .btn-success{
+    color: var(--bg-white);
+    background-color: var(--success-btn);
+    border-color: var(--success-btn);
+    outline: var(--success-btn);
+    border: 1px solid transparent;
+    background-image: none;
+    padding: 5px 12px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.SMTPLicense .btn-success strong{
+    font-size: 14px;
+}
+.addSMTPForm .btn-success:hover, .accountsSMTP .btn-success:hover, .SMTPLicense .btn-success:hover{
+    background-color: var(--pelorous-color);
+    border-color: var(--btn-success-hover);
+    outline: var(--btn-success-hover);
+}
+
+.addSMTPForm .table-bordered{
+    margin-bottom: 0px;
+}
+.SMTPLicense .btn-success:focus, .SMTPLicense .btn-success:active{
+
+}
+.addSMTPForm .buttonsRaw{
+    margin-top: 30px;
+    vertical-align: middle;
+}
+.addSMTPForm .cancelLink{
+    margin-top: 5px;
+}
+.accountsSMTP .listViewEntriesTable th{
+    font-size: 14px;
+    color: var(--input-text-color);
+    text-align: center;
+}
+.accountsSMTP .listViewEntriesTable td{
+    color: var(--input-text-color);
+    text-align: center;
+}
+.addSMTPFormWrap {
+    width: 65%;
+    margin: auto;
+    padding: 2em;
+}
+@media screen and (max-width: 1200px) {
+    .addSMTPFormWrap {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .addSMTPFormWrap {
+        width: 100%;
+    }
+}
+.accountsSMTP_header{
+    width: 65%;
+    margin: auto;
+    padding: 2em;
+    padding-bottom: 0px;
+}
+.accountsSMTP button{
+    margin-bottom: 1.5em;
+}
+.accountsSMTP .listViewEntryValue{
+    cursor: default !important;
+    font-size: 14px;
+}
+.accountsSMTP .alert-warning{
+    margin: auto;
+    width: 80%;
+    display:none;
+}
+.accountsSMTP_over{
+    overflow-x: auto;
+}

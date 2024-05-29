@@ -1,0 +1,46 @@
+<?php
+
+$languageStrings = array (
+  'LBL_SMTP_CONFIG' => 'Smtp konfigur',
+  'LBL_MODULE_NAME' => 'Vairāki smtp',
+  'LBL_SERVER_NAME' => 'Servera nosaukums',
+  'LBL_USER_LABEL' => 'Lietotājvārds',
+  'LBL_PASSWORD' => 'Parole',
+  'LBL_EMAIL_FROM' => 'E-pasts no',
+  'LBL_FROM_NAME' => 'No vārda',
+  'LBL_SMTP_AUTH' => 'Smtp aut',
+  'ACTIONS' => 'Darbības',
+  'SAVE' => 'Saglabāt',
+  'LBL_USER_NAME' => 'Lietotājvārds',
+  'ADD_NEW' => 'Pievieno jaunu',
+  'Test email subject' => 'Pārbaudiet pastu par pasta servera konfigurāciju',
+  'Test email body. Use language file for translations' => 'Šis ir testa pasts, kas tiek nosūtīts, lai apstiprinātu, vai pasts faktiski tiek nosūtīts caur jūsu konfigurēto smtp serveri. <br> <br> nekautrējieties izdzēst šo pastu. <br> <br> paldies un sveicieni,',
+  'Multi SMTP accounts' => 'Vairāki smtp konti',
+  'User Name' => 'Lietotājvārds',
+  'SMTP Server' => 'Smtp serveris',
+  'SMTP User' => 'Smtp lietotājs',
+  'Password' => 'Parole',
+  'From Address' => 'No adreses',
+  'From email address' => 'No e-pasta adreses',
+  'From Name' => 'No vārda',
+  'Auth' => 'Auth',
+  'Save' => 'Saglabāt',
+  'Cancel' => 'Atcelt',
+  'Add New' => 'Pievieno jaunu',
+  'Requires Authentication' => 'Nepieciešama autentifikācija',
+  'Actions' => 'Darbības',
+  'Add new from address' => 'Pievienojiet jaunu no adreses',
+);
+
+$jsLanguageStrings = array (
+  'JS_DECIMAL_SEPERATOR_AND_GROUPING_SEPERATOR_CANT_BE_SAME' => 'Decimāldaļas atdalītājs un grupas atdalītājs nevar būt vienādi',
+  'JS_ENTER_CONFIRMATION_PASSWORD' => 'Lūdzu, ievadiet savas paroles apstiprinājumu.',
+  'JS_ENTER_NEW_PASSWORD' => 'Lūdzu, ievadiet jauno paroli.',
+  'JS_ENTER_OLD_PASSWORD' => 'Lūdzu, ievadiet savu veco paroli.',
+  'JS_INVALID_PASSWORD' => 'Jums jānorāda derīgs lietotājvārds un parole.',
+  'JS_PASSWORD_CHANGE_FAILED_1' => 'Lietotāja paroles maiņa neizdevās',
+  'JS_PASSWORD_CHANGE_FAILED_2' => ' neizdevās. ir jāiestata jaunā parole.',
+  'JS_PASSWORD_INCORRECT_OLD' => 'Norādīta nepareiza vecā parole. atkārtoti ievadiet paroli.',
+  'JS_REENTER_PASSWORDS' => 'Lūdzu, atkārtoti ievadiet paroles. vērtības \\ "jaunā parole \\" un \\ "apstiprināt paroli \\" nesakrīt.',
+);
+

@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_vgsmultisender</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_vgsmultisender` (
+              `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+              `server_name` varchar(255) NOT NULL,
+              `user_name` varchar(255) NOT NULL,
+              `password` text NOT NULL,
+              `email_from` varchar(255) NOT NULL,
+              `from_name` varchar(150) DEFAULT NULL,
+              `batch_count` varchar(255) DEFAULT NULL,
+              `batch_delay` varchar(255) DEFAULT NULL,
+              `smtp_auth` varchar(3) DEFAULT NULL,
+              `userid` int(11) NOT NULL,
+              PRIMARY KEY (`id`)
+            ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

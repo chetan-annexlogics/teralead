@@ -1,0 +1,519 @@
+Received: from PH0PR10MB4502.namprd10.prod.outlook.com (2603:10b6:510:31::24)
+ by DM6PR10MB3290.namprd10.prod.outlook.com with HTTPS; Mon, 21 Aug 2023
+ 22:55:19 +0000
+Received: from BN8PR15CA0040.namprd15.prod.outlook.com (2603:10b6:408:80::17)
+ by PH0PR10MB4502.namprd10.prod.outlook.com (2603:10b6:510:31::24) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6699.24; Mon, 21 Aug
+ 2023 22:55:16 +0000
+Received: from BN7NAM10FT064.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:408:80:cafe::44) by BN8PR15CA0040.outlook.office365.com
+ (2603:10b6:408:80::17) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6699.23 via Frontend
+ Transport; Mon, 21 Aug 2023 22:55:16 +0000
+Authentication-Results: spf=pass (sender IP is 185.56.86.134)
+ smtp.mailfrom=dallasimplantclinics.com; dkim=pass (signature was verified)
+ header.d=dallasimplantclinics.com;dmarc=bestguesspass action=none
+ header.from=dallasimplantclinics.com;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of dallasimplantclinics.com
+ designates 185.56.86.134 as permitted sender)
+ receiver=protection.outlook.com; client-ip=185.56.86.134;
+ helo=delivery.antispam.mailspamprotection.com; pr=C
+Received: from delivery.antispam.mailspamprotection.com (185.56.86.134) by
+ BN7NAM10FT064.mail.protection.outlook.com (10.13.157.84) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6723.15 via Frontend Transport; Mon, 21 Aug 2023 22:55:16 +0000
+Received: from 137.54.209.35.bc.googleusercontent.com ([35.209.54.137] helo=c36239.sgvps.net)
+	by instance-us-central1-xw7v.prod.antispam.mailspamprotection.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <SRS0=f69f=eg=dallasimplantclinics.com=info@dallasimplantclinics.com>)
+	id 1qYDnl-00HHA4-02
+	for info@bleudentist.com;
+	Mon, 21 Aug 2023 22:55:15 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=dallasimplantclinics.com; s=default; h=From:Date:Subject:To:cc:list-help:
+	list-unsubscribe:list-subscribe:list-post:list-owner:list-archive;
+	bh=CI3Msc3SqUnHE071X9ROXO96twjcBUAcwPX401Rtw3U=; b=gqF6McVXbjhJaDISfUyOPFblcQ
+	tUdvJua3a7uGCzzBpnv1E8/yxmkhMNUOuEuCPF2AN1Z/va7JXa/iS9oxSgchlIzmaF3zBisp9p2/D
+	ouIpGitcCS/rg4bYEwhiVieXgoVmgfwnVxzu/S/L8zGTdj/5BxgFPrH64gyZpeS6GGRk=;
+Received: from [127.0.0.1] (port=50380 helo=c36239.sgvps.net)
+	by c36239.sgvps.net with smtp (Exim 4.96)
+	(envelope-from <info@dallasimplantclinics.com>)
+	id 1qYDnk-000IsP-2Z
+	for info@dallasimplantclinics.com;
+	Mon, 21 Aug 2023 22:55:12 +0000
+To: info@dallasimplantclinics.com
+Subject: =?us-ascii?Q?Permanent_Teeth_Zirconia_Double_Arch_$39,995_(a?=  =?us-ascii?Q?ll_in),_Ashley_Duree,_+18176926953?=
+X-PHP-Originating-Script: 619:PHPMailer.php
+Date: Mon, 21 Aug 2023 22:55:12 +0000
+From: Dallas Implant Clinic <info@dallasimplantclinics.com>
+Reply-To: ashleyduree2010@gmail.com
+Message-ID: <LlyPwYewk9UonIforDN6VDWtNUQwLfaJkFYWXFxhA@dallasimplantclinics.com>
+X-Mailer: WPMailSMTP/Mailer/mail 3.8.2
+Content-Type: text/html; charset=utf-8
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - c36239.sgvps.net
+X-AntiAbuse: Original Domain - dallasimplantclinics.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - dallasimplantclinics.com
+X-Source:
+X-Source-Args:
+X-Source-Dir:
+X-SGantispam-id: 7c80a0721320dac299f2888d7aac6396
+AntiSpam-DLS: false
+AntiSpam-DLSP:
+AntiSpam-DLSRS:
+AntiSpam-TS: 1.0
+Return-Path:
+ SRS0=f69f=eg=dallasimplantclinics.com=info@dallasimplantclinics.com
+X-MS-Exchange-Organization-ExpirationStartTime: 21 Aug 2023 22:55:16.1496
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ b94ee19b-8a61-42bb-36b6-08dba299af85
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: b76d7bc0-88ae-4674-8a2b-288f21efd2a2:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ BN7NAM10FT064:EE_|PH0PR10MB4502:EE_|DM6PR10MB3290:EE_
+X-MS-Exchange-Organization-AuthSource:
+ BN7NAM10FT064.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: b94ee19b-8a61-42bb-36b6-08dba299af85
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:185.56.86.134;CTRY:US;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SFE;H:delivery.antispam.mailspamprotection.com;PTR:delivery.antispam.mailspamprotection.com;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 21 Aug 2023 22:55:16.0558
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b94ee19b-8a61-42bb-36b6-08dba299af85
+X-MS-Exchange-CrossTenant-Id: b76d7bc0-88ae-4674-8a2b-288f21efd2a2
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN7NAM10FT064.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH0PR10MB4502
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.3528421
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.6699.022
+X-Microsoft-Antispam-Mailbox-Delivery:
+	wl:1;pcwl:1;ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(811239)(250001)(410001)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?a0dXZytnK0t1QjB0b1ZsRmpVSlEyZ2NMc2ZaZXBuWnFpQ05sNCtmaHBWNjJU?=
+ =?utf-8?B?L3lBNHFDVjBhTllhdFFZdzNxOHBTUFZBbWFBN1E1Ykc2ZVRNaUoweEJGWmhq?=
+ =?utf-8?B?QzNmYlQ1YWJOK0tINHZHaUZ1Unp0cTgyZFhjRXZUT0g5bzNaKzhtZmg2QzQ3?=
+ =?utf-8?B?T3gwQklmNDBpNmVPOHZwei9zcDNJWmZjTDJsZDYycTRHZHphVUdpSzdOdXNM?=
+ =?utf-8?B?RzFrTDZOV0dJOXd2YTRVWStEMERXcGk1YTBqdUd5SElYZW1QR01WL3RSOGxV?=
+ =?utf-8?B?bW5qcyt1Y3lXcE4vRzR5VkoyTWxFVTRsMXc3WE1EbWljaTBRTjc0SUJ1TVBk?=
+ =?utf-8?B?Y01ZTzJxRjlibXFZZlBOQnQ1U1A4OU55WW5QeTR2S1p1RExrNHJCdGphMnVZ?=
+ =?utf-8?B?ZjBQZTFwdm54VHpwYWN4Q2NxblhEdkdDSFRzcXV6ZjJFODBwTVhHU0VQemp0?=
+ =?utf-8?B?dXhHR2lrcjR1SldjV3k0c2xCVDZ4ZUNic29nMEoyZ2xGNGcweS9mbW9mdjNQ?=
+ =?utf-8?B?T0x3eVJjb1RLaWlKSDhmM0wvN3NQMzV6b1JTN2VKM1lJdXJ3ZDBidHJFMlUx?=
+ =?utf-8?B?VkorNkg4bUF1Vm4zbGF0Tit2a0VHQ3U0TmxVY1Fmek5lZ1JmaEsvKzRndUlK?=
+ =?utf-8?B?cnJsakFBVmhHbjJ6UEJ2TlNKaHBIRGlTUFJoa0JaN3puMStZaGMyTjhpa1da?=
+ =?utf-8?B?dUEyNGh6Y3crYTVDMzNERk9sUGhnSnpUNyswM2w2S05Pa0RpVEF0c280OExz?=
+ =?utf-8?B?M0kxN3ZuNzNGc201SXhtV2NrVDZGWkZaOUFEL0UzdnR6UXkrbFVqL2N2YUxv?=
+ =?utf-8?B?K2s3ZDNHeTl1Rk9JQ3JrQ09tWTdPakFLTU12c2ZjTVI0WnNTemhmOUd2eTI5?=
+ =?utf-8?B?RktQRjdFOHVEeTBVd1VrMWh5dERzT2o0ays4UUZYYlc2U3M0U2tRbmhNOTVw?=
+ =?utf-8?B?c3ZoVlpXeTRVb1hwRnB4RkRHd09pQTdjSVdsTFJMVXJYdVNuV0FCbVk0VFp6?=
+ =?utf-8?B?Tmt2K091M2drSDVnZEVPYVJVSkFpN0ZzOEtCQ3F2cW8rUTIwdEFzc01OTENG?=
+ =?utf-8?B?ajNTMS9YMEJlOUlQQTJkaWNsemdIS25DQ3UvS2xUQmpSN0VSSjNDa0tpYXZG?=
+ =?utf-8?B?ekVQNXh6S3kySlo2UXA1b1lXZ2p1S092bGFHMFBYWjlhajV0cWl5MlJjbTg1?=
+ =?utf-8?B?bnM3czV2V1p4d0dxRHNuZWcxdUp2YkhjN25jWmVnazRDYVV2VjZWbERvV25H?=
+ =?utf-8?B?NWo2V21HcFhGTXRtbitMdzhIU3p1S2FUZTg4UWxPSnpJTmFNTzl5WHBEeXpY?=
+ =?utf-8?B?TE1lY0xMZ2pkM3liMXdpQ3pQcHpNby9EeHZBdFo1ZUVCeEE0TXlpZjIrOVRv?=
+ =?utf-8?B?eGF3OG9pUUVWZVk0ZlJFUlI3ZzA1YjF6dUtmZDZ3UFdDTzNlL044T09wVlRO?=
+ =?utf-8?B?N1Z5L0hhZHVaeU4xZjhkTUVhTWZMTGNrc0NaZDY1SjZ6c2hCSzA5bzZ4QWJ4?=
+ =?utf-8?B?b1JPYzBuZ3pCZnEvbWI2L0VPOGt3S3RtaDY3UnRCblhKNUJneTU3cWhzbW9h?=
+ =?utf-8?B?N0FCa0pSeVIzV3VTN1lmcHo3TFpHU3BoOWQ5Ym1XcmcwS3hFUmsrU016VUlr?=
+ =?utf-8?B?T0QybkZkbWhjMXZMeGdGeWJoVUpCcWNMdEZkRnBoZGVKTDJXNXFsZWx5YnJ2?=
+ =?utf-8?B?Mnk5VWhxNnJzTVVrbmhHNEptamhvT3FCV0pJZ28zQ1dhY0VXYnR0S2x1Sjlq?=
+ =?utf-8?B?Y0pGVmZyODhQMWpaWUM0OVJhMXZkYlRYRVJwNC9TQmhhWWpsYjFOdVBNTUVK?=
+ =?utf-8?B?NEdLQzB2ZWJGVVVMRVo1akhnWjFFWHRscUdjM29VaFpzbFNoVHpIZmhZS2hy?=
+ =?utf-8?B?RGhOaWJrS3lzL1dpcXh5M0RVWXNPcWpiQW9ETTdyRjN0SDI5MGx5dU5mTEtR?=
+ =?utf-8?B?ZlViS3VYRC9JN1I5VE9yMVFuRmQ2TVpTdlpDOHVjcU56bXEvUGJ0cG1LTHAv?=
+ =?utf-8?B?bTJTUlhuRXpDMUdLQWlwdkxGamN5UVBtdjBDbDJ6Yi9ydGJZb2tBOWhQWlpS?=
+ =?utf-8?B?MDN2UHBPbzNuUWtscjN4SXVpTXI0eXloMHBveFBqSjlET3R3aEdKb3RLbFo2?=
+ =?utf-8?B?WVhQWjE2SHNRTnd0dTlmOHFxRkJZbW9HVTkyZXd6Y2hEZHpkZDdNM2dZUEhv?=
+ =?utf-8?B?Tm9jcFZKclYvWEc2TEhtSTNJTmY2UnYrN3VjSWp1QXd5WmVEOTZSaWthUXpW?=
+ =?utf-8?B?TmxhZmd0Y1JiTTNicmZ6OHBJNVNZUjVtaGp6a0xrcFlqaW9XN2NTQkpEM0NC?=
+ =?utf-8?B?cVBBMHpsNnFLRlRrOS9yUERLOVNXYitaOVZrOXFBQk9JS25OMmJVNjA5R21V?=
+ =?utf-8?B?U3Z4NDBjSXFxQjYxbVFoOGJmUTRaWjhSdjN4SjRybk9wQ3pjb09hNzFzbTJC?=
+ =?utf-8?B?UStQSHN5dENzSU1vQWZPL2JGTVNzSllzcE5jUG1IYWVuRUtHU29VNFozcSt6?=
+ =?utf-8?B?bVBva0NlOEpTaXNRS0RZenYyWEZpaVhJc3ZZbW9iekJLUkVYcU8vVVlOV04v?=
+ =?utf-8?B?d0szSW1PcExqUlVwNG9OOHZCUWYzc093cE9YL3hxWFlQOHErdzZoYzIvVHlQ?=
+ =?utf-8?B?T1IrOEpWQjIwM0dKYXJVZlpCeFVPbWpsQ0drb3VXUEdNOTJhWEtwbVlVRDBD?=
+ =?utf-8?B?aDdXaEFCQ1dJWjNrMnU0L0ZXWTFVTjhwOEFuZm4wU1lkR3RxZ0Z4UHNEaTRQ?=
+ =?utf-8?B?bG5nNnNhd0hrenprQi9pK1dNMEtvWWRBbU50Y1BHN2FIbHlMblFlcjJjV3oz?=
+ =?utf-8?Q?TnJWT3YZxsFwWRbC4v6EI=3D?=
+MIME-Version: 1.0
+
+<!doctype html><html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><!--[if gte mso 15]>
+	<xml>
+		<o:OfficeDocumentSettings>
+		<o:AllowPNG/>
+		<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+	</xml>
+	<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dallas Implant Clinics</title>
+	<style type="text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#bodyCell{
+			padding:50px 50px;
+		}
+		.templateContainer{
+			max-width:600px !important;
+			border:0;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+		/***** Make theme edits below if needed *****/
+		/* Page - Background Style */
+		body,#bodyTable{
+			background-color:#e9eaec;
+		}
+		/* Page - Heading 1 */
+		h1{
+			color:#202020;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:26px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+		}
+		/* Page - Heading 2 */
+		h2{
+			color:#202020;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:22px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+		}
+		/* Page - Heading 3 */
+		h3{
+			color:#202020;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:20px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+		}
+		/* Page - Heading 4 */
+		h4{
+			color:#202020;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:18px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+		}
+		/* Header - Header Style */
+		#templateHeader{
+			border-top:0;
+			border-bottom:0;
+			padding-top:0;
+			padding-bottom:20px;
+			text-align: center;
+		}
+		/* Body - Body Style */
+		#templateBody{
+			background-color:#FFFFFF;
+			border-top:0;
+			border: 1px solid #c1c1c1;
+			padding-top:0;
+			padding-bottom:0px;
+		}
+		/* Body -Body Text */
+		#templateBody .mcnTextContent,
+		#templateBody .mcnTextContent p{
+			color:#555555;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:14px;
+			line-height:150%;
+		}
+		/* Body - Body Link */
+		#templateBody .mcnTextContent a,
+		#templateBody .mcnTextContent p a{
+			color:#ff7f50;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		/* Footer - Footer Style */
+		#templateFooter{
+			background-color:#e9eaec;
+			border-top:0;
+			border-bottom:0;
+			padding-top:12px;
+			padding-bottom:12px;
+		}
+		/* Footer - Footer Text */
+		#templateFooter .mcnTextContent,
+		#templateFooter .mcnTextContent p{
+			color:#cccccc;
+			font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+			font-size:12px;
+			line-height:150%;
+			text-align:center;
+		}
+		/* Footer - Footer Link */
+		#templateFooter .mcnTextContent a,
+		#templateFooter .mcnTextContent p a{
+			color:#cccccc;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		@media only screen and (min-width:768px){
+			.templateContainer{
+				width:600px !important;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			body,table,td,p,a,li,blockquote{
+				-webkit-text-size-adjust:none !important;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			body{
+				width:100% !important;
+				min-width:100% !important;
+			}
+		}
+		@media only screen and (max-width: 680px){
+			#bodyCell{
+				padding:20px 20px !important;
+			}
+		}
+		@media only screen and (max-width: 480px){
+			.mcnTextContentContainer{
+				max-width:100% !important;
+				width:100% !important;
+			}
+		}
+        /* Rich Text compatibility - image alignment. */
+        .mcnTextContentContainer table tbody,
+        .mcnTextContentContainer table tbody tr,
+        .mcnTextContentContainer table tbody td {
+            display: block;
+        }
+        .mcnTextContentContainer p::after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+        .mcnTextContentContainer p .alignleft {
+            float: left;
+        }
+        .mcnTextContentContainer p .aligncenter {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .mcnTextContentContainer p .alignright {
+            float: right;
+        }
+	</style>
+</head>
+<body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #e9eaec;">
+	<!-- Don't forget to run final template through http://templates.mailchimp.com/resources/inline-css/ -->
+	<center>
+		<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;background-color: #e9eaec;">
+			<tr>
+				<td align="center" valign="top" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 50px 50px;width: 100%;">
+					<!-- BEGIN TEMPLATE // -->
+					<!--[if gte mso 9]>
+					<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+					<tr>
+					<td align="center" valign="top" width="600" style="width:600px;">
+					<![endif]-->
+					<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border: 0;max-width: 600px !important;">
+												<tr>
+							<td valign="top" id="templateBody" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;border-top: 0;border: 1px solid #c1c1c1;padding-top: 0;padding-bottom: 0px;">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+									<tbody class="mcnTextBlockOuter">
+										<tr>
+											<td valign="top" class="mcnTextBlockInner" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+												<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnTextContentContainer">
+													<tbody>
+														<tr>
+															<td valign="top" style="padding-top: 30px;padding-right: 30px;padding-bottom: 30px;padding-left: 30px;" class="mcnTextContent">
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style=" display:block;min-width: 100%;border-collapse: collapse;width:100%;">
+<tbody>
+<tr>
+<td style="color:#333333;padding-top: 20px;padding-bottom: 3px;"><strong>Name</strong></td>
+</tr>
+<tr>
+<td style="color:#555555;padding-top: 3px;padding-bottom: 20px;">Ashley Duree</td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #dddddd; display:block;min-width: 100%;border-collapse: collapse;width:100%;">
+<tbody>
+<tr>
+<td style="color:#333333;padding-top: 20px;padding-bottom: 3px;"><strong>Email</strong></td>
+</tr>
+<tr>
+<td style="color:#555555;padding-top: 3px;padding-bottom: 20px;"><a href="mailto:ashleyduree2010@gmail.com">ashleyduree2010@gmail.com</a></td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #dddddd; display:block;min-width: 100%;border-collapse: collapse;width:100%;">
+<tbody>
+<tr>
+<td style="color:#333333;padding-top: 20px;padding-bottom: 3px;"><strong>Phone Number</strong></td>
+</tr>
+<tr>
+<td style="color:#555555;padding-top: 3px;padding-bottom: 20px;">+18176926953</td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #dddddd; display:block;min-width: 100%;border-collapse: collapse;width:100%;">
+<tbody>
+<tr>
+<td style="color:#333333;padding-top: 20px;padding-bottom: 3px;"><strong>Financing</strong></td>
+</tr>
+<tr>
+<td style="color:#555555;padding-top: 3px;padding-bottom: 20px;">Yes</td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #dddddd; display:block;min-width: 100%;border-collapse: collapse;width:100%;">
+<tbody>
+<tr>
+<td style="color:#333333;padding-top: 20px;padding-bottom: 3px;"><strong>Treatment</strong></td>
+</tr>
+<tr>
+<td style="color:#555555;padding-top: 3px;padding-bottom: 20px;">Permanent Teeth Zirconia Double Arch $39,995 (all in)</td>
+</tr>
+</tbody>
+</table>
+
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td valign="top" id="templateFooter" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #e9eaec;border-top: 0;border-bottom: 0;padding-top: 12px;padding-bottom: 12px;">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+									<tbody class="mcnTextBlockOuter">
+										<tr>
+											<td valign="top" class="mcnTextBlockInner" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+												<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnTextContentContainer">
+													<tbody>
+														<tr>
+															<td valign="top" class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #aaa;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: center;">
+
+																<!-- Footer content -->
+																<a href="https://teraleads.com/" style="color:black;">Sent From Teraleads Full Arch Dental Marketing</a>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<!--[if gte mso 9]>
+					</td>
+					</tr>
+					</table>
+					<![endif]-->
+					<!-- // END TEMPLATE -->
+					</td>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>
+

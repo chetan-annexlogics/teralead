@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_vtewebhookrequests</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_vtewebhookrequests` (
+			  `vtewebhookrequestsid` int(19) NOT NULL,
+			  `name` varchar(255) DEFAULT NULL,
+			  `vtewebhookrequestsno` varchar(100) DEFAULT NULL,
+			  `workflow` varchar(100) DEFAULT NULL,
+			  `source_module` varchar(100) DEFAULT NULL,
+			  `action_title` varchar(100) DEFAULT NULL,
+			  `record_url` text DEFAULT NULL,
+			  `method` varchar(100) DEFAULT NULL,
+			  `url` text DEFAULT NULL,
+			  `content_type` varchar(100) DEFAULT NULL,
+			  `authorization_type` varchar(100) DEFAULT NULL,
+			  `authorization_username` varchar(255) DEFAULT NULL,
+			  `authorization_password` varchar(255) DEFAULT NULL,
+			  `request` text DEFAULT NULL,
+			  `request_date_time` varchar(100) DEFAULT NULL,
+			  `request_response` text DEFAULT NULL,
+			  `mapped_response` text DEFAULT NULL,
+			  `update_to_vtiger` text DEFAULT NULL,
+			  `request_status` varchar(100) DEFAULT NULL,
+			  `source_record`  integer(19) DEFAULT NULL,
+			  PRIMARY KEY (`vtewebhookrequestsid`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_vtewebhookrequestscf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_vtewebhookrequestscf` (
+			  `vtewebhookrequestsid` int(19) NOT NULL,
+			  PRIMARY KEY (`vtewebhookrequestsid`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>
