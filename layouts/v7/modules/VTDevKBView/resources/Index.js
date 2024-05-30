@@ -81,6 +81,80 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
             },
             stop: function(event,ui){
                 var item = ui.item;
+                var kbSourceModule = jQuery('#kbSourceModule').val();
+                if(kbSourceModule == "AllLeads"){
+                    var primaryFieldName = jQuery('#primaryFieldName').val();
+                    var primaryFieldId = jQuery('#primaryFieldId').val();
+                    var recordId = item.find('input[name="recordId"]').val();
+                }else{
+                    var primaryFieldName = jQuery('#primaryFieldName').val();
+                    var primaryFieldId = jQuery('#primaryFieldId').val();
+                    var recordId = item.find('input[name="recordId"]').val();
+                }
+                
+
+                var nextRecordId= item.next('.kbBoxTask').find('input[name="recordId"]').val();
+                if(typeof nextRecordId == "undefined"){
+                    nextRecordId = -1;
+                }
+
+                var prevRecordId = item.prev('.kbBoxTask').find('input[name="recordId"]').val();
+                if(typeof prevRecordId == "undefined"){
+                    prevRecordId = -1;
+                }
+
+                var primaryValue = item.closest('.kanbanBox').find('input[name="primaryValue"]').val;
+                mesParams.to = item.closest('.kanbanBox').find('.kbBoxTitle').text();
+                jQuery('.kanbanBox').each(function(){
+                    var container = jQuery(this);
+                    jQuery(this).find('input[name="recordId"]').each(function () {
+                        if(jQuery(this).val() == recordId){
+                            primaryValue = container.find('input[name="primaryValue"]').val();
+                        }
+
+                    });
+                });
+                var params={
+                    'primaryFieldName':primaryFieldName,
+                    'primaryFieldId':primaryFieldId,
+                    'recordId':recordId,
+                    'nextRecordId':nextRecordId,
+                    'prevRecordId':prevRecordId,
+                    'primaryValue':primaryValue,
+                    'module':'VTDevKBView',
+                    'action':'ActionAjax',
+                    'mode':'updatePrimaryFieldValue',
+                    'source_module':jQuery('#kbSourceModule').val()
+                }
+                app.request.post({data:params}).then(
+                    function(data){
+                        if(mesParams.from == mesParams.to ){
+                            return;
+                        }
+                        var txtMessage = mesParams.itemName + " updated from "+ mesParams.from +" to "+ mesParams.to;
+                        app.helper.showSuccessNotification({message:txtMessage});
+                        //Show popup contact
+                        thisInstance.showCustomPopupAjaxRequest(mesParams.to,recordId);
+                    }
+                );
+            }
+        }).disableSelection();
+    },
+    //Custom code for lead
+    registerAllLeadSortableEvent:function(){
+        var thisInstance = this;
+        var mesParams={};
+        jQuery('.kbBoxContentffsfsd').sortable({
+            connectWith: ".kbBoxContentfsdfd",
+            handle: ".kbTaskHeader",
+            cursor: "move",
+            start: function(e,ui){
+                var item = ui.item;
+                mesParams.itemName = item.find('.kbTaskTitle a').text();
+                mesParams.from = item.closest('.kanbanBox').find('.kbBoxTitle').text();
+            },
+            stop: function(event,ui){
+                var item = ui.item;
                 var primaryFieldName = jQuery('#primaryFieldName').val();
                 var primaryFieldId = jQuery('#primaryFieldId').val();
                 var recordId = item.find('input[name="recordId"]').val();
@@ -723,11 +797,13 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
     registerEvents : function() {
         this._super();
         var thisInstance = this;
+        
         thisInstance.fixWidthColumns();
         var detailContentsHolder = jQuery('div.kbContainer');
         vtUtils.applyFieldElementsView(detailContentsHolder);
         thisInstance.registerQuickEditEvent();
         thisInstance.registerSortableEvent();
+        thisInstance.registerAllLeadSortableEvent();
         this.registerAjaxEditEvent();
         this.registerAjaxEditSaveEvent();
         this.registerAjaxEditCancelEvent();

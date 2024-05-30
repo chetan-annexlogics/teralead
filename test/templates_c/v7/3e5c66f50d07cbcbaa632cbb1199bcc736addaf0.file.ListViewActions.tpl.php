@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2024-05-28 07:26:10
+<?php /* Smarty version Smarty-3.1.7, created on 2024-05-27 12:23:47
          compiled from "/var/www/teralead/includes/runtime/../../layouts/v7/modules/Vtiger/ListViewActions.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:78989134366558712407bf9-17365746%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:31839548566547b53ebda80-77557809%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '78989134366558712407bf9-17365746',
+  'nocache_hash' => '31839548566547b53ebda80-77557809',
   'function' => 
   array (
   ),
@@ -44,9 +44,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_6655871244560',
+  'unifunc' => 'content_66547b53efcd7',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_6655871244560')) {function content_6655871244560($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_66547b53efcd7')) {function content_66547b53efcd7($_smarty_tpl) {?>
 
 <?php $_smarty_tpl->tpl_vars['LISTVIEW_MASSACTIONS_1'] = new Smarty_variable(array(), null, 0);?><div id="listview-actions" class="listview-actions-container"><?php  $_smarty_tpl->tpl_vars['LIST_MASSACTION'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['LIST_MASSACTION']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['LISTVIEW_MASSACTIONS']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}

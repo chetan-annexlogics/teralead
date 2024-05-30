@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2024-05-28 07:50:57
+<?php /* Smarty version Smarty-3.1.7, created on 2024-05-27 12:28:53
          compiled from "/var/www/teralead/includes/runtime/../../layouts/v7/modules/Settings/Vtiger/SettingsMenuEnd.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:116370754866558ce1364260-42423437%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:208878980766547c853cd964-53674038%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,13 +11,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '116370754866558ce1364260-42423437',
+  'nocache_hash' => '208878980766547c853cd964-53674038',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_66558ce136517',
+  'unifunc' => 'content_66547c853ce62',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_66558ce136517')) {function content_66558ce136517($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_66547c853ce62')) {function content_66547c853ce62($_smarty_tpl) {?>
 </div></div><?php }} ?>

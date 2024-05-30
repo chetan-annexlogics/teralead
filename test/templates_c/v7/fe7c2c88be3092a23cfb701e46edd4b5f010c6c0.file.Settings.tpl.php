@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2024-05-28 07:50:57
+<?php /* Smarty version Smarty-3.1.7, created on 2024-05-28 07:21:51
          compiled from "/var/www/teralead/includes/runtime/../../layouts/v7/modules/VTDevKBView/Settings.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:141952334266558ce1338751-70722072%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4378280166655860f933947-91117691%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '141952334266558ce1338751-70722072',
+  'nocache_hash' => '4378280166655860f933947-91117691',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_66558ce13555c',
+  'unifunc' => 'content_6655860f94eab',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_66558ce13555c')) {function content_66558ce13555c($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_6655860f94eab')) {function content_6655860f94eab($_smarty_tpl) {?>
 <div class="container-fluid">
     <div class="widget_header row-fluid">
         <h3><?php echo vtranslate('VTDevKBView','VTDevKBView');?>

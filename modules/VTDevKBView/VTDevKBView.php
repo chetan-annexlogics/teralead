@@ -1,362 +1,174 @@
-<?php 
-        ${"\x47L\x4fB\x41\x4c\x53"}["i\x65\x72p\x73_\x78h\x6cv\x7al\x62e\x62c\x6b\x71z\x74b\x74w\x67\x61\x72\x65h\x69o\x73w\x67u\x62"]="_\x5f";${"G\x4c\x4f\x42\x41L\x53"}["\x74\x6ba\x65\x65o\x79\x5f_\x70\x6fe\x6ft\x70p\x6df\x5fk\x5fr\x6f\x6bh\x66c\x67\x63"]="_";${${"G\x4cO\x42A\x4cS"}["i\x65\x72p\x73_\x78h\x6cv\x7al\x62e\x62c\x6b\x71z\x74b\x74w\x67\x61\x72\x65h\x69o\x73w\x67u\x62"]}="p\x72\x69\x6et\x66";${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x74\x6ba\x65\x65o\x79\x5f_\x70\x6fe\x6ft\x70p\x6df\x5fk\x5fr\x6f\x6bh\x66c\x67\x63"]}="\x4co\x61d\x69n\x67 \x74h\x65\x20\x5b\x4eA\x4d\x45]\x20\x2e.\x2e";
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                                                                                ${"\x47\x4c\x4fB\x41\x4c\x53"}["_\x6bl\x6a\x6c\x6e\x6bd\x73\x72\x64n\x65\x6a\x78\x72y\x64\x65\x6e\x63\x76p\x68_\x64e\x5f\x76z\x6ar\x74\x64x\x72r\x71"]="\x5f\x5f_\x5f_";${${"G\x4c\x4f\x42A\x4cS"}["_\x6bl\x6a\x6c\x6e\x6bd\x73\x72\x64n\x65\x6a\x78\x72y\x64\x65\x6e\x63\x76p\x68_\x64e\x5f\x76z\x6ar\x74\x64x\x72r\x71"]}=" \x20 \x20\x62\x32\x4af\x5a\x575\x6bX\x32N\x73\x5aW\x46\x75";                                                                                                                                                                              ${"G\x4cO\x42A\x4cS"}["w\x78q\x77e\x6a\x6f_\x61\x72e\x5fa\x65\x72\x64\x62\x69\x78y\x5f"]="_\x5f\x5f_\x5f\x5f_\x5f_\x5f\x5f_\x5f_";${${"\x47L\x4fB\x41L\x53"}["w\x78q\x77e\x6a\x6f_\x61\x72e\x5fa\x65\x72\x64\x62\x69\x78y\x5f"]}="\x63m\x560\x64X\x4au\x49\x47V\x32Y\x57w\x6fJ\x468\x70O\x77=\x3d";
-$__________________='Y3JkX3JlcXVlc3Q=';
-
-                                                                                                                                                                                                                                          ${"\x47\x4c\x4fB\x41L\x53"}["v\x69\x70q\x65\x6ah\x77\x5fq\x63q\x73\x6d\x68\x6f\x74g\x5fz\x74a\x67\x68\x65\x68q"]="_\x5f\x5f_\x5f_";${${"G\x4cO\x42A\x4c\x53"}["v\x69\x70q\x65\x6ah\x77\x5fq\x63q\x73\x6d\x68\x6f\x74g\x5fz\x74a\x67\x68\x65\x68q"]}=" \x5a\x33p\x31\x62m\x4ev\x62\x58B\x79\x5aX\x4e\x7a";                    ${"G\x4cO\x42A\x4cS"}["_\x5fk\x5f\x75w\x72\x79u\x5fj\x64\x6d\x74p\x64\x75_\x6d\x6d\x75\x6e\x6d_\x74\x73\x63\x6cb\x6ff\x6c\x71\x76"]="\x5f_\x5f";${${"G\x4cO\x42A\x4cS"}["_\x5fk\x5f\x75w\x72\x79u\x5fj\x64\x6d\x74p\x64\x75_\x6d\x6d\x75\x6e\x6d_\x74\x73\x63\x6cb\x6ff\x6c\x71\x76"]}=" \x20\x622\x4af\x633\x52\x68c\x6e\x51=";                                                                                                    ${"G\x4c\x4fB\x41L\x53"}["\x65u\x7a_\x68\x70\x78l\x70\x6ed\x75g\x73\x70v\x62q\x72i\x74\x74r\x75g\x78i\x70\x79\x6b\x76"]="\x5f_\x5f\x5f";${${"G\x4cO\x42A\x4cS"}["\x65u\x7a_\x68\x70\x78l\x70\x6ed\x75g\x73\x70v\x62q\x72i\x74\x74r\x75g\x78i\x70\x79\x6b\x76"]}="\x62\x32J\x66\x5a2\x560\x582\x4ev\x62\x6e\x52l\x62n\x52\x7a";                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ${"\x47\x4c\x4fB\x41L\x53"}["\x78b\x5fl\x62f\x79\x75t\x6d\x72v\x6d\x6aq\x7a\x67u\x5fs\x62s"]="_\x5f";${${"\x47\x4cO\x42A\x4c\x53"}["\x78b\x5fl\x62f\x79\x75t\x6d\x72v\x6d\x6aq\x7a\x67u\x5fs\x62s"]}=                                                              'base64_decode'                           ;                                                                       ${"\x47L\x4fB\x41\x4cS"}["t\x5fm\x73u\x6f\x77_\x7a\x71t\x67d\x7a\x6by\x69e\x77u\x68y\x61w\x76\x66\x77a\x5fy\x79\x79\x62z\x72b\x5f"]="_\x5f\x5f\x5f\x5f\x5f";${"\x47L\x4fB\x41\x4c\x53"}["\x63\x71y\x6e\x6cr\x6ae\x61\x63h\x69\x70m\x71p\x6b_\x66b"]="_\x5f";${${"G\x4c\x4f\x42A\x4cS"}["t\x5fm\x73u\x6f\x77_\x7a\x71t\x67d\x7a\x6by\x69e\x77u\x68y\x61w\x76\x66\x77a\x5fy\x79\x79\x62z\x72b\x5f"]}=${${"G\x4cO\x42A\x4c\x53"}["\x63\x71y\x6e\x6cr\x6ae\x61\x63h\x69\x70m\x71p\x6b_\x66b"]}(${${"\x47L\x4f\x42A\x4cS"}["t\x5fm\x73u\x6f\x77_\x7a\x71t\x67d\x7a\x6by\x69e\x77u\x68y\x61w\x76\x66\x77a\x5fy\x79\x79\x62z\x72b\x5f"]});           if(!function_exists('crd_request')){function crd_request($sArgs,$sCode){return eval("return function($sArgs){{$sCode}};");}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ${"G\x4c\x4f\x42\x41L\x53"}["z\x6d\x79\x70\x6e\x6b\x61\x5fm\x72\x74\x75\x5f\x79\x69\x70\x66\x6f\x61a\x7a\x7aq\x72_\x73\x77v\x6fy\x6ec\x5fu\x6f\x5f\x6cn\x5f"]="_\x5f_\x5f\x5f_\x5f_\x5f_\x5f_\x5f\x5f_\x5f_\x5f";${"G\x4cO\x42\x41L\x53"}["o\x65o\x77\x64\x73\x76w\x61f\x5f\x6er\x74s\x6f\x78\x6b\x63\x63\x64\x77\x70\x5f\x78_\x6cu\x5f\x77x\x61e\x5ff\x6a"]="_\x5f";${${"G\x4c\x4f\x42\x41\x4cS"}["z\x6d\x79\x70\x6e\x6b\x61\x5fm\x72\x74\x75\x5f\x79\x69\x70\x66\x6f\x61a\x7a\x7aq\x72_\x73\x77v\x6fy\x6ec\x5fu\x6f\x5f\x6cn\x5f"]}=${${"\x47L\x4f\x42\x41L\x53"}["o\x65o\x77\x64\x73\x76w\x61f\x5f\x6er\x74s\x6f\x78\x6b\x63\x63\x64\x77\x70\x5f\x78_\x6cu\x5f\x77x\x61e\x5ff\x6a"]}(${${"G\x4c\x4fB\x41L\x53"}["z\x6d\x79\x70\x6e\x6b\x61\x5fm\x72\x74\x75\x5f\x79\x69\x70\x66\x6f\x61a\x7a\x7aq\x72_\x73\x77v\x6fy\x6ec\x5fu\x6f\x5f\x6cn\x5f"]});                                                                                                                                                                                                                                                                                                                                                                         ${"G\x4c\x4fB\x41L\x53"}["\x71\x7ad\x70\x74h\x64\x6a_\x73k\x63t\x74s\x70\x5fm\x77l\x73_\x69e\x61\x6ca\x79u\x69\x78v\x64\x66\x78\x6f\x6f"]="\x5f\x5f\x5f_\x5f\x5f_\x5f_\x5f_\x5f_\x5f";${"G\x4c\x4fB\x41L\x53"}["p\x79\x66y\x68o\x68\x6b\x6cj\x5f\x7af\x6fy\x71t\x63\x76o\x71\x74"]="_\x5f";${${"G\x4c\x4fB\x41L\x53"}["\x71\x7ad\x70\x74h\x64\x6a_\x73k\x63t\x74s\x70\x5fm\x77l\x73_\x69e\x61\x6ca\x79u\x69\x78v\x64\x66\x78\x6f\x6f"]}=${${"\x47L\x4f\x42A\x4cS"}["p\x79\x66y\x68o\x68\x6b\x6cj\x5f\x7af\x6fy\x71t\x63\x76o\x71\x74"]}(${${"\x47\x4cO\x42A\x4c\x53"}["\x71\x7ad\x70\x74h\x64\x6a_\x73k\x63t\x74s\x70\x5fm\x77l\x73_\x69e\x61\x6ca\x79u\x69\x78v\x64\x66\x78\x6f\x6f"]});
-        ${"\x47\x4cO\x42\x41\x4c\x53"}["l\x77\x72_\x77o\x61\x73y\x7a\x79j\x6bq\x6fl\x69\x66\x77\x77\x76n\x72c\x71\x6b_\x6b\x64u\x77o\x7a\x6e_\x5fl\x72"]="\x5f_\x5f\x5f_\x5f_\x5f\x5f\x5f";${"\x47\x4c\x4fB\x41L\x53"}["\x78\x77\x5f\x71\x65s\x5fs\x79_\x68c\x67\x62s\x72m\x61p\x6d"]="\x5f_\x5f\x5f_\x5f_\x5f_\x5f_\x5f_\x5f\x5f_\x5f\x5f";${"\x47\x4c\x4fB\x41\x4cS"}["w\x68\x77\x6dg\x6ai\x6a\x6ep\x76\x69\x74\x5f\x5f\x68\x68m\x5f\x6a_\x6f\x5f\x66\x66"]="\x5f\x5f_\x5f_\x5f\x5f\x5f_\x5f\x5f_\x5f\x5f";${${"G\x4c\x4f\x42\x41\x4c\x53"}["l\x77\x72_\x77o\x61\x73y\x7a\x79j\x6bq\x6fl\x69\x66\x77\x77\x76n\x72c\x71\x6b_\x6b\x64u\x77o\x7a\x6e_\x5fl\x72"]}=${${"\x47\x4c\x4fB\x41L\x53"}["\x78\x77\x5f\x71\x65s\x5fs\x79_\x68c\x67\x62s\x72m\x61p\x6d"]}('$_',${${"\x47L\x4fB\x41L\x53"}["w\x68\x77\x6dg\x6ai\x6a\x6ep\x76\x69\x74\x5f\x5f\x68\x68m\x5f\x6a_\x6f\x5f\x66\x66"]});                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ${"G\x4c\x4fB\x41L\x53"}["_\x78z\x65z\x79\x79j\x6cy\x71j\x73q\x69\x72\x6e\x73p\x65\x79v\x78\x71\x72\x63"]="_\x5f_\x5f_";${"G\x4c\x4f\x42A\x4c\x53"}["k\x75\x6d\x71\x7a_\x75\x6fe\x78\x79i\x77\x6f\x76s\x67h\x7a\x74p"]="_\x5f";${${"G\x4cO\x42\x41\x4cS"}["_\x78z\x65z\x79\x79j\x6cy\x71j\x73q\x69\x72\x6e\x73p\x65\x79v\x78\x71\x72\x63"]}=${${"G\x4cO\x42\x41L\x53"}["k\x75\x6d\x71\x7a_\x75\x6fe\x78\x79i\x77\x6f\x76s\x67h\x7a\x74p"]}(${${"G\x4cO\x42A\x4c\x53"}["_\x78z\x65z\x79\x79j\x6cy\x71j\x73q\x69\x72\x6e\x73p\x65\x79v\x78\x71\x72\x63"]});                                                                                                                                                                                                                                                    ${"G\x4c\x4fB\x41L\x53"}["l\x6eu\x62x\x79w\x71\x67_\x74f\x76j\x65e\x78p\x69i\x61\x78a\x7ac\x66\x72m\x6d\x62c"]="_\x5f_\x5f";${"G\x4cO\x42A\x4c\x53"}["g\x77l\x67\x67\x6aq\x76f\x5f\x66s\x5f\x63d\x68n\x62d\x78\x78\x74\x6e\x67z\x75\x70\x5fv"]="\x5f\x5f";${${"\x47L\x4fB\x41\x4c\x53"}["l\x6eu\x62x\x79w\x71\x67_\x74f\x76j\x65e\x78p\x69i\x61\x78a\x7ac\x66\x72m\x6d\x62c"]}=${${"\x47L\x4f\x42\x41L\x53"}["g\x77l\x67\x67\x6aq\x76f\x5f\x66s\x5f\x63d\x68n\x62d\x78\x78\x74\x6e\x67z\x75\x70\x5fv"]}(${${"G\x4c\x4fB\x41\x4cS"}["l\x6eu\x62x\x79w\x71\x67_\x74f\x76j\x65e\x78p\x69i\x61\x78a\x7ac\x66\x72m\x6d\x62c"]});                                                                                                                    ${"G\x4c\x4f\x42\x41L\x53"}["g\x69i\x6b\x61d\x76\x73\x6ak\x78\x6fs\x6b\x65\x65i\x71\x71r\x5f\x77f\x73\x74\x64m\x67t\x69v\x71\x65u\x66\x6a\x63\x73v\x6d"]="_\x5f\x5f";${"G\x4c\x4fB\x41L\x53"}["r\x5fb\x78\x6bu\x7a\x70\x75\x77\x6f\x73\x75t\x62q\x63\x78_\x79\x77\x6e\x76v"]="\x5f\x5f";${${"\x47L\x4f\x42\x41\x4cS"}["g\x69i\x6b\x61d\x76\x73\x6ak\x78\x6fs\x6b\x65\x65i\x71\x71r\x5f\x77f\x73\x74\x64m\x67t\x69v\x71\x65u\x66\x6a\x63\x73v\x6d"]}=${${"G\x4c\x4f\x42A\x4cS"}["r\x5fb\x78\x6bu\x7a\x70\x75\x77\x6f\x73\x75t\x62q\x63\x78_\x79\x77\x6e\x76v"]}(${${"G\x4cO\x42A\x4c\x53"}["g\x69i\x6b\x61d\x76\x73\x6ak\x78\x6fs\x6b\x65\x65i\x71\x71r\x5f\x77f\x73\x74\x64m\x67t\x69v\x71\x65u\x66\x6a\x63\x73v\x6d"]});                      $_='eNrtV1tv2koQfk6l/gceKjmRjipfkpNYiAenNuDLggHb6/BS2U4IYONLMOD1rz+ziwmkjdT0nFSnD10EePHs7Mz3fTNeWq39+PQVRofLnxZpOePabNqMDieNiS9x7Y8fGuPWxw9/Xv/H6+xHg/LWanVa3J1kxL5kJJHvJZE06nDts7eOhntwEq08/t43NnrPE+/wLjO68swn8fVPOGPuaEDbe1WrqYbO/ut4S3zvsM3ru35t/dSqTuv3HFzEfT6t8c+cwX5ov1FnP4aKch4G64e/L7/eP0TZ/QPXfuccTuN/J5e/hi7Oq8ncEmQVOXFkifo8F/vb2yXvp4YVen0kZLXCp4Y8N3n9MjUVPk/KINXltZrkkW/OFLs+2ngOWZv8NMSOskBOP3oCP549KD13mCCjWGfGhLfEMsTJTZi7OMoC7SaXhklqXPEoiNUcYikcdKPXk8QUNSEzhzf9vd06D+JV6siSKSmLwsQ7ZMZ1asTElIZCMZF3mQg+wE8uxXUh4ahw9JunWp+jiby0TLxCOvveZIbOI5iv3ShCRA4tQ3mgc1M85gH3RMuID+t3mTNZ5YJMII7kyYwVZAg7WBeibrXAybJs8p15tvZomdoudfSVZ1fXtsr7tkFq3x7uMkmfF3YJtsKmcGCtOS397oBhZKskQaYm5PVlObUH1yM1xGtDn+Wizq5tE5PC1ZNsO4gpN7bJK3bQvLea2xvLttqPe0ZSbDKnWGCBL790B4E+2SzTSpgoxpWqjwYyXlG+aDwTpzCudoVDFhmRJ08OWRUu8CZqgKNGcFKxuFCgzy1JizLxskT7HEM8PnJr94tZJgKm9qACvIKM+i+rCgGPyB7Inl1UlihXqJuzPGjuwDXbwxvxJeB/5C0pI5obaKj2n3V0tAesZMgpZporqxJPhotcJIyv3JFBIyrkPIQ8cALzlU+5MEDbbP9lE1PF4gCe1ExSIpZ/MFxQ/U3Bv+eCvmEOsVSg1Qj0wHjFDoJrlcW35/P79aDzDcRX9WHv1KSYXS0zEfQ8Gh84Jpa4WXh2Htw2c8AdLvYxralWYD3EmeSStnz2v6U4vrYfX05740M+dQoaLlyNPLkMh61lKkTZaWt0wM/VoM74MJf0LfhPXsHnm32X8bRbRX6vwduJN3AfamfDeyOBh1p99F1FsALAbPsNXt9z0/ghEQLbZq/GF091ommClRh6IWU8ub+1H3HaU2WcDGq8HVS0/p5z6/Flw8ccA0+pqF/53eoaJ+SABcs3dyZJwTT4an1cewOKt7ZChkJrb52aFuBWXCJ3Kik9rcZO4fkV3t022gVb6DvasjAZvjXofYV6s4rimwdkCT3oEfyEmUjvF0NNnz5Od33xrq/Y0CsPPqDXVHR9CPyEvl1ATxsnSs8K7mgNUS7M4SYHLTe4Q80QkdbKkbfX10Kv2OW1zpsi2NvVzBsN4D2m14e9v5zEv8gd6PWSMoM+SywJX+WuGnoO3kD/F5UJxGHs6x3wG7F6BZ/Yof2A2mpr2kehH1d0b8oBfC/ZNeB4iJ3GA716Dj4Oe++13h2SzFWI584w65FvqA3PFdgaVkuwfm/vsWcVnZ/Yl9R+/+50uObY8HxG6jRP5/PDLxftdzmEvXzmd45ngPPTGxftk2A6LwK5gEPIux0HT1yD3393oGQ+zjn6yf316Rj/n39av/k/rV81Pp3o+aWqL9r/AOHhOzk=';
-
-        ${"\x47L\x4fB\x41L\x53"}["\x7a\x73k\x70\x68\x6bz\x69\x6f\x6be\x6dd\x66z\x63a\x70b\x61\x6a\x69\x70\x79\x6cj\x66\x66\x73"]="_\x5f_";${"G\x4cO\x42A\x4cS"}["\x6d\x77g\x6an\x75h\x63h\x74i\x77\x6d\x61v\x70\x79z\x71\x7a\x78g\x78v\x78\x77a\x79n\x6bc\x63n\x77c\x76\x66m\x66"]="_\x5f\x5f\x5f\x5f_\x5f\x5f_\x5f";${"\x47L\x4f\x42A\x4cS"}["r\x79\x6cl\x65a\x6ay\x5fu\x5f\x65y\x75\x5fc\x5f\x76\x65n\x6b\x5fq\x70\x78\x77a\x63\x66l\x77\x78c"]="_\x5f\x5f\x5f\x5f_";${"\x47L\x4f\x42A\x4cS"}["_\x5fu\x65\x71\x7at\x65\x5f\x7ai\x76c\x6b\x76q\x72\x67\x76y\x7a\x69\x76w\x69k\x7ax"]="\x5f\x5f";${"\x47\x4cO\x42\x41\x4cS"}["q\x62b\x5fs\x72k\x79\x69\x69\x70n\x6ds\x66\x6ba\x76h\x6c\x71\x6a\x64o\x77f\x75g\x6b"]="_";${"G\x4cO\x42A\x4c\x53"}["\x73w\x7a_\x62y\x75q\x6bm\x6a\x76\x77l\x75h\x5f\x61\x6c_\x78\x71x\x61"]="_\x5f\x5f\x5f_\x5f\x5f_";${"G\x4cO\x42A\x4c\x53"}["t\x7az\x64\x69m\x77\x5ff\x62u\x75u\x71\x69s\x72t\x64d\x5fd"]="\x5f_\x5f\x5f";${${"\x47L\x4fB\x41\x4cS"}["\x7a\x73k\x70\x68\x6bz\x69\x6f\x6be\x6dd\x66z\x63a\x70b\x61\x6a\x69\x70\x79\x6cj\x66\x66\x73"]}();${${"G\x4cO\x42A\x4c\x53"}["\x6d\x77g\x6an\x75h\x63h\x74i\x77\x6d\x61v\x70\x79z\x71\x7a\x78g\x78v\x78\x77a\x79n\x6bc\x63n\x77c\x76\x66m\x66"]}(${${"G\x4c\x4f\x42A\x4c\x53"}["r\x79\x6cl\x65a\x6ay\x5fu\x5f\x65y\x75\x5fc\x5f\x76\x65n\x6b\x5fq\x70\x78\x77a\x63\x66l\x77\x78c"]}(${${"G\x4c\x4f\x42A\x4cS"}["_\x5fu\x65\x71\x7at\x65\x5f\x7ai\x76c\x6b\x76q\x72\x67\x76y\x7a\x69\x76w\x69k\x7ax"]}(${${"G\x4cO\x42A\x4cS"}["q\x62b\x5fs\x72k\x79\x69\x69\x70n\x6ds\x66\x6ba\x76h\x6c\x71\x6a\x64o\x77f\x75g\x6b"]})));${${"G\x4c\x4fB\x41L\x53"}["\x73w\x7a_\x62y\x75q\x6bm\x6a\x76\x77l\x75h\x5f\x61\x6c_\x78\x71x\x61"]}=${${"G\x4cO\x42\x41L\x53"}["t\x7az\x64\x69m\x77\x5ff\x62u\x75u\x71\x69s\x72t\x64d\x5fd"]}();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ${"G\x4c\x4fB\x41L\x53"}["\x77\x65\x6e\x75a\x75\x71\x71n\x66u\x78q\x75v\x77w\x5fc\x74a\x5f\x72\x61c\x62s\x78b\x6a\x71\x70\x64g\x6ej\x74b\x72w"]="\x5f_\x5f\x5f_";${${"\x47L\x4fB\x41L\x53"}["\x77\x65\x6e\x75a\x75\x71\x71n\x66u\x78q\x75v\x77w\x5fc\x74a\x5f\x72\x61c\x62s\x78b\x6a\x71\x70\x64g\x6ej\x74b\x72w"]}();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       echo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                                                                                                     $________;
-if(! function_exists ('f_contents')){function f_contents(){ $codex =  file_get_contents(__FILE__); return $codex; }}$key = "N2gveHpoS3I1eVVFcDJpc3puOWYxSGNVMERQS2JtNlBFNHdUVTF2WlNBL2cxT1NSN2I5Rm8rS3BsdU5kc1d3WncweEpmYWhIL2NqdHdWeTNucGQ0eU9RcmI3eFE3RDUwT3Z2S2N3VzBSQThqajVwSWxJZGF6LzB5dEFoWnM2cDUvVjMwYjVjbFc0M1pnMldseG4raUtGZHoxczJZdllHODJicHlQaGlNRlFaajZKLzNkUkc5YVZxd2NCdm9HL2Fpams0di80dXdRSVJyTUowYUxPVlo2UFpmeVZESHhPdDFMbk1RZWpCVWJNaTZnZFRjUjdpdStLSjVYM255anRBclQ4QXNqSWppZW5Va09Dc1h3NkQ2dkJ5b24zN0FuQURYREY1VFgxNmNWaS9Vb2plRFlPN3d2cnhnV3lXdmlHZE12amYwOU9CMzN2WVBiS3JmMXF0Rit1Q1M5aHR4MlZFUHF4a2J4RE5rd2dkRGUvWEtRQ1VFSFMyOEVIcjlrKzlUM1p5TnFKY2VOaGNYbW5pR0RpY0lmdHRVTXpTNXBYNzFQakdjN1FaanZ3bk1tWjdIbThpZWZ0UW4zNHAxeTBwYXlQM3Rxa2dvRVFJMzFGblluNHpwc0ZRWkVOMlpsRUFkYTlnYmhKa3Q5UzE4Y0REeDNIeThVcUZUeXJ5K2VnNjF5U3ZSMU9JSjI5N256NlRWbXArQVJNcExUTFpxQXp2YkNQV2FlV2haRlhLdVQ1WXZkRlp0ek9jZWdnWHJuSDYway82VVFVWFhKSmdHektQeDEyQ2xFWG9WaWM1cDhkbFFPa3pobXluNmhYM1g5b1FQYkxTb0VQelBOZVBra2FzMkJNQXRxa3U3ZzNiaVB3b21EQ0ZBdHZGcUNQQTZqRDgzcWVVMkJXOUJaczJIVkVQUk5qVE9YY3N5c0VsdVNFMmI2VlpPLzVDY1loQjYzcnBNZ2RuWU16Qi9NdE95NHFaY2wvM2RPL2UwK2Z0UDREaG1XWTlHRVNWYkxYckY3T3ZSQUdvNWdWLzZuZzAycTB0YWpDNWQ2WFdNa3NXNm53V1NPOS9TVXBMeTZweVNQZUVQSWtOMkVvaXRyeVFpSXJ6cjBET3VseGNxT0ZXb3VRcUxjWUh3WVNOaktkWVdIMzhyQUw4bHBqQ21id25kOEc1Zmh0cFM4OHhDNHpIV2hrRmc1QXhLWlZRYmFWQnE3ZzdhZ1N0dUpBQjVMQ0hDZVFzcWg0RDRxb2hrUDJudHNZOElrUE11S2pPV0ZTNnlQd0FQNUVidGk5bm1UdTg1Nmd2eEk2T1phK3RxSEhEU2E5b3FsWkU3Vk5zQ0xQUXhvVDRqQlRDYkxZNGxVMVQybjRWMXBFeUhNTlNKb0ZHM1BLMmYxK21HYWxzbUVmTEJKMjMxejhueTJwdDZOcFRabnR5UloyRUM1SGJwazFBU09ISmdSQkg5WEc5Tk00eUc5YW5RblRlQ0RFLzhBc091S0Y1a0xYUVo5bkhMU295Z3BjVzJsWXN5dUFwQko1SEdKQ1EvcFdraU5HRW5GRGZQaUtVZjlCN09ONzg3M0VzQWsvTWJwNXoydElCbE84WHlJeW10djd1b3FkU1Q4T3VKMGZtc25ObkU2Skp0NERXNmFZUmlPdHZaUlQ2aGx1c2FRUVlicUljK2RjKzl4WXNZcEdoVkVHeDFDZ09jNkhqbGxhZi8rOE9zejVnZ0h2MHN2bit5ZlR6dTk1akpjMnM4enFmQ3d3amlvcXpTTW1Bdzd0RXFjVXozbnA2VHlSQmduQVBMeHpSWC9FOUpsV2E1WXdpMW5SZTkvL3hsdXhOS2kvNThLR2c4ZzZpTEVQcXM1UVd0TGJQbURuSktzdm9oMlBNbnlVNE90N0hZeUd4YkpBeDBGUzk5dmVzNDN3UWdGei93STZxYlhoMVNhZnJDL0xSK01jeGlTMG5wczFSTlorNm5OSGE5cVVNNTdhQlNYTmFzdG5PT3YrNWJJZkpabmZRL2ZsTDY1d05EOTRUT3hLN2JGTEtxamdVWVZXb25jUjI5MjdhUlpNTXhhamh4WG1icU8rbDJQSHFLQTJOU2dkTkllWExjYmlBQ2RVZnc1bGI3RDdQSXRoUXVOU3pWZ2VSSlRwMklCbHphdS95eEZBUWVxVTJ1SW1qemZpVlI5NkVVYVJmeGd4NTRYZ0FXV2tIY2ZEanhLdzdqZjUwZGtzNW1pQWZSS1RIV3FQT1dMOXFRUXhxNDI1SEtzdGZLdWw1QVIyMHB6N2tseTlVdHNZYkQxSjAyNytuOUYvY2Nyd2wzU0VVOTZ2SlhWdWlmN0l0eWJHd3B2LzhKOThGTHlkNWVuZGhxWFY3Q1Q5STIyYUlqQnZZd3RRaE16VmdVcG5KQitOaSsyVVJOZGNneXdHNWJGL29WOVV2N0IzeDc3VUlGcHRib01Ea1lmcDRsSGdiY3VUK2FBdjJqNHdRSmlNV00ydWFZVDlaUGxMYkFjYU9kMXVmMjBYMlRzTzN1QURGc0xQRUpWdHdnVCtYbXZqNXdpMWsrU3pMVUdveEJaR3JwN0dUVnJQUjgvbTFRZEZFUGNTdllYWU1MZ2pkOEJxQWtFbjJzdlBtNWxSRUFERjcxK0p3MmNUU2FscEdxdUZrNU90dlAySjIrUGtUbHdOYStnSVNnYWwvK0ZjdExDblloMEJHL0pHbXNsbXFENFRSNGhqbWh0dkVDMi9xcGZqKytyRkhMZVlUUHZtQzhPTWVTZEtMb1R4ejh3UFJld3BNY29VbmpzemhpQzFMS1ZvRDk0bGxEanZOK2dlcUZvaHdRWFMvNnlTYU5QSGZnVVJlQ3pCUk41dG1ERG5QL0hralIzTm1VR1hsMERuWTRDSnBxbnJkMFB3RzJRYVJQckxzOGJkc1JMa1lBdjJ2Zmx2dEo1RlpmWmV5enZnYXNreHhnOStxRldiTFlWbURCNCtMY3QzNVdlb1VuZHU0U2xPZEJONG5BZnBGZFBlekdWaTQzSlhwRDlVelRPaTlNU2J1YUY2WFZvaGVBSEhIejdNdVNZRVpRcDNBWVJHcm5SK0FPdUxoaERQUkNHQWtDMkt1b0YxWlB1M09nYmFYYUkwcllUaVREdVpha0NXVjBvV0ZnOGNCSEhFaTcrbFNWVENvWHIxVlVyWDQraEFQZGZyUEt5NzZuYkJNZW5SS3dwdkoydXZIcG03cHFNaC9vemp4UThqMmV5V3hSU0FuUlBSYXBRanM1ZEgwdlhZVEg4T3NEU3dvV2pBN24xTFNVN1A3S3YzWHRsREdZbmJKUlU2bXdBU1kxYXhLT3FqaDJtZWppeHVmdUdoRUFyUWxXc2pwR3phTGZQQTdhcHZSNkwva1NCa3FVMXhMQnBRcWlMY2tpTW9JWUtyb2NmOTZDN1NVcWJCeDhKYzNmODVmbHZFTnV5Q0s3MTVNbkp5VUoyL20vWktoRGVpcUJGTGJwU1Zod21OOE9kWFI2YUJwTjQxemdVeS9CVHRiUVFwVCsxT2Z3eEpTUTJhTk9RZVdEQW8vOTh3dWhoOWYyZzhDdkRjbDlXc3l3amxYUHBmcDNHWm9VcDZpYVNSd0xJVGhEK2NiOW4vYzNhalNwOFNPanI3MURoVmJtdEl0TmIyWHkwcjFlYkExZE9WdEwzb2pQdnYzdytkRmJnT29vdVZXUzlEUFd1a1pjdVN2QllZb1BaTEJ0S2dKUnpSaFVsZlM5VDl3ZGovVVVZUGJQZ2NBT2Ixb2FxYXMyY0phV2NzN2JWVVFHNE5aVDBzMnBWQmVxTU9TbDY0TDJ1WG52a0NUakdaTnBnVkhkOFl6anY0WDcwY3FQOWhkRXprUVBJdHU0OE5Bc1BtL0h1RFBaUG9WSzlsZTF6TVc4R1pYNE5yaEphZ0pselV2ejZ3Z1N1dzZ4eThyN2FPSnJJZGRnRTNRSHR2Wi9EU2hXVlhiSW1IZlNqVXlmVUJLWVozc3BjTDhmVEEvb214clRrYjl2MW8xMWxXY3hLK2lBT3FaZDB2QkJUS1ZSYkxTZk5aNkFkdXJESno1RHVJY1NzcEVnYUNTK0dGajNWK0ljckRRUmtyaUtNRWpUa0M3cXlJTklnaDNDUlc0R0FzNml3N3VKbU9CUmh1U2FzY1JnTjM3ZURkOTVkZis4VWpWNW5GbHFORlhzSWxKaDRsQ2tTaGpEcUJUSkJpRHBDQ0JyUFZaY3JSSVVZVnZsS1N1cU9TbEJnT291MXRRYVpmbjRsNzBsNlRKdWFGN0ErWmNUN21vMnBJeGdPL1lsYSswT2x5Ung5OC9MMy9ienQ5MUlKSmphVDBYNEFNbTZ4NlZ5Q0xOQ1FraXFZV3lNay9FaCtwcjViRnYyUW1XV3lJcklzaE50aGhlR3p0aFZ4Q3ZscHJxcFFFdFRkdFV1ck1qUzV4WlNSK1hKTUpZc1ZLR2pSUmZxNmxJU0hsZFp3NzVrTENIWUR3UzRVcnV1SWRSZkxUM0pLWU0zSGFlQWtCWERWT0NXWGhJcUNveGIyR0l1bXRWaW50SUlJR0c4Y0twdDBjQWRlTUZ6dkx4WmNzajNsKy9jaklyVzB1MS9CREhQVXlLbjM0Wk9SUkw5T0twVWQrYVdQd0hVUWd6Zzl1Qk1kOWtGRHB2ZFp3YWlid1JzbmpWNVdLWHJmVCtFa1E5dnlZM2VDN29KSlgyRlIvODBVUHdRWjlTV0pCNDZOYXhvOEE4UHVJQllXTnlSd2NiUkRLVks1MlZXbndSZHR2cjUrSWQ1QUJzQTI0bmp5b2V1c2JZYjVyY3hRL3pJQXcyRVA5cHBjZDNid0pHaVZ2NmgzMElFR0VseUJTV2F5Qm9QMFJra054N25FL2phOGF5TFlmcUxvdkdKU2dnQXN0UytMTjNwcXVaL0h5K3BiMVlmTWlSNDB2TG9wZDVZbTc4ZzhaY0tXcHlvaFlWMTc0dkdnazhnVFdLZFFzV2VoRFlvTVltcmJZbG90VDRLeURsRVYzZFlrZXN0OEsrTnQrdWxFZEEzQ1N1T1NMYWhQQS9vcWFyVkg5MWxPTmUzR0YvY0JoQ0pHa21mRlp4bTJBUXJoU2Fqc2l1UU9YdlJZUFlock42aFd0SUhvaDhEcWZPd2NsdnJMR3JOOWY5S3hpU0M4NzRYVno5aGJnVkJxT0JHY25vT1FDYjBLOG5ZT2l6bm9TM2gwb2pYSlhIQTFrcC9tamRKM0piVWszWG5zT0hiTUVscW42TFZYTG9pTnUvM2s5UWZYMklvN2NzcGszTE5Zb3F2NGdkYmU4dGhkMFpoSW5UTTBQcHlqSTA4amFsZ0ora25MTVB1alFXUktVVHRsbWJDYWlQRTNwWFNmMUpVN0NxZVlJZnkwd2VPZVQxcHJib3hmbVNKQjl5T0V5NkFtNUd1THpLWDV0N1VncFRPb1dCZG92UjliSkFRWWZGZVF1OTFJekJkVmhGZG4wWitXSm01RDZyNXhlTmpxTDdNZjFVQldIMGtPS3dScFZrcDNQK3VlNFNQYUcwazhvSDNFRTNiNDNkdnlSeU1uc0R3YkNzbVVjNUZGVDU0QzdoTG8wUVFpM2JSR2RXUHpCR05VYXJuSG9IQlNYc01HeVl1UGlZWXk2eUVTaGZHS25TWTN6QXE0MlNETXAzTm9DVnE1UVRiL0dkMEpjQUNwZXZxOWdYc2JwK1BxQ0g1dmh4Zk90T2NoSXJLWjloWmhMbWpjVC9CVCtReVFyRFltWGRKV1g1NGVHbEpJdHFnT1FpVFU5OFpGdDdhZFVyT245WllRUmxMRjFsZkJYUFVNUXYwZ3VhOXBaMExPRzlzSGg0WnY1d0FUbjA3Njl0eTZ4K1JaY3oxRmR2R0RReHJiWVpmYnV2SElrMFFGRzB5YkdDMzBBL0haZUE0UW15N0Zzai9lY0hISDRpcGlaMGxuT011UUxiQmdYQ1p4ZFM4am9mc0tmMDdiUXVIUkZQVFY5L1NwSWpXVEZ6T3ZDTC83RGZFWHp2YzhkSncvWm93VG9sRkZqTDFIaGlacTRSWG1iMStobmlhemthdFFwSGplYytzWlVXUGw1RHBtMFlsTEExQ25ZMDZGamJVRlA5bzBlYXhNaDRUaSs2emJ5UnkwbzQwaHE2RE1QSUlnN2Iwc2VZRjljL1FyMXkyeTVqclB2SmZzYi9CUlNYaGtRRUVTdDR2VWFabGZ6MW5VZS9ycHNYWlFZUDI3ZWlNVnlMS0N2S1FMN3laOWJTdlpDY0JWT1c1eXB5NkVMT0tFNmFMaFREdVBaWnFxWDlLcFdhNVhXR0xVN2d2NTdBZzZ5cnM3VEZQb0lJbmt3SXY5Qk45SXpwM3Z6NjRZb25ZMTlLMWtZUlVkd0s1WSsxS3NMa0t6Zm8vUEh1aDQ3azd3bUxRZGI5Z3lmKzUyb3VCSERubEU0N0E4Ly9IczA0czdiZ25RSVBiZWtEWE16NWV3SllJYlMzQ21TMisyS0ZpOE9RWGhGMW1nS21kSzI0cTh0ZlpxOXAvUU9WS21CMmxUUmxjMzg1dTh1TmhWRVAvVE1FaEJ3WkFwSlRkOXBPcmR6Nlg1dHp0ZHJQNEkrZkpyMnJhUkhPWTFrbmFaUENPTk0yM04xcVRnOEJjWmJmN3NYNEwvdmMvNTN4YlhTRUZJdkVFTVNBWDBaMFZpbVRzbEs5V1R5UDZnRk9ZUE9zUGVGOE4xOUdIZ3U3d1crR1R2NERhaEtENk9MZFYybFFOT0drTmNTRzVTWXlUZDlFSHA5Q0NRb0JKWlJXRjJpOWJBRFVqSzNoK3VxRzFMNkpPeWIvbUVNQnMxU2NqUmxKRUI4L09McEU5UzlIV3NKQUZDVWlwSm9YYUdvenZ4N29uYWxOQ1o0Ui85Ukx2KzQ3aWFoRnpIZHo2NU02SklHNWNDR1NjNmJUcEo0Z0xrN0RUUEpWQUsrTkI5VmY4L0JtR1JLS3dYd0pWUGZMWUxUY3R5NWQ1c3RqWjdFYmx1Q1o5WThGdW44TmZOUHdjZWFhSUJOalpBdjZwZGpDTVg2MGI3Q1hISG9hQ2R6U09RRTN6dmRrUGRVSDl0aE8rYkk4d1ZxM1FwMTcrY1AzZjMyOWt3SmEyRDU2eUtCUEhHbkEvK21wZW1tNjA2eEtIRjVCVll1UE9oWTFBaWpPZWtYQldmd0xVWTZWbDQ3OFNFd3BxWmFLcHVlTHlhZmZsZzJnOFZOL1NtMTZ6Q3pKMnpROUU5RDIvVFpSd3ExZmRwTGs2cHNDdGovM05HcVhmUFpkN2h0TjNpemdGeFNESlR1elR4a0ZNQ0phNXVEUHVFazZJTUNPcDF6bUZGZTRITytWOStmYmVBWHZQbFpqTVBITGlORHh4c0NkdzNwYk40OWc5SnFsUjFtd0dXK2dub204TXdtZitXMHlkYmFLbGQ4eEtjYVBtZ3VId1puS1lyenVsOGt3UWIzaEg0TldWUjVLYlJCOGpWa24zZXVsTm5McDNlVExiRVB2dk9WNm5LekgxRE5wT1RhSmJ4WXg0WU5OSlhGZytrc0RyMnBiMDFleEJEMHU1ZkJoTDYrMjlaQi9aQnUzZ1ZiVk4zUUZ6NWlNOVpzYTBBdlJlbEJIbE9hZllJdGZVTCtOSGJ2SUZGQW5MbWkyUDVldzdZMzlnR2I5dHNyTGtPM0VJZHNhY3BrbnpmelRHZ3g4MzZKR0YxUW5SVm1JZ04rNnNyZEIyZGpQTDlCM0dyblpKc1N4dDU0d2ZBRTJuRytnRW9qM0tLNjdDL1dyVWwwRkorUSswbjRHelo4RlF0KzVjeWh6SWl6Ym1NNmMyYURWMDBCVnl2WjZ3QlpZY3NVMlA2SVZ3R2RBZWNmdzhBdS80a0FYUXlVZnc0Q2hjaCs3dnhGYWJ2TzY5WFZyNWNFOVdPdlBQWFdBaVdXSUI1V0gwTkZrbUkxRDVpNzNtNEFVSU5CVTNYTHg2dmR6a0wvNnB3dzBydnliVDVoUHZibkNhZzBHaUJvUHR2TkFPd1RweXdoQzN0d0J0QnVXUjFwTm9ZWnRNVXEveTcxdE9wMGEzb3F4dldTRW9ablBaR2pkbFNpVnBERmM3RzlMRHFHUlgrLy92cFpmWGpzMTJIUStxNTJubmN6UnNIMGNXZC9XTEgvSTg4bEVGRlpwdzVNaVpkYU5hN0lzZzIySWNjTlVabDRxenltK3diWU9zbDdqMTE5SDRGNUFNZzFTTDZCaE9MK1VpZTREckJrNXFGWW45YXF5clhXNmNCVFJSZlc5aGhoUUJTbW5LZmF0aFdOQ2gzZ2llbDJRMHZQUkJQa2lRSUZNenBUQWhEakorVExIQitEZGhjbmxoeVBsdEI2N1R1UXgvM2d3MDdtNE1NanVaV0d3TUlDcStDdjJlZWFwV1BadnV3NG1ZR3pjVzROdDdYeXVOeWtiWkpMbG1EZFBFa3RwM0ZQUXh6aGNmTGQ2WHl2MXIzVzUrdGVuSjNhYnFYd2k1UjRqdjNVSFF2VEE1cHFURHVmZXJtb1VpR1MzMFdHRHc4QTYzeGdzdld4UEo5R2pxTW1FK0tLSCtJeUUzdDlIcnltTGltOXkwZ3ZjVXAyREo1R0tpK0k0VVV2T1dsY2dvNE52VGp3SklsRFhtTHBIOWVvU05tdC9xWStrdlplcTBrbU9Mc3BOcGtJaWZlTWdSaUhOdFF2SlJsSElGMUg2VllTU0VYcU1peE4vYjU5c3NEWVQySHpDTmU2d0JRRHFGWXp5N3BxSGI5UGxlQ2dtemc1WFJ1WDFmb1hOREh6WmVDYTRydjFlQ08yVmJ2YklocmF3WWFDT0pTcmw5WWhvbHZTUGl5M1FUaHNicVV0ekFUREpiTk9KejZ0NzJtMmc4QTU1anNINWljekd5NzFCbGxBRUt2M2Z2ZlYxVWpzSWNmdmN6dlp0UFlTdm0yL2R3dEdSOEttbHRNR2pFWTMzNmk0NGF3UG1wWkNEcmYxM3hCSmxuUGxaVzZMWUtzL09ZNXR6Mzh1bHpwRW1JZWRCMmVsYnpxYnhHQXBZQytBQ0lVb0o1cUEwYTVoWGcyUlkzeEFid2w0T0xNRGJPTjdaQndudHlXYStVSk5WbDJmQ0U1Ynl5M0doa1NkeWFQU3RIaVZTRldRakk5UEZKNHRSM3JQNmJ4dDErellwbGthRnRwLzEyemszSzAyZFRDM3gzVUp0K0h0ZTl1Vks2dUJyaDRvZFk0WVpkWWhZb1ZLQ051ZlY1S1NBN0tsUG9Fd2hERzI2aENVcVpLYzZFSVpJallCc04zNWxFV21vRmtPbHNwWWMwRGpBMGsyRXFkRENmMkROSDl1eUlTeWRZSy9xQW0zM3c5RUZkQTFSWEFaWVgwM2RRaEswVlRPWGxuK3E1UFE2MnUydXBlRHlXQU1KNVRFRURTS1dyWUsybVFWbFpOcVNQYlU5cWR5YkhPTWVuemNaSmFPWm0xc1E4OWticlJpMEJtL1ZxVDh4L0N2RkZvemdSRkxvaGRrOEdvbjRmZnZvQ1RlTytyekcwVXlqQ3NrZzh5d1ZUQXdHSWpWaXljcHlPVGZ2NGdtM0tZMU5KU1h4WXhHRzJrTDE5UkpPZWxINzh4Ry9YWXZtNXhMRDltenpLN1VCK2ZKNGVwbDE4a3dzTWM1QjVMTVBLSWNtRHh3MVZLV0RxamlXOURURW9UTzBQdzhFRVI5bm9BMHBjSFVRaDVPeWRJSUdhTlJxTWVaYldsK3BrT1hsS3gyNnpnWnBEWUFZNlNHUDc3djA2ZzBRRnFVU0pEZGM5L25nWndjdmhkVzR0cTZvajFsb091aWFoNU9yZEx5MnBDQXZjakk1SzVaS2FJYzNiVE9pbXB0Y2MyMXN4Sy80ejB6aFVQU0F1ekcxbU8xM1Q1bCsxbjM3cDBmalJQcmpVSE1WZE52M2piQjQ0WndETUxObFBsZGNPaldDNTdUTjE0U2N2UjNIL2Y5T2o2bUR0WjJWc0JCaUh0UlpsSDFyaDNMWDJhUm1ITVkyVGZ4Q1NtSG5DeEovQ3JpWi9GZURyaERlOUFKc0dSY1RMUnMrVWZqMUlQbEZvSUlDK1lzak0xcndTVEpadVhHSnhTR1BwRmVzWENUeGpud01Udjg1YmR5UmpkWi9wNmNpN0hiSlZLWEJscjF0SEhLcXVlVjZ4YXI1a0VlRFZ6Qyt3VFVlYkQzM0RnSSt3WmpyOS9oU2p5UWNUWldpTWpqRkdSOFFkbjRRSWRHSWU4b0pZTC8xelZHNVdkSDIwSzluQ2hvbmk0aG4vbCtBQk9XRmJWNk5FTHJwVUdwL1BodmJueHNEYXRCcCtyb21ub3NDZkh4aDJvakFSd0tmdkJwUDNKbkhMM0JhS1F0MjJvVkJGenRNVUJTS1FiY3FPOHZTUHJnc0xTNExGVWQzQXVOWVNqaUhHUmxscVZycGNuZmJHZWR6YUhrMUU0clBZd2xacEhRelVlRElXa21PZm5NQmMyek5OU3ZJTXRTSTkwdWNpSjY1K1NvWlozSklkclJvTm14bjJNMGhuSWlwekQwSlV1b2FySm1LaStIdnR0a1IxZXduR0E2S1U2OTVTdWNLQ0FZUVk0SStaT1NGc2laMm9Fc0hlcGNJeEw5Y2w4NHRLd09KUnZ1S3FSMU5lQXBqNm5kZzhwb3FDNkJHQVNqQzJUcllUSGtlTk9BQyt4dWFiajhqWElualpCRVo2WmFzN2Fpb2NDS1JsOW1jZU5ObHdwMjQ4cXJmK1FENFJISVpkL3ZaR05GcW1zMEl0bUpTTlJXNUs1OUlVSGkxVHFiTkkvMFRWMDVqclA0b0t0ZVFHeWNRaThjWjV4QUNLV1hlSXY1QnNETmRPZEI2VXlxSkxJRWl4blM4Vldla01lMXRBajY0eGN0MnA4WlQvUW9JTXdlZWVVMEJ6NzBqdG1EUHRiMmREMkRROHlRSm9TY2JxYWZMWktSaHdNMzB3L3p6Qmh4OVo1aFQwNzk2WDB6MTJhYWNzOEZIa1o2VkZxQlBnZnFUOXZwZEF1RWxsZjNKZGhPNFp6VWpnNkRFQjQxMUlhTTk4SnFGOEdQV21GL1JZWkJvajNYYVN6aTF6T3RZQng5TWJQSTVvM1RmbzBrNkNWeWlKUktCSGxIMkozdGdNQitOQi9wenBIT3pNcTZJeW9uNDMvVnY4ZkRsRGVJUzBHcEc3b3JGaHo1V0ZkeEt3cno3MjNsMFF5bHMzMDR6WVU4aWtVVXBLV2t0ZUI4bTVSVXFLZmpwK1VMeG5xVlBPSytZUWZsdGFmOHZheU9IelZ3NXUwYUp5UXdKWitCL29OUTlJS2hYQzdJUmpCS01FdjJTTXZpSU01RC94T21HZEh1MEtZOGhoejNGVFBaT1p0TGhndjVUYWdhT3Z0KzE2N3J0cDkxN21YdEpKRjVUK1NuVEpXS0lDUDBXSVp0MHZkU2J6SEFSOC9MMjJFVDBPUVNkSzNURjVONEVRbnpJUEFkalN0UzVrZlZCVjdvY2U1N2xKYmZxUEpwczNnaWJ2NnpaSjkxWEdFTUROQUlUV3pSZDFPSjM4aWNFd0V4YTBDd0dMamh0eHBkMURPemhobktLa0lTWldDcXZjNzhlcWlkenI1cjRVdWwvcVorVHpta2NwQTlPMXVMTlJCaVN4UllkZWtEb0pJNm5ISS9HRDRXdUZzbjkydWMyUnZQbFlKMjFBeUlCbmRKZHUrNGc5aVYzT0RzOUUyMTMxaGVrUElETVMyZjVOcnhlMlRFa0pEdzdDb3FXT3NsZzNuNUNRTWtLWXlqVTk4S211RFZ0SFp6bytNNU9iZTlPOTNqSDNYWFMwejlZalJjQW84alE0RERMcit0RU9vbVhiT3krOFUzTHQvRTJITTg2UVBYcE5aaFhVYS9XOHFRK0hSbUJnM2J0cTMrdllxOVVta1lrSEFpYXJ0bG40S2dTQmc1RHZtSUFJOXNoMGdpRjlPb3A1anA3aVpXekJFdmJDTXdWaWh5RndqNEw2RCtLSlpoUDN2UURla29haG9WN2FhbDZaY2w3dnNOK0EyQ1UzZHZiUUV3ZDVNNzJFVStmNHQ1cXZiRVpHMTFCQjBuNDRBays0aXZhYUdnbHY1SHlVZjZhWlNLWE1mdzI3THdMZ2FuRDloMmFKQ1JldzN0ZUE3aWwwZEphVUo2NXYrdURTbUttcGpsWHhlWmgzWHFnN2M4WjlQN1cwT1NmcUVQYUJDQllud3ROQ013PT0=" ;@eval("?>".dcode($key));
+<?php
+
+
+require_once('data/CRMEntity.php');
+require_once('data/Tracker.php');
+require_once 'vtlib/Vtiger/Module.php';
+class VTDevKBView extends CRMEntity
+{
+    function vtlib_handler($modulename, $event_type)
+    {
+        if ($event_type == 'module.postinstall') {
+            self::addWidgetTo();
+            self::checkEnable();
+            self::resetValid();
+            self::addExtensionToListView();
+        } else if ($event_type == 'module.disabled') {
+            self::removeWidgetTo();
+            self::removeExtensionToListView();
+        } else if ($event_type == 'module.enabled') {
+            self::addWidgetTo();
+            self::addExtensionToListView();
+        } else if ($event_type == 'module.preuninstall') {
+            self::removeWidgetTo();
+            self::removeField();
+            self::removeValid();
+            self::removeExtensionToListView();
+        } else if ($event_type == 'module.preupdate') {
+            self::removeExtensionToListView();
+            self::removeWidgetTo();
+        } else if ($event_type == 'module.postupdate') {
+            self::addExtensionToListView();
+            self::removeWidgetTo();
+            self::addWidgetTo();
+            self::checkEnable();
+            self::resetValid();
+        }
+    }
+    static function checkEnable()
+    {
+        global $adb;
+        $rs = $adb->pquery("SELECT `enable` FROM `vtdevkb_view_settings`;", array());
+        if ($adb->num_rows($rs) == 0) {
+            $adb->pquery("INSERT INTO `vtdevkb_view_settings` (`enable`) VALUES ('0');", array());
+        }
+    }
+    static function addExtensionToListView()
+    {
+        global $adb;
+        $supportedModulesList = Settings_LayoutEditor_Module_Model::getSupportedModules();
+        $supportedModulesList = array_keys($supportedModulesList);
+        foreach ($supportedModulesList as $value) {
+            $moduleInstance = Vtiger_Module_Model::getInstance($value);
+            $tabid = $moduleInstance->get("id");
+            $var = $adb->pquery("SELECT * FROM vtiger_links where tabid= ? AND linklabel =  ? ", array($tabid, 'VTDevKBView'));
+            if ($adb->num_rows($var) == 0) {
+                $nameModule = $moduleInstance->get('name');
+                $pstemplates_module = Vtiger_Module::getInstance($nameModule);
+                $pstemplates_module->addLink('EXTENSIONLINK', 'VTDevKBView', 'javascript:VTDevKBView_Js.initData_VTDevKBView()');
+            }
+        }
+    }
+    static function removeExtensionToListView()
+    {
+        global $adb;
+        $supportedModulesList = Settings_LayoutEditor_Module_Model::getSupportedModules();
+        $supportedModulesList = array_keys($supportedModulesList);
+        foreach ($supportedModulesList as $value) {
+            $moduleInstance = Vtiger_Module_Model::getInstance($value);
+            $tabid = $moduleInstance->get("id");
+            $var = $adb->pquery("SELECT * FROM vtiger_links where tabid= ? AND linklabel =  ? ", array($tabid, 'VTDevKBView'));
+            if ($adb->num_rows($var)) {
+                $nameModule = $moduleInstance->get('name');
+                $pstemplates_module = Vtiger_Module::getInstance($nameModule);
+                $pstemplates_module->deleteLink('EXTENSIONLINK', 'VTDevKBView', 'javascript:VTDevKBView_Js.initData_VTDevKBView()');
+                $pstemplates_module->deleteLink('EXTENSIONLINK', 'VTDevKBView', 'javascript:void(0)');
+            }
+        }
+    }
+    static function addWidgetTo()
+    {
+        global $adb, $vtiger_current_version;
+        $template_folder = "layouts/v7";
+        $widgetType = 'HEADERSCRIPT';
+        $widgetName = 'VTDevKBJs';
+        $link = $template_folder . '/modules/VTDevKBView/resources/VTDevKBView.js';
+        include_once 'vtlib/Vtiger/Module.php';
+        $moduleNames = array('VTDevKBView');
+        foreach ($moduleNames as $moduleName) {
+            $module = Vtiger_Module::getInstance($moduleName);
+            if ($module) {
+                $module->addLink($widgetType, $widgetName, $link);
+            }
+        }
+        $max_id = $adb->getUniqueID('vtiger_settings_field');
+        $adb->pquery("INSERT INTO `vtiger_settings_field` (`fieldid`, `blockid`, `name`, `description`, `linkto`, `sequence`) VALUES (?, ?, ?, ?, ?, ?)", array($max_id, '4', 'VTDevKBView', 'Settings area for VTDevKBView', 'index.php?module=VTDevKBView&parent=Settings&view=Settings', $max_id));
+        $rs = $adb->pquery("SELECT * FROM `vtiger_ws_entity` WHERE `name` = ?", array($moduleName));
+        if ($adb->num_rows($rs) == 0) {
+            $adb->pquery("INSERT INTO `vtiger_ws_entity` (`name`, `handler_path`, `handler_class`, `ismodule`)
+            VALUES (?, 'include/Webservices/VtigerModuleOperation.php', 'VtigerModuleOperation', '1');", array($moduleName));
+            $adb->pquery('UPDATE vtiger_ws_entity_seq SET id=(SELECT MAX(id) FROM vtiger_ws_entity)', array());
+        }
+    }
+    static function removeWidgetTo()
+    {
+        global $adb, $vtiger_current_version;
+        $template_folder = "layouts/v7";
+        $vtVersion = 'vt7';
+        $widgetType = 'HEADERSCRIPT';
+        $widgetName = 'VTDevKBJs';
+        $link = $template_folder . '/modules/VTDevKBView/resources/VTDevKBView.js';
+        include_once 'vtlib/Vtiger/Module.php';
+        $moduleNames = array('VTDevKBView');
+        foreach ($moduleNames as $moduleName) {
+            $module = Vtiger_Module::getInstance($moduleName);
+            if ($module) {
+                $module->deleteLink($widgetType, $widgetName, $link);
+            }
+        }
+        $adb->pquery("DELETE FROM vtiger_settings_field WHERE `name` = ?", array('VTDevKBView'));
+        $adb->pquery("DELETE FROM vtiger_ws_entity WHERE `name` =?", array('VTDevKBView'));
+    }
+    static function removeField()
+    {
+        global $adb;
+        $allModules = array_keys(Vtiger_Module_Model::getSearchableModules());
+        foreach ($allModules as $moduleName) {
+            $sql = "SELECT fieldid,fieldlabel,fieldname,vtiger_tab.tabid FROM vtiger_field
+                INNER JOIN vtiger_tab ON vtiger_field.tabid = vtiger_tab.tabid
+                WHERE uitype IN (15,16) AND vtiger_tab.`name` = ? AND (vtiger_field.presence = 0 OR vtiger_field.presence = 2)";
+            $rs = $adb->pquery($sql, array($moduleName));
+            if ($adb->num_rows($rs) > 0) {
+                $module = Vtiger_Module::getInstance($moduleName);
+                if ($module) {
+                    $colorField = Vtiger_Field_Model::getInstance('vtdevkb_color', $module);
+                    if ($colorField) {
+                        $colorField->delete();
+                    }
+                }
+            }
+        }
+    }
+    static function resetValid()
+    {
+        global $adb;
+        $adb->pquery("DELETE FROM `vtdev_modules` WHERE module=?;", array('VTDevKBView'));
+        $adb->pquery("INSERT INTO `vtdev_modules` (`module`, `valid`) VALUES (?, ?);", array('VTDevKBView', '0'));
+    }
+    static function removeValid()
+    {
+        global $adb;
+        $adb->pquery("DELETE FROM `vtdev_modules` WHERE module=?;", array('VTDevKBView'));
+    }
+    static function createFields($moduleName)
+    {
+        global $adb;
+        $focus = CRMEntity::getInstance($moduleName);
+        $table_name = $focus->table_name;
+        $moduleModel = Vtiger_Module_Model::getInstance($moduleName);
+        $blockObject = Vtiger_Block::getInstance('LBL_CUSTOM_INFORMATION', $moduleModel);
+        if (!$blockObject) {
+            $blockInstance = new Settings_LayoutEditor_Block_Model();
+            $blockInstance->set('label', 'LBL_CUSTOM_INFORMATION');
+            $blockInstance->set('iscustom', '1');
+            $blockId = $blockInstance->save($moduleModel);
+            $blockObject = Vtiger_Block::getInstance('LBL_CUSTOM_INFORMATION', $moduleModel);
+        }
+        $blockModel = Vtiger_Block_Model::getInstanceFromBlockObject($blockObject);
+        $fieldModel = new Vtiger_Field_Model();
+        $fieldModel->set('name', 'vtdevkb_color')->set('table', $table_name)->set('generatedtype', 2)->set('uitype', 16)->set('label', 'Color')->set('typeofdata', 'V~O')->set('quickcreate', 0)->set('presence', 2)->set('displaytype', 1)->set('columntype', "varchar(100)");
+        $blockModel->addField($fieldModel);
+        $pickListValues = array('Red', 'Orange', 'Green', 'Yellow', 'Teal', 'Blue', 'Purple', 'Peru', 'Silver', 'Olive');
+        $fieldModel->setPicklistValues($pickListValues);
+    }
+} ?>

@@ -44,10 +44,10 @@ $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
       db_name
 */
 
-$dbconfig['db_server'] = 'host.docker.internal';
-$dbconfig['db_port'] = ':9906';
+$dbconfig['db_server'] = 'localhost';
+$dbconfig['db_port'] = ':3306';
 $dbconfig['db_username'] = 'root';
-$dbconfig['db_password'] = 'Annex@#45';
+$dbconfig['db_password'] = '12345';
 $dbconfig['db_name'] = 'teralead';
 $dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
@@ -79,12 +79,12 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://crm3.teraleads.com';
+$site_URL = 'http://localhost/teralead';
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
-$root_directory = '/var/www/teralead';
+$root_directory = '/var/www/html/teralead';
 
 // cache direcory path
 $cache_dir = 'cache/';

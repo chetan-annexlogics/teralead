@@ -76,18 +76,18 @@ class CustomDashboards_Module_Model extends Vtiger_Module_Model
      * Function returns quick links for the module
      * @return <Array of Vtiger_Link_Model>
      */
-    public function getSideBarLinks()
-    {
-        $quickLinks = array(array("linktype" => "SIDEBARLINK", "linklabel" => "LBL_CUSTOMDASHBOARDS", "linkurl" => $this->getListViewUrl(), "linkicon" => ""));
-        foreach ($quickLinks as $quickLink) {
-            $links["SIDEBARLINK"][] = Vtiger_Link_Model::getInstanceFromValues($quickLink);
-        }
-        $quickWidgets = array(array("linktype" => "SIDEBARWIDGET", "linklabel" => "LBL_RECENTLY_MODIFIED", "linkurl" => "module=" . $this->get("name") . "&view=IndexAjax&mode=showActiveRecords", "linkicon" => ""));
-        foreach ($quickWidgets as $quickWidget) {
-            $links["SIDEBARWIDGET"][] = Vtiger_Link_Model::getInstanceFromValues($quickWidget);
-        }
-        return $links;
-    }
+    // public function getSideBarLinks()
+    // {
+    //     $quickLinks = array(array("linktype" => "SIDEBARLINK", "linklabel" => "LBL_CUSTOMDASHBOARDS", "linkurl" => $this->getListViewUrl(), "linkicon" => ""));
+    //     foreach ($quickLinks as $quickLink) {
+    //         $links["SIDEBARLINK"][] = Vtiger_Link_Model::getInstanceFromValues($quickLink);
+    //     }
+    //     $quickWidgets = array(array("linktype" => "SIDEBARWIDGET", "linklabel" => "LBL_RECENTLY_MODIFIED", "linkurl" => "module=" . $this->get("name") . "&view=IndexAjax&mode=showActiveRecords", "linkicon" => ""));
+    //     foreach ($quickWidgets as $quickWidget) {
+    //         $links["SIDEBARWIDGET"][] = Vtiger_Link_Model::getInstanceFromValues($quickWidget);
+    //     }
+    //     return $links;
+    // }
     /**
      * Function returns the recent created reports
      * @param <Number> $limit

@@ -937,3 +937,342 @@ FileAccessForInclusion -
 /var/www/teralead/includes/Loader.php::includeOnce::191<br>
 /var/www/teralead/includes/main/WebUI.php::vimport::15<br>
 /var/www/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:09
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:09
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:09
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:10
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:10
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:10
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:10
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:10
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:17
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:17
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:17
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:17
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:19
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:19
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:19
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:19
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:19
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:20
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:20
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:02:20
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:31
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:31
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:32
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:32
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:32
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:32
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:32
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:32
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:33
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:33
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:33
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:34
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:35
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:35
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:03:35
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:04:09
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 08:04:13
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/var/www/html/teralead/includes/Loader.php::includeOnce::191<br>
+/var/www/html/teralead/includes/main/WebUI.php::vimport::15<br>
+/var/www/html/teralead/index.php::include_once::17<br>
+Traced on 2024-05-29 12:08:52
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/data/CRMEntity.php::checkFileAccessForInclusion::56<br>
+/var/www/html/teralead/modules/Vtiger/models/Record.php::getInstance::276<br>
+/var/www/html/teralead/modules/VTDevKBView/views/ConfigureViewAjax.php::getCleanInstance::35<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-05-29 12:08:56
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/data/CRMEntity.php::checkFileAccessForInclusion::56<br>
+/var/www/html/teralead/modules/Vtiger/models/Record.php::getInstance::276<br>
+/var/www/html/teralead/modules/VTDevKBView/views/ConfigureViewAjax.php::getCleanInstance::35<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-05-29 12:12:37
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/data/CRMEntity.php::checkFileAccessForInclusion::56<br>
+/var/www/html/teralead/modules/Vtiger/models/Record.php::getInstance::276<br>
+/var/www/html/teralead/modules/VTDevKBView/views/ConfigureViewAjax.php::getCleanInstance::35<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-05-29 12:14:18
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/data/CRMEntity.php::checkFileAccessForInclusion::56<br>
+/var/www/html/teralead/modules/Vtiger/models/Record.php::getInstance::276<br>
+/var/www/html/teralead/modules/VTDevKBView/views/ConfigureViewAjax.php::getCleanInstance::35<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-05-29 13:21:25
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/data/CRMEntity.php::checkFileAccessForInclusion::56<br>
+/var/www/html/teralead/modules/Vtiger/models/Record.php::getInstance::276<br>
+/var/www/html/teralead/modules/VTDevKBView/views/ConfigureViewAjax.php::getCleanInstance::35<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-05-29 13:23:39
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/data/CRMEntity.php::checkFileAccessForInclusion::56<br>
+/var/www/html/teralead/modules/Vtiger/models/Record.php::getInstance::276<br>
+/var/www/html/teralead/modules/VTDevKBView/views/ConfigureViewAjax.php::getCleanInstance::35<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-05-29 13:24:45
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/data/CRMEntity.php::checkFileAccessForInclusion::56<br>
+/var/www/html/teralead/modules/Vtiger/models/Record.php::getInstance::276<br>
+/var/www/html/teralead/modules/VTDevKBView/views/ConfigureViewAjax.php::getCleanInstance::36<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-05-29 13:30:07
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/data/CRMEntity.php::checkFileAccessForInclusion::56<br>
+/var/www/html/teralead/modules/Vtiger/models/Record.php::getInstance::276<br>
+/var/www/html/teralead/modules/VTDevKBView/views/ConfigureViewAjax.php::getCleanInstance::36<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-05-29 13:35:39
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/data/CRMEntity.php::checkFileAccessForInclusion::56<br>
+/var/www/html/teralead/modules/Vtiger/models/Record.php::getInstance::276<br>
+/var/www/html/teralead/modules/VTDevKBView/views/ConfigureViewAjax.php::getCleanInstance::36<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-05-29 13:37:04
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/data/CRMEntity.php::checkFileAccessForInclusion::56<br>
+/var/www/html/teralead/modules/Vtiger/models/Record.php::getInstance::276<br>
+/var/www/html/teralead/modules/VTDevKBView/views/ConfigureViewAjax.php::getCleanInstance::37<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>

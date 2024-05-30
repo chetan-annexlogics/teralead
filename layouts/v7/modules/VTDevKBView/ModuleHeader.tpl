@@ -12,10 +12,12 @@
     <div class="module-action-content clearfix">
         <div class="col-lg-5 col-md-5 module-breadcrumb module-breadcrumb-{$smarty.request.view} transitionsAllHalfSecond">
 			<div class="dropdown">
+                {if $smarty.request.source_module neq "AllLeads"}
 				<button class="dropbtn">
 					<span class="app-icon-list fa fa-cog"></span>
 					<span class="app-name textOverflowEllipsis"> Settings</span>
 				</button>
+                {/if}
 				<div class="dropdown-content">
 					<a class="pull-left"
 					   href="index.php?module={$KANBAN_PARENT_MODULE}&view=List&viewname={$VIEWID}&goback=1"><b> {vtranslate('Back to listview', 'VTDevKBView')}</b></a>
@@ -28,8 +30,10 @@
 		<div class="pull-left" style="margin-top: 7px;">
 			<div class="dropdown">
 				<select class="select2" style="min-width: 200px;" id ="selectModule">
+                    
 					<option value="Contacts" {if $smarty.request.source_module eq "Contacts"} selected{/if}>Form Leads</option>
 					<option value="PBXManager" {if $smarty.request.source_module eq "PBXManager"} selected{/if}>Call Leads</option>
+                    <option value="AllLeads" {if $smarty.request.source_module eq "AllLeads"} selected{/if}>All Leads</option>
 				</select>
 			</div>
 

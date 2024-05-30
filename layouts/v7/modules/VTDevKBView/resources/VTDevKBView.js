@@ -410,6 +410,7 @@ Vtiger.Class("VTDevKBView_Js",{
 });
 
 jQuery(document).ready(function() {
+  
     var linkVTDevKB =  $(".module-extensions .listViewFilter").find("a[href^='javascript:VTDevKBView_Js.initData_VTDevKBView()']").attr('href');
     if(linkVTDevKB != undefined) {
         $(".module-extensions .listViewFilter").find("a[href^='javascript:VTDevKBView_Js.initData_VTDevKBView()']").attr('href', linkVTDevKB.split("&")[0]);

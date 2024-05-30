@@ -96,6 +96,7 @@ class Contacts_ActionAjax_Action extends Vtiger_Action_Controller {
         $response->emit();
     }
     public function checkDefaultListView(Vtiger_Request $request){
+       
         global $adb,$current_user;
         $return = array("default" => false);
         $sql = "SELECT is_default_page FROM vtdevkbview_setting s

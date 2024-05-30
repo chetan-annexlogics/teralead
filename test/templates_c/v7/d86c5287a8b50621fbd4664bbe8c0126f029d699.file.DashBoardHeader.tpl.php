@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2024-05-28 07:26:10
+<?php /* Smarty version Smarty-3.1.7, created on 2024-05-27 12:23:49
          compiled from "/var/www/teralead/includes/runtime/../../layouts/v7/modules/Vtiger/dashboards/DashBoardHeader.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:116172022666558712e9cfb5-97462039%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:97640826866547b550c9b18-99605720%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '116172022666558712e9cfb5-97462039',
+  'nocache_hash' => '97640826866547b550c9b18-99605720',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_66558712eac36',
+  'unifunc' => 'content_66547b550de9a',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_66558712eac36')) {function content_66558712eac36($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_66547b550de9a')) {function content_66547b550de9a($_smarty_tpl) {?>
 
 <div class='dashboardHeading container-fluid'>
 	<div class="buttonGroups pull-right">
