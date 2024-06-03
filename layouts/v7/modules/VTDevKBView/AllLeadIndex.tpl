@@ -29,7 +29,9 @@
           
                 {foreach item=PRIMARY_FIELD_BLOCK  from=$FIELD_SETTING['primary_value_setting']}
                     <div class="kanbanBox">
-                        
+                        <input type="hidden" name="primaryValue" value="{$PRIMARY_FIELD_BLOCK}"  >
+                        <input type="hidden" name="counter" value="{$COUNTER}"  >
+                        <input type="hidden" name="moduleField" value='{$MODULE_FIELD_JSON_DATA}'  >
                         {foreach item=color from=$colors}
                             {if $color[$PRIMARY_FIELD_SELECT]==$PRIMARY_FIELD_BLOCK}{$instanceColor=$color['color']}{/if}
                         {/foreach}
@@ -49,9 +51,9 @@
                                 {assign var=FONT_COLOR value= $RECORD_MODEL['RECORD']->get('font_color')}
                                 <div class="kbBoxTask" {if !empty($BACKGROUND_CARD)}style="background:{$BACKGROUND_CARD} "{/if}>
                                 <input id="kbCurrentModule" type="hidden" value="{$MODULENAME}">
-                                <input type="hidden" name="primaryValue" value="{$MODULE_FIELD_SETTING[$MODULENAME]['primary_value_setting'][$COUNTER]}"  >
+                                
                                 <input type="hidden" id="primaryFieldName" value="{$PRIMARY_FIELD_SELECT[$MODULENAME]}">
-                                <input type="hidden" id="primaryFieldId" value="{$MODULE_FIELD_SETTING[$MODULENAME]['primary_field']}">
+                                <input type="hidden" id="primaryFieldId" value="{$MODULE_FIELD_SETTING[$MODULENAME]}">
                                     <input type="hidden" name="recordId" value="{$RECORD_MODEL['RECORD']->getId()}">
                                     <input type="hidden" name="sequence" value="{$RECORD_MODEL['sequence']}">
                                     <div class="kbTaskHeader">

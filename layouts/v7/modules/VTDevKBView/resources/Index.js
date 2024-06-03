@@ -82,14 +82,18 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
             stop: function(event,ui){
                 var item = ui.item;
                 var kbSourceModule = jQuery('#kbSourceModule').val();
+               
                 if(kbSourceModule == "AllLeads"){
-                    var primaryFieldName = jQuery('#primaryFieldName').val();
-                    var primaryFieldId = jQuery('#primaryFieldId').val();
+                    var primaryFieldName = item.find('#primaryFieldName').val();
+                    var primaryFieldId = item.find('#primaryFieldId').val();
                     var recordId = item.find('input[name="recordId"]').val();
+                    var sourcheMoudle = item.find('#kbCurrentModule').val();
                 }else{
                     var primaryFieldName = jQuery('#primaryFieldName').val();
                     var primaryFieldId = jQuery('#primaryFieldId').val();
                     var recordId = item.find('input[name="recordId"]').val();
+                    var sourcheMoudle = jQuery('#kbSourceModule').val();
+                    
                 }
                 
 
@@ -104,12 +108,24 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
                 }
 
                 var primaryValue = item.closest('.kanbanBox').find('input[name="primaryValue"]').val;
+                
                 mesParams.to = item.closest('.kanbanBox').find('.kbBoxTitle').text();
                 jQuery('.kanbanBox').each(function(){
                     var container = jQuery(this);
+                    //console.log(container)
                     jQuery(this).find('input[name="recordId"]').each(function () {
+                        //console.log("container", jQuery(this).val(), recordId)
                         if(jQuery(this).val() == recordId){
-                            primaryValue = container.find('input[name="primaryValue"]').val();
+                            
+                            if(kbSourceModule == "AllLeads"){
+                                var counter = container.find('input[name="counter"]').val();
+                                var mouduelList = container.find('input[name="moduleField"]').val();
+                                var primaryFieldVal = $.parseJSON(mouduelList)
+                                primaryValue = primaryFieldVal[sourcheMoudle][counter];
+                                console.log(primaryValue)
+                            }else{
+                                primaryValue = container.find('input[name="primaryValue"]').val();
+                            }
                         }
 
                     });
@@ -124,7 +140,7 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
                     'module':'VTDevKBView',
                     'action':'ActionAjax',
                     'mode':'updatePrimaryFieldValue',
-                    'source_module':jQuery('#kbSourceModule').val()
+                    'source_module':sourcheMoudle
                 }
                 app.request.post({data:params}).then(
                     function(data){

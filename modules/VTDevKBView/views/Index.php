@@ -122,7 +122,8 @@ class VTDevKBView_Index_View extends Vtiger_Index_View
                 $getListData = $this->kbnSourceModuleData($currentUser, $sourceModuleModel, "Contacts", $kanbanModel, $cvId, $primaryFieldName["Contacts"], $contactFieldSetting, $isLower=true);
                 $listRecord['Contacts'] = $getListData['listRecord'];
                 $arrFieldModels['Contacts'] = $getListData['arrFieldModels']; 
-                $moduleWiseFieldSetting['Contacts'] = $contactFieldSetting; 
+                $moduleWiseFieldSetting['Contacts'] = $contactFieldSetting['primary_value_setting']; 
+                $moduleFieldId['Contacts'] = $contactFieldSetting['primary_field']; 
             }
             if($pbxFieldSetting){
                 $sourceModuleModel = Vtiger_Module_Model::getInstance("PBXManager");
@@ -136,7 +137,8 @@ class VTDevKBView_Index_View extends Vtiger_Index_View
                 $getListData = $this->kbnSourceModuleData($currentUser, $sourceModuleModel, "PBXManager", $kanbanModel, $cvId, $primaryFieldName["PBXManager"] , $pbxFieldSetting, $isLower=true);
                 $listRecord['PBXManager'] = $getListData['listRecord'];
                 $arrFieldModels['PBXManager'] = $getListData['arrFieldModels']; 
-                $moduleWiseFieldSetting['PBXManager'] = $pbxFieldSetting; 
+                $moduleWiseFieldSetting['PBXManager'] = $pbxFieldSetting['primary_value_setting'];
+                $moduleFieldId['PBXManager'] = $pbxFieldSetting['primary_field'];  
             }
             
             $moduleList = ['Contacts', 'PBXManager'];
@@ -150,7 +152,8 @@ class VTDevKBView_Index_View extends Vtiger_Index_View
             $viewer->assign('CV_ID', $cvId);
             $viewer->assign('PRIMARY_FIELD_SELECT', $primaryFieldName);
             $viewer->assign('FIELD_SETTING', $allLeadFieldSetting);
-            $viewer->assign('MODULE_FIELD_SETTING', $moduleWiseFieldSetting);
+            $viewer->assign('MODULE_FIELD_SETTING', $moduleFieldId);
+            $viewer->assign('MODULE_FIELD_JSON_DATA', json_encode($moduleWiseFieldSetting));
             $viewer->assign('MODULE_LIST', $moduleList);
             $viewer->assign('ARR_SELECTED_FIELD_MODELS', $arrFieldModels);
             $viewer->assign('USER_MODEL', Users_Record_Model::getCurrentUserModel());

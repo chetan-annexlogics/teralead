@@ -48,7 +48,7 @@ abstract class Vtiger_Controller {
 		if(in_array($name, $this->exposedMethods)) {
 			return true;
 		}
-		return true;
+		return false;
 	}
 
 	/**
