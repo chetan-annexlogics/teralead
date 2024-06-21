@@ -16,7 +16,7 @@ class PBXManager_Module_Model extends Vtiger_Module_Model {
 	 */
 	public function isQuickCreateSupported() {
 		//PBXManager module is not enabled for quick create
-		return false;
+		return true;
 	}
 
 	/**
@@ -79,7 +79,7 @@ class PBXManager_Module_Model extends Vtiger_Module_Model {
 	 * Funxtion to identify if the module supports quick search or not
 	 */
 	public function isQuickSearchEnabled() {
-		return false;
+		return true;
 	}
 
 	public function isListViewNameFieldNavigationEnabled() {

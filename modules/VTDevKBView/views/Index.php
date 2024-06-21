@@ -113,12 +113,14 @@ class VTDevKBView_Index_View extends Vtiger_Index_View
             if($contactFieldSetting){
                 $sourceModuleModel = Vtiger_Module_Model::getInstance("Contacts");
                 $currentUser = vglobal('current_user');
+                $contactOtherField = $kanbanModel->getVTDevKBviewSetting("Contacts", $cvId);
+                $contactFieldSetting['other_field'] = $contactOtherField['other_field'];
                 $queryGenerator = new QueryGenerator("Contacts", $currentUser);
                 
                 $queryGenerator->initForCustomViewById($cvId);
                 
                 $primaryFieldName["Contacts"] = $this->getPrimaryFieldName($contactFieldSetting, "Contacts");
-               
+                
                 $getListData = $this->kbnSourceModuleData($currentUser, $sourceModuleModel, "Contacts", $kanbanModel, $cvId, $primaryFieldName["Contacts"], $contactFieldSetting, $isLower=true);
                 $listRecord['Contacts'] = $getListData['listRecord'];
                 $arrFieldModels['Contacts'] = $getListData['arrFieldModels']; 
@@ -128,6 +130,8 @@ class VTDevKBView_Index_View extends Vtiger_Index_View
             if($pbxFieldSetting){
                 $sourceModuleModel = Vtiger_Module_Model::getInstance("PBXManager");
                 $currentUser = vglobal('current_user');
+                $pbxOtherField = $kanbanModel->getVTDevKBviewSetting("PBXManager", $cvId);
+                $pbxFieldSetting['other_field'] = $pbxOtherField['other_field'];
                 $queryGenerator = new QueryGenerator("PBXManager", $currentUser);
                 
                 $queryGenerator->initForCustomViewById($cvId);
@@ -176,6 +180,7 @@ class VTDevKBView_Index_View extends Vtiger_Index_View
                 $moduleFocus = CRMEntity::getInstance($sourceModule);
                
                 $primaryFieldName = $this->getPrimaryFieldName($kanbanFieldSetting, $sourceModule);
+               
                 $getListData = $this->kbnSourceModuleData($currentUser, $sourceModuleModel, $sourceModule, $kanbanModel, $cvId, $primaryFieldName, $kanbanFieldSetting);
                 $listRecord = $getListData['listRecord'];
                 $arrFieldModels = $getListData['arrFieldModels']; 
@@ -220,12 +225,12 @@ class VTDevKBView_Index_View extends Vtiger_Index_View
         
        
         $kanbanModel = new VTDevKBView_Module_Model();
-        
+      
         return $kanbanModel->getVTDevKBviewAllLeadField($sourceModule);
     }
 
     function kbnSourceModuleData($currentUser, $sourceModuleModel, $sourceModule, $kanbanModel, $cvId, $primaryFieldName, $kanbanFieldSetting, $isLower=false){
-       
+        
             global $vtiger_current_version;
             $db = PearDatabase::getInstance();
             $queryGenerator = new QueryGenerator($sourceModule, $currentUser);
@@ -245,9 +250,9 @@ class VTDevKBView_Index_View extends Vtiger_Index_View
             $listQuery = $queryGenerator->getQuery();
             
             $listQueryResult = $db->pquery($listQuery, array());
-            
+          
             while ($rowRecord = $db->fetch_array($listQueryResult)) {
-              
+                
                 $table_index = $moduleFocus->table_index;
                 $recordId = $rowRecord[$table_index];
                 $recordModel = Vtiger_Record_Model::getInstanceById($recordId);

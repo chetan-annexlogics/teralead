@@ -35,7 +35,7 @@ class PBXManager extends CRMEntity {
     var $list_fields = Array(
         /* Format: Field Label => Array(tablename, columnname) */
         // tablename should not have prefix 'vtiger_'
-        'Call Status'    => Array('vtiger_pbxmanager', 'callstatus'),
+        'Call Statusfffff'    => Array('vtiger_pbxmanager', 'callstatus'),
         'Customer' => Array('vtiger_pbxmanager', 'customer'),
         'User' => Array('vtiger_pbxmanager', 'user'),
         'Recording'=> Array('vtiger_pbxmanager', 'recordingurl'),

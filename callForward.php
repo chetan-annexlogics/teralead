@@ -20,7 +20,8 @@ $firstTime=strtotime($action['payload']['start_time']);
 $lastTime=strtotime($action['payload']['end_time']);
 $totalduration = $lastTime-$firstTime;
 $billduration = $lastTime-$firstTime;
-
+$fp = fopen(dirname(__FILE__).'/postdata'.time().'.txt','w');
+fwrite($fp, print_r($action, true));
 //$adb_host = 'localhost';
 //$adb_username = 'uofdstgo3gha6';
 //$adb_pass = 'gtjg9vmvqagy';
