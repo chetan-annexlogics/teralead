@@ -102,16 +102,16 @@
                                                                 {vtranslate($FIELD_MODEL->get('label'),$MODULENAME)}
                                                             </span>
                                                         </div>
-                                                        <div class="kbValueContainer" id="{$MODULENAME}_detailView_fieldValue_{$FIELD_MODEL->getName()}" style="width: 100%; border: none; border-top: 1px solid #eaeaea;">
+                                                        <div class="kbValueContainer" id="{$MODULENAME}_detailView_fieldValue_{$FIELD_MODEL->getName()}" style="width: 100%; border: none; border-top: 1px solid #eaeaea;" data-value="{$MODULENAME}">
                                                             <span class="value pull-left" data-field-type="{$FIELD_MODEL->getFieldDataType()}" style="max-width: 95%;max-height: 60px; line-height: 20px;{if !empty($FONT_COLOR)}color:{$FONT_COLOR} !important; {/if}" title="{$FIELD_MODEL->getDisplayValue($RECORD_MODEL['RECORD']->get($FIELD_MODEL->get('name')))|strip_tags}">
                                                                 {$FIELD_MODEL->getDisplayValue($RECORD_MODEL['RECORD']->get($FIELD_MODEL->get('name')))}
                                                             </span>
                                                             {if $FIELD_MODEL->isEditable() eq 'true' && ($FIELD_MODEL->getFieldDataType()!=Vtiger_Field_Model::REFERENCE_TYPE)}
                                                                 <span class="hide edit pull-left">
                                                                     {if $fieldDataType eq 'multipicklist'}
-                                                                        <input type="hidden" class="fieldBasicData" data-name='{$FIELD_MODEL->get('name')}[]' data-type="{$FIELD_MODEL->getFieldDataType()}" data-displayvalue='{$FIELD_DISPLAY_VALUE}' data-value="{$FIELD_VALUE}" />
+                                                                        <input type="hidden" class="fieldBasicData" data-name='{$FIELD_MODEL->get('name')}[]' data-type="{$FIELD_MODEL->getFieldDataType()}" data-displayvalue='{$FIELD_DISPLAY_VALUE}' data-value="{$FIELD_VALUE}" data-module="{$MODULENAME}" />
                                                                     {else}
-                                                                        <input type="hidden" class="fieldBasicData" data-name='{$FIELD_MODEL->get('name')}' data-type="{$FIELD_MODEL->getFieldDataType()}" data-displayvalue='{$FIELD_DISPLAY_VALUE}' data-value="{$FIELD_VALUE}" />
+                                                                        <input type="hidden" class="fieldBasicData" data-name='{$FIELD_MODEL->get('name')}' data-type="{$FIELD_MODEL->getFieldDataType()}" data-displayvalue='{$FIELD_DISPLAY_VALUE}' data-value="{$FIELD_VALUE}" data-module="{$MODULENAME}"/>
                                                                     {/if}
                                                                 </span>
                                                                 <span class="action pull-right"><a href="javascript:void(0);" class="editAction fa fa-pencil"></a></span>
@@ -151,16 +151,16 @@
                                                             {assign var=PICKLIST_CLASS value= ""}
                                                             {assign var=PICKLIST_COLOR value=""}
                                                         {/if}
-                                                        <div class="kbValueContainer" id="{$MODULENAME}_detailView_fieldValue_{$FIELD_MODEL->getName()}">
+                                                        <div class="kbValueContainer" id="{$MODULENAME}_detailView_fieldValue_{$FIELD_MODEL->getName()}" data-value="{$MODULENAME}" >
                                                             <span class="value pull-left {$PICKLIST_CLASS}" data-field-type="{$FIELD_MODEL->getFieldDataType()}" title="{$FIELD_MODEL->getDisplayValue($RECORD_MODEL['RECORD']->get($FIELD_MODEL->get('name')))|strip_tags}" >
                                                                 {$FIELD_MODEL->getDisplayValue($RECORD_MODEL['RECORD']->get($FIELD_MODEL->get('name')))}
                                                             </span>
                                                             {if $FIELD_MODEL->isEditable() eq 'true' && ($FIELD_MODEL->getFieldDataType()!=Vtiger_Field_Model::REFERENCE_TYPE)}
                                                                 <span class="hide edit pull-left">
                                                                     {if $fieldDataType eq 'multipicklist'}
-                                                                        <input type="hidden" class="fieldBasicData" data-name='{$FIELD_MODEL->get('name')}[]' data-type="{$FIELD_MODEL->getFieldDataType()}" data-displayvalue='{$FIELD_DISPLAY_VALUE}' data-value="{$FIELD_VALUE}" />
+                                                                        <input type="hidden" class="fieldBasicData" data-name='{$FIELD_MODEL->get('name')}[]' data-type="{$FIELD_MODEL->getFieldDataType()}" data-displayvalue='{$FIELD_DISPLAY_VALUE}' data-value="{$FIELD_VALUE}" data-module="{$MODULENAME}"/>
                                                                     {else}
-                                                                        <input type="hidden" class="fieldBasicData" data-name='{$FIELD_MODEL->get('name')}' data-type="{$FIELD_MODEL->getFieldDataType()}" data-displayvalue='{$FIELD_DISPLAY_VALUE}' data-value="{$FIELD_VALUE}" />
+                                                                        <input type="hidden" class="fieldBasicData" data-name='{$FIELD_MODEL->get('name')}' data-type="{$FIELD_MODEL->getFieldDataType()}" data-displayvalue='{$FIELD_DISPLAY_VALUE}' data-value="{$FIELD_VALUE}" data-module="{$MODULENAME}"/>
                                                                     {/if}
                                                                 </span>
                                                                 <span class="action pull-right"><a href="javascript:void(0);"  class="editAction fa fa-pencil"></a></span>

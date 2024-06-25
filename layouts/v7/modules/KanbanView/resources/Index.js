@@ -292,7 +292,8 @@ Vtiger_List_Js("KanbanView_Index_Js",{},{
             var ajaxEditNewValue = fieldElement.val();
             var currentKanbanBox = currentTdElement.closest('.kbBoxTask');
             var recordId = jQuery('[name="recordId"]',currentKanbanBox).val();
-
+           
+          
             // ajaxEditNewValue should be taken based on field Type
             if(fieldElement.is('input:checkbox')) {
                 if(fieldElement.is(':checked')) {

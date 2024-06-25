@@ -231,9 +231,11 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
     registerAjaxEditEvent : function(){
         var thisInstance = this;
         jQuery('.kbParentContainer').on('click','.fieldValue .editAction', function(e) {
+           
             var selection = window.getSelection().toString();
             if(selection.length == 0) {
                 var currentTdElement = jQuery(e.currentTarget).closest('.kbValueContainer');
+                
                 thisInstance.ajaxEditHandling(currentTdElement);
             }
         });
@@ -243,7 +245,10 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
         jQuery('.editElement',currentTdElement).css('min-width','initial');
     },
     ajaxEditHandling : function(currentTdElement){
+     
         var thisInstance = this;
+        var kbSourceModule = jQuery('#kbSourceModule').val();
+       
         var detailViewValue = jQuery('.value',currentTdElement);
         var editElement = jQuery('.edit',currentTdElement);
         var fieldBasicData = jQuery('.fieldBasicData', editElement);
@@ -251,19 +256,23 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
         var fieldType = fieldBasicData.data('type');
         var value = fieldBasicData.data('displayvalue');
         var rawValue = fieldBasicData.data('value');
+       
         var self = this;
         var fieldElement = jQuery('[name="'+ fieldName +'"]', editElement);
-
+       
         // If Reference field has value, then we are disabling the field by default
         if(fieldElement.attr('disabled') == 'disabled' && fieldType != 'reference'){
+            console.log("disabled", disabled)
             return;
         }
 
         if(editElement.length <= 0) {
+            console.log("length", editElement.length)
             return;
         }
 
         if(editElement.is(':visible')){
+            console.log("visible")
             return;
         }
 
@@ -278,21 +287,35 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
         }
         if(jQuery('.editElement',editElement).length === 0){
             var fieldInfo;
-            fieldInfo = uimeta.field.get(fieldName);
+            if(kbSourceModule == "AllLeads"){
+                var currentEditModuleName = fieldBasicData.data('module');
+                if(currentEditModuleName == "Contacts"){
+                    fieldInfo = uimetaContact.field.get(fieldName);
+                }else{
+                    fieldInfo = uimetaPbx.field.get(fieldName); 
+                }
+            }else{
+                fieldInfo = uimeta.field.get(fieldName);
+            }
+            
             fieldInfo['value'] = value;
+            console.log("fieldInfo", fieldInfo)
             var fieldObject = Vtiger_Field_Js.getInstance(fieldInfo);
+            console.log("fieldObject", fieldObject)
             var fieldModel = fieldObject.getUiTypeModel();
-
+            console.log("fieldModel", fieldModel)
             var ele = jQuery('<div class="input-group editElement"></div>');
             var actionButtons = '<span class="pointerCursorOnHover input-group-addon input-group-addon-save inlineAjaxSave"><i class="fa fa-check"></i></span>';
             actionButtons += '<span class="pointerCursorOnHover input-group-addon input-group-addon-cancel inlineAjaxCancel"><i class="fa fa-close"></i></span>';
             //wrapping action buttons with class called input-save-wrap
             var inlineSaveWrap=jQuery('<div class="input-save-wrap"></div>');
             inlineSaveWrap.append(actionButtons);
+            console.log("inlineSaveWrap", inlineSaveWrap)
             // we should have atleast one submit button for the form to submit which is required for validation
             ele.append(fieldModel.getUi()).append(inlineSaveWrap);
             ele.find('.inputElement').addClass('form-control');
             editElement.append(ele);
+            console.log("editElement", editElement)
             thisInstance.fixWidthEditElement(currentTdElement);
 
         }
@@ -384,7 +407,7 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
             var ajaxEditNewValue = fieldElement.val();
             var currentVTDevKBBox = currentTdElement.closest('.kbBoxTask');
             var recordId = jQuery('[name="recordId"]',currentVTDevKBBox).val();
-
+            
             // ajaxEditNewValue should be taken based on field Type
             if(fieldElement.is('input:checkbox')) {
                 if(fieldElement.is(':checked')) {
@@ -423,7 +446,13 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
                 fieldNameValueMap['value'] = fieldValue;
                 fieldNameValueMap['field'] = fieldName;
                 fieldNameValueMap['record'] = recordId;
-                fieldNameValueMap['module'] = jQuery('#kbSourceModule').val();
+                if(jQuery('#kbSourceModule').val() == "AllLeads"){
+                    var currentEditModule = fieldBasicData.data('module');
+                    fieldNameValueMap['module'] = currentEditModule;
+                }else{
+                    fieldNameValueMap['module'] = jQuery('#kbSourceModule').val();
+                }
+                
                 var form = currentTarget.closest('form');
                 var params = {
                     'ignore' : 'span.hide .inputElement,input[type="hidden"]',
@@ -819,7 +848,7 @@ Vtiger_List_Js("VTDevKBView_Index_Js",{},{
         vtUtils.applyFieldElementsView(detailContentsHolder);
         thisInstance.registerQuickEditEvent();
         thisInstance.registerSortableEvent();
-        thisInstance.registerAllLeadSortableEvent();
+        //thisInstance.registerAllLeadSortableEvent();
         this.registerAjaxEditEvent();
         this.registerAjaxEditSaveEvent();
         this.registerAjaxEditCancelEvent();

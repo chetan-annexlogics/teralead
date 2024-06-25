@@ -44,7 +44,9 @@
         {if $FIELDS_INFO neq null}
             <script type="text/javascript">
                 var uimeta = (function () {
+                    
                     var fieldInfo = {$FIELDS_INFO};
+                   
                     return {
                         field: {
                             get: function (name, property) {
@@ -70,8 +72,74 @@
                         },
                     };
                 })();
+              
+                
             </script>
         {/if}
+        <script>
+         {if $FIELDS_INFO_CONTACT neq null}
+                var uimetaContact = (function () {
+                  
+                    var fieldInfo = {$FIELDS_INFO_CONTACT};
+                   
+                    return {
+                        field: {
+                            get: function (name, property) {
+                                if (name && property === undefined) {
+                                    return fieldInfo[name];
+                                }
+                                if (name && property) {
+                                    return fieldInfo[name][property]
+                                }
+                            },
+                            isMandatory: function (name) {
+                                if (fieldInfo[name]) {
+                                    return fieldInfo[name].mandatory;
+                                }
+                                return false;
+                            },
+                            getType: function (name) {
+                                if (fieldInfo[name]) {
+                                    return fieldInfo[name].type
+                                }
+                                return false;
+                            }
+                        },
+                    };
+                })();
+                {/if}
+                {if $FIELDS_INFO_PBX neq null}
+               var uimetaPbx = (function () {
+               
+                    var fieldInfo = {$FIELDS_INFO_PBX};
+                   
+                    return {
+                        field: {
+                            get: function (name, property) {
+                                if (name && property === undefined) {
+                                    return fieldInfo[name];
+                                }
+                                if (name && property) {
+                                    return fieldInfo[name][property]
+                                }
+                            },
+                            isMandatory: function (name) {
+                                if (fieldInfo[name]) {
+                                    return fieldInfo[name].mandatory;
+                                }
+                                return false;
+                            },
+                            getType: function (name) {
+                                if (fieldInfo[name]) {
+                                    return fieldInfo[name].type
+                                }
+                                return false;
+                            }
+                        },
+                    };
+                })();
+               {/if}
+        </script>
 		<script type="text/javascript">
 			$("body").delegate("#selectModule", "change", function(){
 				var selectedModule = $(this).val();

@@ -1276,3 +1276,51 @@ FileAccessForInclusion -
 /var/www/html/teralead/modules/VTDevKBView/views/ConfigureViewAjax.php::getCleanInstance::37<br>
 /var/www/html/teralead/includes/main/WebUI.php::process::215<br>
 /var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-06-25 06:37:44
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/modules/Users/CreateUserPrivilegeFile.php::checkFileAccessForInclusion::114<br>
+/var/www/html/teralead/modules/Users/Users.php::createUserSharingPrivilegesfile::1140<br>
+/var/www/html/teralead/modules/Users/models/Module.php::save::260<br>
+/var/www/html/teralead/modules/Vtiger/models/Record.php::saveRecord::259<br>
+/var/www/html/teralead/modules/Users/models/Record.php::save::155<br>
+/var/www/html/teralead/modules/Vtiger/actions/Save.php::save::117<br>
+/var/www/html/teralead/modules/Users/actions/Save.php::saveRecord::126<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-06-25 06:38:12
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/vtlib/Vtiger/AccessControl.php::checkFileAccessForInclusion::25<br>
+/var/www/html/teralead/vtlib/Vtiger/AccessControl.php::loadUserPrivilegesWithId::44<br>
+/var/www/html/teralead/modules/Users/Users.php::loadUserPrivileges::646<br>
+/var/www/html/teralead/modules/Users/models/Record.php::retrieveCurrentUserInfoFromFile::821<br>
+/var/www/html/teralead/modules/Users/models/Privileges.php::getInstanceFromPreferenceFile::188<br>
+/var/www/html/teralead/test/templates_c/v7/a35441e756789c48353419cbfbebdee23fae6d1a.file.ListViewRecordActions.tpl.php::isPermittedToChangeUsername::33<br>
+/var/www/html/teralead/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::content_667a544d9893a::180<br>
+/var/www/html/teralead/libraries/Smarty/libs/sysplugins/smarty_internal_template.php::fetch::285<br>
+/var/www/html/teralead/test/templates_c/v7/04f721cf11e182bfc9da3dd39ef113e0bab906c9.file.ListViewContents.tpl.php::getSubTemplate::107<br>
+/var/www/html/teralead/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::content_667a544d96121::180<br>
+/var/www/html/teralead/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::fetch::374<br>
+/var/www/html/teralead/includes/runtime/Viewer.php::display::188<br>
+/var/www/html/teralead/modules/Users/views/List.php::view::31<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>
+Traced on 2024-06-25 06:38:34
+FileAccessForInclusion - 
+/var/www/html/teralead/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/var/www/html/teralead/vtlib/Vtiger/AccessControl.php::checkFileAccessForInclusion::25<br>
+/var/www/html/teralead/vtlib/Vtiger/AccessControl.php::loadUserPrivilegesWithId::44<br>
+/var/www/html/teralead/modules/Users/Users.php::loadUserPrivileges::646<br>
+/var/www/html/teralead/modules/Users/models/Record.php::retrieveCurrentUserInfoFromFile::821<br>
+/var/www/html/teralead/modules/Users/models/Privileges.php::getInstanceFromPreferenceFile::188<br>
+/var/www/html/teralead/test/templates_c/v7/a35441e756789c48353419cbfbebdee23fae6d1a.file.ListViewRecordActions.tpl.php::isPermittedToChangeUsername::33<br>
+/var/www/html/teralead/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::content_667a544d9893a::180<br>
+/var/www/html/teralead/libraries/Smarty/libs/sysplugins/smarty_internal_template.php::fetch::285<br>
+/var/www/html/teralead/test/templates_c/v7/04f721cf11e182bfc9da3dd39ef113e0bab906c9.file.ListViewContents.tpl.php::getSubTemplate::107<br>
+/var/www/html/teralead/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::content_667a544d96121::180<br>
+/var/www/html/teralead/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::fetch::374<br>
+/var/www/html/teralead/includes/runtime/Viewer.php::display::188<br>
+/var/www/html/teralead/modules/Users/views/List.php::view::31<br>
+/var/www/html/teralead/includes/main/WebUI.php::process::215<br>
+/var/www/html/teralead/index.php::process::20<br>

@@ -51,6 +51,7 @@ class VTDevKBView_Index_View extends Vtiger_Index_View
             $contactFields = $contactModel->getFields();
             foreach ($contactFields as $fieldName => $fieldModel) { 
                 $contactFieldInfo[$fieldName] = $fieldModel->getFieldInfo();
+                
             }
             $pbxModel = Vtiger_Module_Model::getInstance("PBXManager");
             $pbxFields = $pbxModel->getFields();
@@ -69,8 +70,11 @@ class VTDevKBView_Index_View extends Vtiger_Index_View
                 $commonValues = array_intersect(array_map('strtolower',  $filterLeadArray['contact']), array_map('strtolower', $pbxLower));
                                 
             }
+           
             $viewer = $this->getViewer($request);
-            $viewer->assign('FIELDS_INFO', json_encode($pbxFieldInfo));
+            $viewer->assign('FIELDS_INFO_CONTACT', json_encode($contactFieldInfo));
+            $viewer->assign('FIELDS_INFO_PBX', json_encode($pbxFieldInfo));
+            
         }else{
             $moduleModel = Vtiger_Module_Model::getInstance($moduleName);
             
@@ -80,6 +84,7 @@ class VTDevKBView_Index_View extends Vtiger_Index_View
                 $fieldsInfo[$fieldName] = $fieldModel->getFieldInfo();
             }
             $viewer = $this->getViewer($request);
+           
             $viewer->assign('FIELDS_INFO', json_encode($fieldsInfo));
            
         }
